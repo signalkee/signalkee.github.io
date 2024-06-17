@@ -40,16 +40,6 @@ cv_pdf: example.pdf
     <header class="post-header">
         <h1 class="post-title">CV</h1>
     </header>
-    <embed src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" type='application/pdf' style="min-height:100vh; width:100%">
+    <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" style="min-height:100vh; width: 100%;" type='application/pdf' frameborder="0"></iframe>
 </div>
-
-<br>
-<div class="post">
-    <header class="post-header">
-        <h1 class="post-title">CV</h1>
-    </header>
-    <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" style="min-height: 400px; width: 100%;" frameborder="0"></iframe>
-</div>
-
-
 </html>
