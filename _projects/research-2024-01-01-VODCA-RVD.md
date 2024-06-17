@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: VODCA-RVD
+description: a project with a background image and giscus comments
+img: assets/img/3.jpg
+importance: 99
 category: Graduate projects
+giscus_comments: true
 ---
 
 Every project has a beautiful feature showcase page.
