@@ -29,3 +29,4 @@ This work has practical applications in robotic systems, particularly in the fie
 Aside from my research, I enjoy lifting weights and listening to music. 
 
 If you'd like to discuss my research further, feel free to reach out at ``inhokee@umich.edu``!
+
