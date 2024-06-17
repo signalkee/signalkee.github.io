@@ -1,18 +1,18 @@
-- authors:  Robin Inho Kee , Taehyeun Kim, Ilya Kolmanovsky, Anouck Girard
+- authors: RobinInhoKee
   title: Ensuring Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor
   venue: In preparation
   year: 2024
   # pdf_link: /pdfs/your_pdf_filename.pdf
   # website_link: http://your_website_link.com
 
-- authors: Taekyung Kim,  Robin Inho Kee , Shrey Shah, Dimitra Panagou
+- authors: RobinInhoKee
   title: MPC-CBF via Data-Driven Adaptation
   venue: In preparation
   year: 2024
   # pdf_link: /pdfs/your_pdf_filename.pdf
   # website_link: http://your_website_link.com
 
-- authors: Taehyeun Kim,  Robin Inho Kee (Co-first author with equal contribution), Ilya Kolmanovsky, Anouck Girard
+- authors: Taehyeun Kim, RobinInhoKee (Co-first author with equal contribution), Ilya Kolmanovsky, Anouck Girard
   title: A Deep Learning approach on Time Shift Governor for Spacecraft Proximity Operation in Elliptic Orbits
   venue: AIAA SCITECH 2025 Forum
   year: Submitted
