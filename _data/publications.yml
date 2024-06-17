@@ -10,6 +10,7 @@ in_progress:
   - authors: "Taehyeun Kim, Robin Inho Kee (Co-first author with equal contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "A Deep Learning approach on Time Shift Governor for Spacecraft Proximity Operation in Elliptic Orbits"
     status: "AIAA SCITECH 2025 Forum, Submitted"
+    pdf: SciTech2025_DLTSG_temp.pdf
 
 
 journals:
@@ -17,7 +18,7 @@ journals:
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
-    pdf: /assets/pdf/example.pdf
+    pdf: IEEEAccess2024_TProto.pdf
     
   - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
     title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
@@ -28,6 +29,7 @@ journals:
     title: "Measurement of ankle joint movements using IMUs during running"
     journal: "Sensors"
     year: "2021"
+    pdf: Sensors2021_IMU.pdf
 
 
 conferences:
