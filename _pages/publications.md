@@ -7,8 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
 
 ## In progress
 {% assign in_progress = 1 %}
@@ -30,5 +28,3 @@ nav_order: 3
 {{ conference }}. {{ pub.authors | replace: 'Robin Inho Kee', '**<u>Robin Inho Kee</u>**' | replace: ' Inho Kee', ' **<u>Inho Kee</u>**' }}, {{ pub.title }}, {{ pub.conference }}, {{ pub.year }}{% if pub.award %}, **{{ pub.award }}**{% endif %}{% if pub.pdf %} [<a href="{{ pub.pdf }}" target="_blank">PDF</a>]{% endif %}
 {% assign conference = conference | plus: 1 %}
 {% endfor %}
-
-</div>
