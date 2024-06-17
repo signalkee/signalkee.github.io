@@ -23,7 +23,7 @@ I'm currently a second-year Master's student in Mechanical Engineering at the Un
 
 I’m fortunate to work as a research intern in <a href='https://vodca.engin.umich.edu/'>VODKA lab</a> having <a href='https://vodca.engin.umich.edu/'>Professor Anouck Girard</a> and <a href='https://sites.google.com/a/umich.edu/kolmanovsky/'>Professor Ilya Kolmanovsky</a> as my advisors. 
 
-My research focuses on developing safety-guaranteed control for constrained systems by leveraging formal methods from both **nonlinear control theory** and **machine learning**. 
+My research focuses on developing **safety-guaranteed control for constrained systems** by leveraging formal methods from both **control theory** and **machine learning**. 
 This work has practical applications in robotic systems, particularly in the fields of spacecraft and automotive engineering. 
 
 Aside from my research, I enjoy lifting weights and listening to music. 
