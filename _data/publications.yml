@@ -1,0 +1,44 @@
+in_progress:
+  - authors: "Robin Inho Kee"
+    title: "Ensuring Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
+    status: "In preparation"
+
+  - authors: "Robin Inho Kee"
+    title: "MPC-CBF via Data-Driven Adaptation"
+    status: "In preparation"
+
+  - authors: "Taehyeun Kim, Robin Inho Kee (Co-first author with equal contribution), Ilya Kolmanovsky, Anouck Girard"
+    title: "A Deep Learning approach on Time Shift Governor for Spacecraft Proximity Operation in Elliptic Orbits"
+    status: "AIAA SCITECH 2025 Forum, Submitted"
+
+
+journals:
+  - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu"
+    title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
+    journal: "IEEE Access"
+    year: "2024"
+    pdf_link: /assets/pdf/example.pdf
+    
+  - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
+    title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
+    journal: "The Journal of Korea Robotics Society"
+    year: "2023"
+
+  - authors: "Byonghun Kim, Sunghyun Hong, Inwook Oh, Yangwoo Lee, Inho Kee, Saeyong Lee"
+    title: "Measurement of ankle joint movements using IMUs during running"
+    journal: "Sensors"
+    year: "2021"
+
+
+conferences:
+  - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
+    title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
+    conference: "Korea Data Mining Society (KDMS)"
+    year: "2023"
+    award: "SAS Student Paper Award (Honorable Mention)"
+
+  - authors: "Woojin Jo, Sehyun Hwang, Inho Kee, Soohong Lee"
+    title: "An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device"
+    conference: "IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)"
+    year: "2019"
+

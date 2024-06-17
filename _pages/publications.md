@@ -7,33 +7,28 @@ nav: true
 nav_order: 3
 ---
 
+<!-- _pages/publications.md -->
+<div class="publications">
 
-# In progress
-{% assign in_progress_counter = 1 %}
-{% for publication in site.data.in_progress %}
-**{{ in_progress_counter }}.** 
-{% assign authors = publication.authors | split: ', ' %}
-{% for author in authors %}
-  {% if author == 'Robin Inho Kee' or author == 'Inho Kee' %}
-    **<u>{{ author }}</u>**,
-  {% else %}
-    {{ author }},
-  {% endif %}
-{% endfor %}
-"{{ publication.title }}", {{ publication.venue }}, {{ publication.year }} {% if publication.pdf_link != "" and publication.pdf_link != null %}[PDF]{% endif %} {% if publication.award != "" and publication.award != null %}**{{ publication.award }}**{% endif %}
-{% assign in_progress_counter = in_progress_counter | plus: 1 %}
+## In progress
+{% assign in_progress = 1 %}
+{% for pub in site.data.publications.in_progress %}
+{{ in_progress }}. {{ pub.authors | replace: 'Robin Inho Kee', '**<u>Robin Inho Kee</u>**' | replace: ' Inho Kee', ' **<u>Inho Kee</u>**' }}, {{ pub.title }}, {{ pub.status }}{% if pub.pdf %} [<a href="{{ pub.pdf }}" target="_blank">PDF</a>]{% endif %}
+{% assign in_progress = in_progress | plus: 1 %}
 {% endfor %}
 
-# Journals
-{% assign journals_counter = 1 %}
-{% for publication in site.data.journals %}
-**{{ journals_counter }}.** {{ publication.authors | replace: ' RobinInhoKee ', ' **<u>Robin Inho Kee</u>** ' | replace: ' Inho Kee ', ' **<u>Inho Kee</u>** ' }}, "{{ publication.title }}", {{ publication.venue }}, {{ publication.year }} {% if publication.pdf_link != "" and publication.pdf_link != null %}[PDF]{% endif %} {% if publication.award != "" and publication.award != null %}**{{ publication.award }}**{% endif %}
-{% assign journals_counter = journals_counter | plus: 1 %}
+## Journals
+{% assign journal = 1 %}
+{% for pub in site.data.publications.journals %}
+{{ journal }}. {{ pub.authors | replace: 'Robin Inho Kee', '**<u>Robin Inho Kee</u>**' | replace: ' Inho Kee', ' **<u>Inho Kee</u>**' }}, {{ pub.title }}, {{ pub.journal }}, {{ pub.year }}{% if pub.award %}, **{{ pub.award }}**{% endif %}{% if pub.pdf %} [<a href="{{ pub.pdf }}" target="_blank">PDF</a>]{% endif %}
+{% assign journal = journal | plus: 1 %}
 {% endfor %}
 
-# Conferences
-{% assign conferences_counter = 1 %}
-{% for publication in site.data.conferences %}
-**{{ conferences_counter }}.** {{ publication.authors | replace: ' RobinInhoKee ', ' **<u>Robin Inho Kee</u>** ' | replace: ' Inho Kee ', ' **<u>Inho Kee</u>** ' }}, "{{ publication.title }}", {{ publication.venue }}, {{ publication.year }} {% if publication.pdf_link != "" and publication.pdf_link != null %}[PDF]{% endif %} {% if publication.award != "" and publication.award != null %}**{{ publication.award }}**{% endif %}
-{% assign conferences_counter = conferences_counter | plus: 1 %}
+## Conferences
+{% assign conference = 1 %}
+{% for pub in site.data.publications.conferences %}
+{{ conference }}. {{ pub.authors | replace: 'Robin Inho Kee', '**<u>Robin Inho Kee</u>**' | replace: ' Inho Kee', ' **<u>Inho Kee</u>**' }}, {{ pub.title }}, {{ pub.conference }}, {{ pub.year }}{% if pub.award %}, **{{ pub.award }}**{% endif %}{% if pub.pdf %} [<a href="{{ pub.pdf }}" target="_blank">PDF</a>]{% endif %}
+{% assign conference = conference | plus: 1 %}
 {% endfor %}
+
+</div>
