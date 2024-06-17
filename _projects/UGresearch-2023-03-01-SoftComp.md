@@ -4,7 +4,7 @@ title: SoftComp
 description: with background image
 img: assets/img/12.jpg
 importance: 99
-category: Work experience
+category: Undergraduate research projects
 related_publications: true
 ---
 
