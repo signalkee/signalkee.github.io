@@ -17,7 +17,7 @@ journals:
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
-    pdf_link: /assets/pdf/example.pdf
+    pdf: /assets/pdf/example.pdf
     
   - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
     title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
