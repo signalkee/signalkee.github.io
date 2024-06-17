@@ -5,7 +5,7 @@ permalink: /projects/
 description: # A growing collection of your cool projects.
 nav: true
 nav_order: 4
-display_categories: [Graduate projects, Work experience, Undergraduate research projects, Undergraduate projects]
+display_categories: [Graduate research projects, Work experience, Undergraduate research projects, Undergraduate projects]
 horizontal: false
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: SoftComp
 description: with background image
 img: assets/img/12.jpg
-importance: 99
+importance: 94
 category: Undergraduate research projects
 related_publications: true
 ---

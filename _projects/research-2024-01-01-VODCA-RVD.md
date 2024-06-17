@@ -4,7 +4,7 @@ title: VODCA-RVD
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 99
-category: Graduate projects
+category: Graduate research projects
 giscus_comments: true
 ---
 

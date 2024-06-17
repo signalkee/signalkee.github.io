@@ -4,7 +4,7 @@ title: VODCA-ACC
 description: another project with an image 🎉
 img: assets/img/6.jpg
 importance: 98
-category: Graduate projects
+category: Graduate research projects
 ---
 
 Every project has a beautiful feature showcase page.
