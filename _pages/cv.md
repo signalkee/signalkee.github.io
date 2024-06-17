@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /bio/
-title: bio/cv
+permalink: /CV/
+title: CV
 nav: true
-nav_order: 2
+nav_order: 99
 cv_pdf: example.pdf
 ---
 
@@ -27,7 +27,7 @@ cv_pdf: example.pdf
 
 
 <html>
-<div class="post">
+<!-- <div class="post">
     <header class="post-header">
         <h1 class="post-title">Biographical Sketch</h1>
     </header>
@@ -35,7 +35,7 @@ cv_pdf: example.pdf
         Robin Inho Kee, a Master's student in Mechanical Engineering at the University of Michigan, specializes in the application of deep learning and control in robotics. He holds a B.S. from Yonsei University and has worked at KIST, developing deep learning models for exoskeletons. His current research focuses on safety-guaranteed control for constrained systems using predictive control and deep learning.
     </article>
 </div>
-<br>
+<br> -->
 <div class="post">
     <header class="post-header">
         <h1 class="post-title">CV</h1>
