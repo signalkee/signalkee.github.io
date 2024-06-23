@@ -10,7 +10,7 @@ in_progress:
   - authors: "Taehyeun Kim, Robin Inho Kee (Co-first author with equal contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "A Deep Learning approach on Time Shift Governor for Spacecraft Proximity Operation in Elliptic Orbits"
     status: "AIAA SCITECH 2025 Forum, Submitted"
-    pdf: SciTech2025_DLTSG_temp.pdf
+    # pdf: SciTech2025_DLTSG_temp.pdf
 
 
 journals:
