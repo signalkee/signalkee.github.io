@@ -12,7 +12,6 @@ in_progress:
     status: "AIAA SCITECH 2025 Forum, Submitted"
     # pdf: SciTech2025_DLTSG_temp.pdf
 
-
 journals:
   - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu"
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
@@ -30,7 +29,6 @@ journals:
     journal: "Sensors"
     year: "2021"
     pdf: Sensors2021_IMU.pdf
-
 
 conferences:
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
