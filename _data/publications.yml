@@ -7,7 +7,7 @@ in_progress:
     title: "MPC-CBF via Data-Driven Adaptation"
     status: "In preparation"
 
-  - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
+  - authors: "Taehyeun Kim\*, Robin Inho Kee\* (\*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "A Deep Learning approach on Time Shift Governor for Spacecraft Proximity Operation in Elliptic Orbits"
     status: "AIAA SCITECH 2025 Forum, Submitted"
     # pdf: SciTech2025_DLTSG_temp.pdf
