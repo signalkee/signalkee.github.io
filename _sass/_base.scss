@@ -1134,3 +1134,7 @@ ninja-keys::part(ninja-input) {
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
+
+.rotate-img {
+  transform: rotate(-90deg);
+}

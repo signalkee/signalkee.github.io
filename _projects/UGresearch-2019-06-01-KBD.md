@@ -2,24 +2,23 @@
 layout: page
 title: KBD
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/KBD/KBD_title.png
 importance: 98
 category: Undergraduate research projects
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**PI**: Professor Soo-Hong Lee
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+**Project**: **Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
+
+**Achievement**: Woojin Jo, Sehyun Hwang, **Inho Kee**, Soohong Lee, “An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device”, IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) 2019
+
+**Primary Motivation**: The display is being developed to enable the transmission of synesthesia, such as expressing a large amount of information and 3D images without glass and sounds. Lenticular lens or parallax barrier technology is required to implement glassless 3D and multi view display. However, it is Difficult to implement high resolution and slim design.
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
