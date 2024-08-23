@@ -5,7 +5,7 @@ description: Knowledge Based Design Lab (06.2019-12.2019)
 img: assets/img/KBD/KBD_title.png
 importance: 98
 category: Undergraduate research projects
-related_publications: true
+related_publications: False
 ---
 
 **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
@@ -65,4 +65,17 @@ related_publications: true
 
 
 
-
+etc. Me testing the developing VR environment
+<video width="640" height="360" controls>
+  <source src="assets/img/KBD/KBD_VRtest2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<video width="852" height="480" controls>
+  <source src="assets/img/KBD/KBD_VRtest.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_sleep.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
