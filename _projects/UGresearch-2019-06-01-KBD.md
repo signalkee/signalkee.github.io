@@ -1,7 +1,7 @@
 ---
 layout: page
-title: KBD
-description: with background image
+title: IoT-Based Smart Lock-out/Tag-out in Engineering Plants
+description: Knowledge Based Design Lab (06.2019-12.2019)
 img: assets/img/KBD/KBD_title.png
 importance: 98
 category: Undergraduate research projects
@@ -12,69 +12,57 @@ related_publications: true
 
 **PI**: Professor Soo-Hong Lee
 
-**Project**: **Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
+**Project**: **IoT-Based Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
 
-**Achievement**: Woojin Jo, Sehyun Hwang, **Inho Kee**, Soohong Lee, “An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device”, IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) 2019
+**Achievement**: 
+(1) Woojin Jo, Sehyun Hwang, **Inho Kee**, Soohong Lee, “An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device”, IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) 2019
+(2) Woojin Jo, **Inho Kee**, Sehyun Hwang, Soohong Lee, “Smart LOTO system”, Korean patent 10-2019-0192612
 
-**Primary Motivation**: The display is being developed to enable the transmission of synesthesia, such as expressing a large amount of information and 3D images without glass and sounds. Lenticular lens or parallax barrier technology is required to implement glassless 3D and multi view display. However, it is Difficult to implement high resolution and slim design.
-
-
+**Primary Motivation**: Although rare, a majority of incidents or accidents in modern engineering plants are caused by some form of human error. Of the operation procedures, during an inspection or maintenance is when an accident is most likely to happen. To guarantee the safety of the workers, the section of the plant undergoing this kind of process should be clearly stated to the ones involved. The widely used way is to attach a physical padlock, and this procedure is called lockout and tagout (LOTO). This research proposes an improved version of LOTO system implementation based on Internet-of-things (IoT) technology. In addition to the basic functionality of LOTO, the system also brings advanced Supervisory Control And Data Acquisition (SCADA) to the engineering plant, allowing better controllability and visibility over the process. A small-scale plant model has been equipped with sensors, and their data is aggregated into a time-series database. Whether a device is now locked, and who, when, why the locking and unlocking action happened, and more, can be monitored and controlled. The resulting product of this research allows flexible access to the status of a device, quick response to danger, and ease of maintenance.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_basic.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_title.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Applications of LOTO device design and system diagram.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+**What I did**: (1) Developed software & hardware of MCU testbed (2) Developed VR tutorial with Unity
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_method.png" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Modules and their Functionalities.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_SysSch.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    System Schematics.
+</div>
 
-{% endraw %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_fluidtest.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Fluid testing rig with developed testbed to VR.
+</div>
+
+
+
+

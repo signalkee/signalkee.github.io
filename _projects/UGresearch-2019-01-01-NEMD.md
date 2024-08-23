@@ -47,10 +47,10 @@ related_publications: False
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab.png" title="lab image" class="img-fluid rounded z-depth-1 rotate-img" %}
+        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab.png" title="lab image" class="img-fluid rounded z-depth-1" style="transform: rotate(-90deg);" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab2.png" title="lab image" class="img-fluid rounded z-depth-1 rotate-img" %}
+        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab2.png" title="lab image" class="img-fluid rounded z-depth-1" style="transform: rotate(-90deg);" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab3.png" title="lab image" class="img-fluid rounded z-depth-1" %}
@@ -58,10 +58,10 @@ related_publications: False
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic.png" title="fab image" class="img-fluid rounded z-depth-1 rotate-img" %}
+        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic.png" title="fab image" class="img-fluid rounded z-depth-1" style="transform: rotate(-90deg);" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1 rotate-img" %}
+        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1" style="transform: rotate(-90deg);" %}
     </div>
 </div>
 
