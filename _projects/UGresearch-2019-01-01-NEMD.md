@@ -5,11 +5,12 @@ description: Nano Electromechanical Device Lab (01.2019-03.2019)
 img: assets/img/NEMD/NEMD_title.png
 importance: 99
 category: Undergraduate research projects
-related_publications: true
+related_publications: False
 ---
 
-**Nano Electromechanical Device Lab**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
+**<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
 PI: Professor Seong Chan, Jun, Dr. Sehong Park
+
 Project: **Thin film display application using graphene Fresnel zone plate based the multi view lens and acoustic lens**
 
 
@@ -45,10 +46,10 @@ Project: **Thin film display application using graphene Fresnel zone plate based
 
 <div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab.png" title="lab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab.png" title="lab image" class="img-fluid rounded z-depth-1 rotate-90" %}
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab2.png" title="lab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab2.png" title="lab image" class="img-fluid rounded z-depth-1 rotate-90" %}
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab3.png" title="lab image" class="img-fluid rounded z-depth-1" %}
@@ -56,10 +57,10 @@ Project: **Thin film display application using graphene Fresnel zone plate based
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic.png" title="fab image" class="img-fluid rounded z-depth-1 rotate-90" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1 rotate-90" %}
     </div>
 </div>
 
