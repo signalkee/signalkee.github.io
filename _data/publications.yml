@@ -1,16 +1,19 @@
 in_progress:
-  - authors: "Robin Inho Kee"
+  - authors: "Robin Inho Kee, Taehyeun Kim, Anouck Girard, Ilya Kolmanovsky"
     title: "Ensuring Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
-    status: "In preparation"
+    status: "2025 American Control Conference (ACC), In preparation"
+    # pdf: ACC2025_ACC_TSGCBF_arxiv.pdf
 
-  - authors: "Robin Inho Kee"
-    title: "MPC-CBF via Data-Driven Adaptation"
-    status: "In preparation"
+  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+    title: "An Evidential Adaptation Approach for Online Control Barrier Functions"
+    status: "2025 IEEE International Conference on Robotics and Automation (ICRA), In preparation"
+    # pdf: ICRA2025_Evidential_arxiv.pdf
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
-    title: "A Deep Learning approach on Time Shift Governor for Spacecraft Proximity Operation in Elliptic Orbits"
+    title: "Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations"
     status: "AIAA SCITECH 2025 Forum, Submitted"
     # pdf: SciTech2025_DLTSG_temp.pdf
+
 
 journals:
   - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu"
@@ -29,6 +32,7 @@ journals:
     journal: "Sensors"
     year: "2021"
     pdf: Sensors2021_IMU.pdf
+
 
 conferences:
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
