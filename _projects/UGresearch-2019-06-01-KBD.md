@@ -65,16 +65,11 @@ related_publications: False
 
 
 
-etc. Me testing the developing VR environment
-<video width="640" height="360" controls>
-  <source src="assets/img/KBD/KBD_VRtest2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video width="852" height="480" controls>
-  <source src="assets/img/KBD/KBD_VRtest.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+etc. Me testing the developing VR environment and resting
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_VRtest.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_sleep.png" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
