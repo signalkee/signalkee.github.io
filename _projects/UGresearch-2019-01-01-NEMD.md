@@ -64,5 +64,9 @@ related_publications: False
         {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Lab experiment equipments I used.
+</div>
+
 
 **Reference**: Park, Sehong, et al. "Electrically focus-tuneable ultrathin lens for high-resolution square subpixels." Light: Science & Applications 9.1 (2020): 98.
