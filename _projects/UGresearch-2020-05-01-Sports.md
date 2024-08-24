@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Portable real-time ankle angle analysis feedback system
-description: Integrative Sports Science Research Lab (05.2020-05.2021)
+title: Portable ankle angle analysis system
+description: Integrative Sports Science Research Lab (05.2020-05.2021), Yonsei University, Seoul, South Korea
 img: assets/img/Sport/Sport_title.png
 importance: 95
 category: Undergraduate research projects
@@ -27,7 +27,7 @@ related_publications: False
     Visual feedback demo.
 </div>
 
-**What I did**: 
+**What I did**:
 
 (1) Developed the hardware and software of a portable real-time ankle angle analysis audio-visual feedback system.
 

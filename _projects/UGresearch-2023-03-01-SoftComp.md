@@ -21,49 +21,63 @@ related_publications: False
 
 **Project 1**: **Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification**
 
-**Primary Motivation**: In rural areas where facilities or experts are scarce, research needs to be conducted remotely or with assistance. Therefore, We have pioneered lab automation that allows a mobile manipulator to conduct laboratory research autonomously. This study included various aspects of the robot laboratory, such as preparation to analysis, control and integration of data, and production.
+**Abstract**: This study addresses the persistent challenge of in-vehicle noise, a significant factor affecting customer satisfaction and safety in the automotive industry. Despite advancements in understanding various noise sources and mitigation strategies, vehicle noise continues to contribute to driver and passenger discomfort, impacting stress levels, fatigue, and overall quality of life. Recent research has made significant strides in classifying in-vehicle noise, yet the complexity of obtaining comprehensive and diverse datasets remains a major hurdle, given the variability and transient nature of these noises. To overcome these challenges, our research introduces an innovative approach using Few-shot Learning (FSL). We propose a unique FSL model that integrates a Triplet-trained Prototypical Network for the classification of in-vehicle noises. This model is particularly adept at learning robust feature representations from limited data. The application of triplet sampling and loss significantly enhances the model's ability to distinguish between various types of in-vehicle noises. Our methodology was rigorously tested using a specially curated dataset of in-vehicle noises, reflecting real-world diversity. The experimental results, obtained through 10-fold cross-validation, demonstrate an exceptional average accuracy of 96.81% on a 9-way 1-shot task. This level of accuracy, achieved with a limited amount of training data, not only attests to the effectiveness of our model but also marks a significant advancement in the field of acoustic classification. Our study's findings highlight the potential of FSL in addressing complex challenges in the automotive industry, paving the way for more effective noise reduction strategies and improved vehicle design.
 
-**What I did**: Everything!
+**What I did**: Almost everything!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_feedback.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Visual feedback demo.
+    Overview of Triplet trained Prototypical Network based Few-Shot Learning (FSL).
 </div>
 
-**What I did**: Almost everything!
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_vis.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Visualization of Embedding Space Disentanglement. (a) exhibits the raw embeddings from in vehicle noise data, depicting a high degree of overlap among different noise types. (b) illustrates the clarity achieved in the embedding space after applying the tri plet based embeddings
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_method.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_method2.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 
 **Project 2**: **Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification**
 
-**Primary Motivation**: In rural areas where facilities or experts are scarce, research needs to be conducted remotely or with assistance. Therefore, We have pioneered lab automation that allows a mobile manipulator to conduct laboratory research autonomously. This study included various aspects of the robot laboratory, such as preparation to analysis, control and integration of data, and production.
+**Abstract**: In-vehicle noise classification plays a crucial role in ensuring driver and passenger safety and comfort, providing valuable insights into vehicle performance and condition. Continual data collection by automotive manufacturers necessitates a more efficient approach to adapt the models to emerging noise classes without sacrificing performance. To address this challenge, we propose dynamic prototype-guided episodic memory (DPEM), a novel method that focuses on selectively storing representative samples in episodic memory. DPEM leverages clustering analysis and prototype computation to dynamically optimize the number of prototypes, enhancing memory efficiency. We extensively evaluate DPEM on real-world in-vehicle noise datasets collected from a global automobile manufacturer within a class-incremental learning pipeline. The experimental results demonstrate that DPEM achieves high classification performance (6.38%p improvement) in class-incremental condition, showcasing its potential in continual learning applications for automotive environments.
 
 **What I did**: Developed baseline code and implementated the memory replay algorithm
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_setup.png" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_setup.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj2_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Experimental setup.
+    Dynamic prototype-guided episodic memory (DPEM) overview.
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_exp.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj2_vis.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj2_vis_wt.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Walking experiment.
+    Dynamically computed noise prototypes for new noise types (triangles: representative samples)Left: with out DPEM, Right: with DPEM.
 </div>
 
