@@ -21,6 +21,9 @@ related_publications: False
         {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_smartlab.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Overview.
+</div>
 
 **What I did**: 
 
@@ -30,20 +33,22 @@ related_publications: False
 
 (3) Programmed experimental scenarios for collaborative robot.
 
-<div class="row">
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_robot.png" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_robot_task.png" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
+</div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_gripper.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
+<div class="caption">
+    Demonstration of the designed mechanical gripper.
+</div>
 
 
 
@@ -52,6 +57,11 @@ related_publications: False
 
 **Achievement**: International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_smartstartup.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <iframe src="/assets/img/IDIM/IDIM_SMART_Skynet_ppt.pdf" width="100%" height="600px">
     This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/IDIM/IDIM_SMART_Skynet_ppt.pdf">Download PDF</a>.
 </iframe>
@@ -59,11 +69,7 @@ related_publications: False
     Final presentation pdf.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_smartstartup.png" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 
 
 
