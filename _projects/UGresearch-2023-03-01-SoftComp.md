@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Prototype-guided In-vehicle Noise Classification
+title: In-vehicle Noise Classification
 description: Soft Computing Lab (03.2023-08.2023), Yonsei University, Seoul, South Korea
 img: assets/img/Softcomp/Soft_title.png
 importance: 94
