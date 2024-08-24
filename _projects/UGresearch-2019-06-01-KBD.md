@@ -12,13 +12,14 @@ related_publications: False
 
 **PI**: Professor Soo-Hong Lee
 
-**Project**: **IoT-Based Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
-
 **Achievement**: 
 
 (1) Woojin Jo, Sehyun Hwang, **Inho Kee**, Soohong Lee, “An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device”, IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) 2019
 
 (2) Woojin Jo, **Inho Kee**, Sehyun Hwang, Soohong Lee, “Smart LOTO system”, Korean patent 10-2019-0192612
+
+**Project**: **IoT-Based Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
+
 
 
 **Primary Motivation**: Although rare, a majority of incidents or accidents in modern engineering plants are caused by some form of human error. Of the operation procedures, during an inspection or maintenance is when an accident is most likely to happen. To guarantee the safety of the workers, the section of the plant undergoing this kind of process should be clearly stated to the ones involved. The widely used way is to attach a physical padlock, and this procedure is called lockout and tagout (LOTO). This research proposes an improved version of LOTO system implementation based on Internet-of-things (IoT) technology. In addition to the basic functionality of LOTO, the system also brings advanced Supervisory Control And Data Acquisition (SCADA) to the engineering plant, allowing better controllability and visibility over the process. A small-scale plant model has been equipped with sensors, and their data is aggregated into a time-series database. Whether a device is now locked, and who, when, why the locking and unlocking action happened, and more, can be monitored and controlled. The resulting product of this research allows flexible access to the status of a device, quick response to danger, and ease of maintenance.

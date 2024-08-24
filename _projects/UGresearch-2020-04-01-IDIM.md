@@ -12,6 +12,8 @@ related_publications: False
 
 **PI**: Professor Sung-Hoon Ahn
 
+**Achievement**: International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
+
 **Project 1**: **Interoperable Smart Lab**
 
 **Primary Motivation**: In rural areas where facilities or experts are scarce, research needs to be conducted remotely or with assistance. Therefore, We have pioneered lab automation that allows a mobile manipulator to conduct laboratory research autonomously. This study included various aspects of the robot laboratory, such as preparation to analysis, control and integration of data, and production.
@@ -33,14 +35,7 @@ related_publications: False
 
 (3) Programmed experimental scenarios for collaborative robot.
 
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_robot.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_robot_task.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div> -->
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_gripper.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
@@ -54,8 +49,6 @@ related_publications: False
 
 
 **Project 2**: **Low-cost appropriate robotic manipulator (Open quasi-direct drive robot)**
-
-**Achievement**: International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -10,12 +10,13 @@ related_publications: False
 
 **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
 
-**PI**: Professor Seong Chan, Jun, Dr. Sehong Park
+**PI**: Professor Seong Chan Jun and Dr. Sehong Park
+
+**Achievement**: Youngho Seo, Hyeseong Lee, **Inho Kee**, Gilho Lee, Seongchan Jun, “Manufacturing Method of Multi-Gas Sensor Using Ultra-Thin Film Lens”, Korean patent 10-2019-0044429
 
 **Project**: **Thin film display application using graphene Fresnel zone plate based the multi view lens and acoustic lens**
 
 
-**Achievement**: Youngho Seo, Hyeseong Lee, **Inho Kee**, Gilho Lee, Seongchan Jun, “Manufacturing Method of Multi-Gas Sensor Using Ultra-Thin Film Lens”, Korean patent 10-2019-0044429
 
 
 **Primary Motivation**: The display is being developed to enable the transmission of synesthesia, such as expressing a large amount of information and 3D images without glass and sounds. Lenticular lens or parallax barrier technology is required to implement glassless 3D and multi view display. However, it is Difficult to implement high resolution and slim design.
