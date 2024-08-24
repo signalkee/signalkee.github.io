@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Undergrad Thesis
-description: Resarch Laboratory of Manufacturing Mechatronics (02.2020-06.2020)
+description: Resarch Laboratory of Manufacturing Mechatronics (02.2020-06.2020), Yonsei University, Seoul, South Korea
 img: assets/img/REM2/REM2_title.png
 importance: 97
 category: Undergraduate research projects

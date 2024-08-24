@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Interoperable Smart Lab
-description: Innovative Design & Integrated Manufacturing Lab (04.2020-10.2020)
+description: Innovative Design & Integrated Manufacturing Lab (04.2020-10.2020), Seoul National University, Seoul, South Korea
 img: assets/img/IDIM/IDIM_title.png
 importance: 96
 category: Undergraduate research projects

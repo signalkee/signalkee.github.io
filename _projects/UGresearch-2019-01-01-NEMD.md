@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Multi view graphene film project
-description: Nano Electromechanical Device Lab (01.2019-03.2019)
+title: Multi View Graphene Film Project
+description: Nano Electromechanical Device Lab (01.2019-03.2019), Yonsei University, Seoul, South Korea
 img: assets/img/NEMD/NEMD_title.png
 importance: 99
 category: Undergraduate research projects
