@@ -2,7 +2,7 @@
 layout: page
 title: Adaptive Online Control Barrier Functions
 description: (02.2024-ing), University of Michigan, MI, USA
-img: assets/img/Panagou_ICRA2025/ICRA_title.gif
+img: assets/img/Panagou_ICRA2025/ICRA_title.png
 importance: 97
 category: Graduate research projects
 ---

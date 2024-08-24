@@ -2,7 +2,7 @@
 layout: page
 title: IoT-Based Smart Lock-out/Tag-out in Engineering Plants
 description: Knowledge Based Design Lab (06.2019-12.2019), Yonsei University, Seoul, South Korea
-img: assets/img/KBD/KBD_title.png
+img: assets/img/KBD/KBD_title.gif
 importance: 98
 category: Undergraduate research projects
 related_publications: False
@@ -31,7 +31,7 @@ related_publications: False
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_title.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

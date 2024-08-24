@@ -2,7 +2,7 @@
 layout: page
 title: Portable ankle angle analysis system
 description: Integrative Sports Science Research Lab (05.2020-05.2021), Yonsei University, Seoul, South Korea
-img: assets/img/Sport/Sport_title.png
+img: assets/img/Sport/Sport_title.gif
 importance: 95
 category: Undergraduate research projects
 related_publications: False
@@ -55,7 +55,7 @@ related_publications: False
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_exp.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_exp.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -66,6 +66,6 @@ related_publications: False
 etc. Testing prototype * 10000 times
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_exptest.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Sport/Sport_exptest.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

@@ -2,7 +2,7 @@
 layout: page
 title: Spacecraft Proximity Operations in Elliptic Orbits
 description: Vehicle Optimization, Dynamics, Control and Autonomy Lab (01.2024-ing), University of Michigan, MI, USA
-img: assets/img/VODCA_SciTech2025/Sci_title.jpg
+img: assets/img/VODCA_SciTech2025/Sci_title.png
 importance: 99
 category: Graduate research projects
 giscus_comments: False

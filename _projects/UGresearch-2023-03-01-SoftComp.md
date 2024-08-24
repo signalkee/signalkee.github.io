@@ -2,7 +2,7 @@
 layout: page
 title: Prototype-guided In-vehicle Noise Classification
 description: Soft Computing Lab (03.2023-08.2023), Yonsei University, Seoul, South Korea
-img: assets/img/Softcomp/Soft_title.jpg
+img: assets/img/Softcomp/Soft_title.png
 importance: 94
 category: Undergraduate research projects
 related_publications: False
@@ -29,7 +29,7 @@ Almost everything!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj1_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -38,7 +38,7 @@ Almost everything!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_vis.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj1_vis.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -47,10 +47,10 @@ Almost everything!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_method.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj1_method.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj1_method2.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj1_method2.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -66,7 +66,7 @@ Developed baseline code and implementated the memory replay algorithm
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj2_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj2_overview.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -75,10 +75,10 @@ Developed baseline code and implementated the memory replay algorithm
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj2_vis.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj2_vis.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Soft/Soft_proj2_vis_wt.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Softcomp/Soft_proj2_vis_wt.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
