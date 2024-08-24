@@ -8,9 +8,9 @@ category: Undergraduate research projects
 giscus_comments: False
 ---
 
-### **Research Laboratory of Manufacturing Mechatronics**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
+### **Research Laboratory of Manufacturing Mechatronics**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
-### **PI**: Professor Jun Young Yoon
+**PI**: Professor Jun Young Yoon
 
 ### **Project**: **Linear motor active damper for precision manufacturing vibration reduction**
 

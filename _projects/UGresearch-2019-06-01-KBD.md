@@ -8,9 +8,9 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-### **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
+### **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
-### **PI**: Professor Soo-Hong Lee
+**PI**: Professor Soo-Hong Lee
 
 ### **Achievement**: 
 
@@ -39,7 +39,12 @@ related_publications: False
 </div>
 
 
-### **What I did**: (1) Developed software & hardware of MCU testbed (2) Developed VR tutorial with Unity
+### **What I did**: 
+
+(1) Developed software & hardware of MCU testbed 
+
+(2) Developed VR tutorial with Unity
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/KBD/KBD_method.png" title="fab image" class="img-fluid rounded z-depth-1" %}

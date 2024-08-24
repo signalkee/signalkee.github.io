@@ -8,11 +8,13 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-### **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechnical Engineering, Yonsei University, Seoul, South Korea
+### **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
-### **PI**: Professor Seong Chan Jun and Dr. Sehong Park
+**PI**: Professor Seong Chan Jun and Dr. Sehong Park
 
-### **Achievement**: Youngho Seo, Hyeseong Lee, **Inho Kee**, Gilho Lee, Seongchan Jun, “Manufacturing Method of Multi-Gas Sensor Using Ultra-Thin Film Lens”, Korean patent 10-2019-0044429
+### **Achievement**: 
+
+(1) Youngho Seo, Hyeseong Lee, **Inho Kee**, Gilho Lee, Seongchan Jun, “Manufacturing Method of Multi-Gas Sensor Using Ultra-Thin Film Lens”, Korean patent 10-2019-0044429
 
 ### **Project**: **Thin film display application using graphene Fresnel zone plate based the multi view lens and acoustic lens**
 
@@ -36,7 +38,10 @@ related_publications: False
 </div>
 
 
-### **What I did**: Fabrication of graphene Fresnel Zone Plates (FZPs) based lens array for a display pixel.
+### **What I did**: 
+
+Fabrication of graphene Fresnel Zone Plates (FZPs) based lens array for a display pixel.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_fab.png" title="fab image" class="img-fluid rounded z-depth-1" %}
@@ -47,6 +52,14 @@ related_publications: False
 </div>
 
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
     <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab.png" title="lab image" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -55,14 +68,6 @@ related_publications: False
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/NEMD/NEMD_fab_lab3.png" title="lab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/NEMD/NEMD_lab_pic2.png" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

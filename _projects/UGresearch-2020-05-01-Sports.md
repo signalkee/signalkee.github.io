@@ -10,9 +10,11 @@ related_publications: False
 
 ### **Integrative Sports Science Research Lab**, Department of Physical Education, Yonsei University, Seoul, South Korea
 
-### **PI**: Professor Byonghun Kim (Now Professor at Dongguk University)
+**PI**: Professor Byonghun Kim (Now Professor at Dongguk University)
 
-### **Achievement**: Byonghun Kim, Sunghyun Hong, Inwook Oh, Yangwoo Lee, **Inho Kee**, Saeyong Lee, “Measurement of ankle joint movements using IMUs during running”, Sensors, 2021
+### **Achievement**: 
+
+(1) Byonghun Kim, Sunghyun Hong, Inwook Oh, Yangwoo Lee, **Inho Kee**, Saeyong Lee, “Measurement of ankle joint movements using IMUs during running”, Sensors, 2021
 
 ### **Project**: **Portable real-time ankle angle analysis audio-visual feedback system**
 

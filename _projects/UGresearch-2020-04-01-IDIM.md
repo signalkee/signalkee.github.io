@@ -8,11 +8,13 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**, School of Mechnical Engineering, Seoul National University, Seoul, South Korea
+### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**, School of Mechanical Engineering, Seoul National University, Seoul, South Korea
 
-### **PI**: Professor Sung-Hoon Ahn
+**PI**: Professor Sung-Hoon Ahn
 
-### **Achievement**: International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
+### **Achievement**: 
+
+(1) International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
 
 ### **Project 1**: **Interoperable Smart Lab**
 
