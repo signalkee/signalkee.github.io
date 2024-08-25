@@ -24,9 +24,9 @@ I’m fortunate to work as a research intern in **<a href='https://vodca.engin.u
 My research focuses on developing **learning-based safety-critical control for constrained systems** by leveraging formal methods from both **control theory** and **machine learning**.
 This work has practical applications particularly in the fields of aerospace, robotics, and automotive domains.
 
-Before joining the University of Michigan, I was a research intern at the AI & Robotics Institute of the **<a href='https://www.kist.re.kr/eng/index.do#firstPage'>Korea Institute of Science and Technology (KIST)</a>** in South Korea. Check out my work at KIST **<a href='https://signalkee.github.io/Researches%20&%20Projects/#Work%20experience'>here</a>**
+Before joining the University of Michigan, I was a research intern at the AI & Robotics Institute of the **<a href='https://www.kist.re.kr/eng/index.do#firstPage'>Korea Institute of Science and Technology (KIST)</a>** in South Korea. Check out my work at KIST <a href='https://signalkee.github.io/Researches%20&%20Projects/#Work%20experience'>here</a>.
 
-I completed my undergraduate degree in **<a href='https://me.yonsei.ac.kr/me_en/index.do'>Mechanical Engineering at Yonsei University</a>**, where I engaged in various research and projects. Learn more about my **<a href='https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20research%20projects'>research experience</a>** and **<a href='https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20projects'>projects</a>**
+I completed my undergraduate degree in **<a href='https://me.yonsei.ac.kr/me_en/index.do'>Mechanical Engineering at Yonsei University</a>**, where I engaged in various research and projects. Learn more about my <a href='https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20research%20projects'>research experience</a> and <a href='https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20projects'>projects</a>.
 
 Outside of academics, I enjoy lifting weights and listening to music. I also served as a Staff Sergeant in the Intelligence Agency with the Republic of Korea Air Force, fulfulling my mandatory military service.
 
