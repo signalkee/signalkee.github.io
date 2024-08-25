@@ -5,7 +5,7 @@ description: Senior Graduate Project, Yonsei University, Seoul, South Korea
 img: assets/img/Roboin_Fire/Fire_title.gif
 importance: 98
 category: Undergraduate projects
-related_publications: true
+related_publications: False
 ---
 
 ### Senior Graduate Project, Yonsei University, Seoul, South Korea
@@ -32,15 +32,6 @@ The BDS (Automated Fire Tracking and Extinguishing System) addresses the urgent 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_vid.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <video controls class="img-fluid rounded z-depth-1">
-            <source src="assets/img/Roboin_Fire/Fire_vid.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
     </div>
 </div>
 
