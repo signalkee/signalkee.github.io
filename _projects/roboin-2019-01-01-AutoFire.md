@@ -1,94 +1,119 @@
 ---
 layout: page
-title: AutoFire
-description: Roboin, Robotics club (03.2019-6.2019), Yonsei University, Seoul, South Korea
-img: assets/img/Roboin_Fire/Fire_title.jpg
+title: Autonomous Fire Tracking and Extinguishing Robot
+description: Senior Graduate Project, Yonsei University, Seoul, South Korea
+img: assets/img/Roboin_Fire/Fire_title.gif
 importance: 98
 category: Undergraduate projects
 related_publications: true
 ---
 
-### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**, Yonsei University, Seoul, South Korea
-
-**PI**: Professor Byung-Kwon Min
+### Senior Graduate Project, Yonsei University, Seoul, South Korea
 
 ### **Achievement**:
 
-(1) WIP
+(1) Robot Open Source Lab 2nd Prize, Samsung Open Source Conference, 2019
 
-### **Project**: **WIP**
+### **Project**: **Autonomous Fire Tracking and Extinguishing Robot**
 
 
-**Abstract**: 
+**Abstract**:
 
-WIP
+The BDS (Automated Fire Tracking and Extinguishing System) addresses the urgent need for effective fire detection and suppression. Utilizing a thermal camera, BDS autonomously tracks and approaches heat sources with a feedback algorithm that ensures precise targeting. A key challenge was enabling the robot to ascend stairs without losing stability, which we overcame through extensive trials, ensuring reliable mobility over obstacles. Our system successfully extinguishes fires by accurately directing extinguishing agents, as demonstrated in simulations. Market analysis shows BDS's potential due to its cost-effectiveness, automation, and ease of installation, making it suitable for multi-residential buildings and high-risk areas. By collaborating with government bodies, BDS aims to enhance public safety and minimize fire-related losses.
 
-<!-- <div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/K9j5tbMQyQ8?si=jzIWZHkj6rxLiq0p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_title.jpg" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_demo.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Overview video of the wearable hip complex assist robot project.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_vid.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KIST/KIST_system.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        <video controls class="img-fluid rounded z-depth-1">
+            <source src="assets/img/Roboin_Fire/Fire_vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
 </div>
-<div class="caption">
-    Hardware overview.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KIST/KIST_model.png" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Model overview.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KIST/KIST_result.png" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Temporary result of gait assesment.
-</div> -->
-
 
 ### **What I did**:
 
-(1) WIP
+(1) Team leader
 
-<!-- <div class="row">
-    <div class="col-sm-12 mt-3 mt-md-0">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WNiAA-gsbOs?si=T-_nhnDrN_3QO33I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+(2) Lead hardware & software engineer
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_stair.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_title.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Outdoor hiking experiment - World's First Wearable Robot Challenge in the Wild.
+    Climbing stairs(Left) Tracking Heat Source(Right).
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KIST/KIST_exp.png" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_session.jpg" title="intro image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_session2.jpg" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Endless treadmill walking experiments.
-</div>
 
+
+
+### **Samsung Open Source Conference (Robot Open Source Lab Competition) 2nd Prize**:
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_soscon.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 
 etc. 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KIST/KIST_labmember.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc3.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/KIST/KIST_Me.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc4.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div> -->
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc5.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc6.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc7.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc8.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_etc2.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Roboin_Fire/Fire_COM.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
