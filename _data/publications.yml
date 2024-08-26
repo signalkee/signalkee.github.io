@@ -1,12 +1,15 @@
 in_progress:
-  - authors: "Robin Inho Kee, Taehyeun Kim, Anouck Girard, Ilya Kolmanovsky"
+  # - authors: "Robin Inho Kee, Taehyeun Kim, Anouck Girard, Ilya Kolmanovsky"
+  - authors: "Robin Inho Kee, TBD"
     title: "Ensuring Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
-    status: "2025 American Control Conference (ACC), In preparation"
+    # status: "2025 American Control Conference (ACC), In preparation"
+    status: "In preparation"
     # pdf: ACC2025_ACC_TSGCBF_arxiv.pdf
 
-  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
-    title: "An Evidential Adaptation Approach for Online Control Barrier Functions"
-    status: "2025 IEEE International Conference on Robotics and Automation (ICRA), In preparation"
+  - authors: "Taekyung Kim, Robin Inho Kee, TBD"
+    title: "Adaptation Online Control Barrier Functions"
+    # status: "2025 IEEE International Conference on Robotics and Automation (ICRA), In preparation"
+    status: "In preparation"
     # pdf: ICRA2025_Evidential_arxiv.pdf
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
