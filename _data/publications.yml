@@ -12,11 +12,6 @@ in_progress:
     status: "In preparation"
     # pdf: ICRA2025_Evidential_arxiv.pdf
 
-  - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
-    title: "Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations"
-    status: "AIAA SCITECH 2025 Forum, Submitted"
-    # pdf: SciTech2025_DLTSG_temp.pdf
-
 
 journals:
   - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu"
@@ -38,6 +33,11 @@ journals:
 
 
 conferences:
+  - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
+    title: "Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations"
+    conference: "AIAA SCITECH 2025 Forum, To be presented at SciTech 2025"
+    # pdf: SciTech2025_DLTSG_temp.pdf
+
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
     title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
     conference: "Korea Data Mining Society (KDMS)"
