@@ -2,7 +2,7 @@
 layout: page
 title: Online Adaptive Input Constrained Control Barrier Functions
 description: (02.2024-10.2024), University of Michigan, MI, USA
-img: assets/img/Panagou_ICRA2025/ICRA_title.png
+img: assets/img/Panagou_ICRA2025/ICRA_title.gif
 importance: 97
 category: Graduate research projects
 ---
