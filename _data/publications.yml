@@ -6,10 +6,10 @@ in_progress:
     status: "In preparation"
     # pdf: ACC2025_ACC_TSGCBF_arxiv.pdf
 
-  - authors: "Taekyung Kim, Robin Inho Kee, TBD"
-    title: "Adaptation Online Control Barrier Functions"
-    # status: "2025 IEEE International Conference on Robotics and Automation (ICRA), In preparation"
-    status: "In preparation"
+  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+    title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
+    status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+    status: "Submitted"
     # pdf: ICRA2025_Evidential_arxiv.pdf
 
 
