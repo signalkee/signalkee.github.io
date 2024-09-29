@@ -14,14 +14,16 @@ giscus_comments: False
 
 ### **Achievement**: 
 
-(1) Taehyeun Kim*, **Robin Inho Kee*** (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
+(1) Taehyeun Kim*, **Robin Inho Kee** * (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
 
 ### **Project**: **Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits**
 
 
 **Abstract**: 
 
-Our work develops a time shift governor (TSG)-based control scheme, accelerated
+TBD
+
+<!-- Our work develops a time shift governor (TSG)-based control scheme, accelerated
 by a deep learning model, to enforce constraints during rendezvous and docking (RD)
 missions in the setting of the Two-Body problem. As an add-on scheme to the nominal
 closed-loop system, the TSG generates a time-shifted Chief spacecraft trajectory as a
@@ -81,14 +83,16 @@ successfully completes rendezvous missions.
 </div>
 <div class="caption">
     Time history of time shift throughout the mission.
-</div>
+</div> -->
 
 
 ### **What I did**:
 
-(1) Developed an LSTM-accelerated Time Shift Governor (DL-TSG) for spacecraft rendezvous and docking in elliptical orbits
+TBD
+
+<!-- (1) Developed an LSTM-accelerated Time Shift Governor (DL-TSG) for spacecraft rendezvous and docking in elliptical orbits
 
 (2) Implemented a phase-adaptive sliding window and a mission-specific loss function to optimize handling of dynamic input sizes, ensuring precise time shift predictions and adherence to stringent space mission constraints.
-
+ -->
 
 

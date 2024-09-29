@@ -1,7 +1,7 @@
 in_progress:
   # - authors: "Robin Inho Kee, Taehyeun Kim, Anouck Girard, Ilya Kolmanovsky"
   - authors: "Robin Inho Kee, TBD"
-    title: "Ensuring Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
+    title: "Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
     # status: "2025 American Control Conference (ACC), In preparation"
     status: "In preparation"
     # pdf: ACC2025_ACC_TSGCBF_arxiv.pdf
@@ -10,7 +10,7 @@ in_progress:
     title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
     status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
     status: "Submitted"
-    # pdf: ICRA2025_Evidential_arxiv.pdf
+    pdf: ICRA2025_ICCBF.pdf
 
 
 journals:
