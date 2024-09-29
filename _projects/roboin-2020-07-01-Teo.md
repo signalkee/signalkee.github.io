@@ -8,13 +8,13 @@ category: Undergraduate projects
 related_publications: False
 ---
 
-### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**, Yonsei University, Seoul, South Korea
+#### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**, Yonsei University, Seoul, South Korea
 
-### **Achievement**:
+#### **Achievement**:
 
 (1) Computational Design Competition 1st Place Record, Korea Institute of Science and Technology Information, 2020
 
-### **Project**: **Optimal Design and Autonomous Navigation of a Teo-Jansen Mechanism-Based Robot**
+#### **Project**: **Optimal Design and Autonomous Navigation of a Teo-Jansen Mechanism-Based Robot**
 
 
 **Abstract**:
@@ -38,7 +38,7 @@ This work presents the design and development of an autonomous robot utilizing t
 </div>
 
 
-### **What I did**:
+#### **What I did**:
 
 (1) Hardware design & fabrication
 

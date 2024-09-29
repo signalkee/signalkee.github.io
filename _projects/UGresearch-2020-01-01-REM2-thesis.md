@@ -8,11 +8,11 @@ category: Undergraduate research projects
 giscus_comments: False
 ---
 
-### **Research Laboratory of Manufacturing Mechatronics**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+#### **Research Laboratory of Manufacturing Mechatronics**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Jun Young Yoon
 
-### **Project**: **Linear motor active damper for precision manufacturing vibration reduction**
+#### **Project**: **Linear motor active damper for precision manufacturing vibration reduction**
 
 **Abstract**: Chatter vibration is considered to be a significant factor on work piece quality. Among the types of chatter vibration, there is self-excited vibration created by the interaction between the machine tool and the work piece which is still being studied. This paper presents a linear motor active damper (LMAD) system which handles the vibration as an active strategy. As an active damper, LMAD uses an accelerometer to monitor the changes of system dynamics, and uses a linear motor as an actuator. Additionally, LMAD is controlled with direct velocity feedback (DVF) with an input of accelerometer data. The actual experiments were applied to 1DOF and 2DOF structures which achieved vibration reduction approximately 63.7% for 1DOF and an average of 52% for 2DOF structures. Experimental results show that LMAD damped structure vibration significantly with a DVF controller, while finding the feasibility for dealing with the entire frequency.
 

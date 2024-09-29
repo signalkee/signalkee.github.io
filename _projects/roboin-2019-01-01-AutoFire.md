@@ -8,13 +8,13 @@ category: Undergraduate projects
 related_publications: False
 ---
 
-### Senior Graduate Project, Yonsei University, Seoul, South Korea
+#### Senior Graduate Project, Yonsei University, Seoul, South Korea
 
-### **Achievement**:
+#### **Achievement**:
 
 (1) Robot Open Source Lab 2nd Prize, Samsung Open Source Conference, 2019
 
-### **Project**: **Autonomous Fire Tracking and Extinguishing Robot**
+#### **Project**: **Autonomous Fire Tracking and Extinguishing Robot**
 
 
 **Abstract**:
@@ -64,7 +64,7 @@ The BDS (Automated Fire Tracking and Extinguishing System) addresses the urgent 
 
 
 
-### **Samsung Open Source Conference (Robot Open Source Lab Competition) 2nd Prize**:
+#### **Samsung Open Source Conference (Robot Open Source Lab Competition) 2nd Prize**:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -8,15 +8,15 @@ category: Graduate research projects
 giscus_comments: False
 ---
 
-### **<a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Lab</a>**, University of Michigan, MI, USA
+#### **<a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Lab</a>**, University of Michigan, MI, USA
 
 **PI**: Professor Anouck Girard and Professor Ilya Kolmanovsky
 
-### **Achievement**: 
+#### **Achievement**: 
 
 (1) Taehyeun Kim*, **Robin Inho Kee** * (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
 
-### **Project**: **Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits**
+#### **Project**: **Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits**
 
 
 **Abstract**: 
@@ -86,7 +86,7 @@ successfully completes rendezvous missions.
 </div> -->
 
 
-### **What I did**:
+#### **What I did**:
 
 TBD
 

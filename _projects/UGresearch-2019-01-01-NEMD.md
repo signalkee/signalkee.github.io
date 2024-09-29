@@ -8,15 +8,15 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-### **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+#### **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Seong Chan Jun and Dr. Sehong Park
 
-### **Achievement**: 
+#### **Achievement**: 
 
 (1) Youngho Seo, Hyeseong Lee, **Inho Kee**, Gilho Lee, Seongchan Jun, “Manufacturing Method of Multi-Gas Sensor Using Ultra-Thin Film Lens”, Korean patent 10-2019-0044429
 
-### **Project**: **Thin film display application using graphene Fresnel zone plate based the multi view lens and acoustic lens**
+#### **Project**: **Thin film display application using graphene Fresnel zone plate based the multi view lens and acoustic lens**
 
 
 
@@ -38,7 +38,7 @@ related_publications: False
 </div>
 
 
-### **What I did**: 
+#### **What I did**: 
 
 Fabrication of graphene Fresnel Zone Plates (FZPs) based lens array for a display pixel.
 

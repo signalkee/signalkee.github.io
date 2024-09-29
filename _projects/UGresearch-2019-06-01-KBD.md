@@ -8,17 +8,17 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-### **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+#### **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Soo-Hong Lee
 
-### **Achievement**: 
+#### **Achievement**: 
 
 (1) Woojin Jo, Sehyun Hwang, **Inho Kee**, Soohong Lee, “An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device”, IEEE International Conference on Industrial Engineering and Engineering Management (IEEM) 2019
 
 (2) Woojin Jo, **Inho Kee**, Sehyun Hwang, Soohong Lee, “Smart LOTO system”, Korean patent 10-2019-0192612
 
-### **Project**: **IoT-Based Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
+#### **Project**: **IoT-Based Smart Lock-out/Tag-out in Engineering Plants (P&ID)**
 
 
 
@@ -39,7 +39,7 @@ related_publications: False
 </div>
 
 
-### **What I did**: 
+#### **What I did**: 
 
 (1) Developed software & hardware of MCU testbed 
 

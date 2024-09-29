@@ -8,15 +8,15 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**, School of Mechanical Engineering, Seoul National University, Seoul, South Korea
+#### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**, School of Mechanical Engineering, Seoul National University, Seoul, South Korea
 
 **PI**: Professor Sung-Hoon Ahn
 
-### **Achievement**: 
+#### **Achievement**: 
 
 (1) International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
 
-### **Project 1**: **Interoperable Smart Lab**
+#### **Project 1**: **Interoperable Smart Lab**
 
 **Primary Motivation**: In rural areas where facilities or experts are scarce, research needs to be conducted remotely or with assistance. Therefore, We have pioneered lab automation that allows a mobile manipulator to conduct laboratory research autonomously. This study included various aspects of the robot laboratory, such as preparation to analysis, control and integration of data, and production.
 
@@ -29,7 +29,7 @@ related_publications: False
     Overview.
 </div>
 
-### **What I did**: 
+#### **What I did**: 
 
 (1) Developed and integrated communication network platform between experimental equipments and robot.
 
@@ -50,7 +50,7 @@ related_publications: False
 
 
 
-### **Project 2**: **Low-cost appropriate robotic manipulator (Open quasi-direct drive robot)**
+#### **Project 2**: **Low-cost appropriate robotic manipulator (Open quasi-direct drive robot)**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

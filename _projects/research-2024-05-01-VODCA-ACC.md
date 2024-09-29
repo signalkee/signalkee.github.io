@@ -7,11 +7,11 @@ importance: 98
 category: Graduate research projects
 ---
 
-### **<a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Lab</a>**, University of Michigan, MI, USA
+#### **<a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Lab</a>**, University of Michigan, MI, USA
 
 **PI**: Professor Ilya Kolmanovsky and Professor Anouck Girard
 
-### **Achievement**:
+#### **Achievement**:
 
 (1) **Robin Inho Kee**, TBD, "Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor”, In preparation
 
@@ -25,7 +25,7 @@ TBD
 
 
 
-### **What I did**:
+#### **What I did**:
 
 (1) TBD
 
