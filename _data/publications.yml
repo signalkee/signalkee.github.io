@@ -1,5 +1,5 @@
 in_progress:
-  # - authors: "Robin Inho Kee, Taehyeun Kim, Anouck Girard, Ilya Kolmanovsky"
+  # - authors: "Robin Inho Kee *, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
   - authors: "Robin Inho Kee, TBD"
     title: "Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
     # status: "2025 American Control Conference (ACC), In preparation"
@@ -33,7 +33,7 @@ journals:
 
 
 conferences:
-  - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
+  - authors: "Taehyeun Kim*, Robin Inho Kee * (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations"
     conference: "AIAA SCITECH 2025 Forum, To be presented at SciTech 2025"
     # pdf: SciTech2025_DLTSG_temp.pdf
