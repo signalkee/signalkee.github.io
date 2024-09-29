@@ -8,7 +8,8 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-#### **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+#### **<a href='http://nemd.yonsei.ac.kr/'>Nano Electromechanical Device Lab</a>**
+#### School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Seong Chan Jun and Dr. Sehong Park
 

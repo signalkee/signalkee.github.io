@@ -8,7 +8,8 @@ category: Undergraduate projects
 related_publications: False
 ---
 
-#### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**, Yonsei University, Seoul, South Korea
+#### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**
+#### Yonsei University, Seoul, South Korea
 
 #### **Achievement**:
 

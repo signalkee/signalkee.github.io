@@ -8,7 +8,8 @@ category: Undergraduate projects
 related_publications: False
 ---
 
-#### Senior Graduate Project, Yonsei University, Seoul, South Korea
+#### Senior Graduate Project
+#### Yonsei University, Seoul, South Korea
 
 #### **Achievement**:
 

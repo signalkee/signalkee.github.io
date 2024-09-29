@@ -8,7 +8,8 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-#### **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+#### **<a href='https://kbd.yonsei.ac.kr/'>Knowledge Based Design Lab</a>**
+#### School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Soo-Hong Lee
 

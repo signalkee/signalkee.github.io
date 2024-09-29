@@ -8,7 +8,8 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-#### **Integrative Sports Science Research Lab**, Department of Physical Education, Yonsei University, Seoul, South Korea
+#### **Integrative Sports Science Research Lab**
+#### Department of Physical Education, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Byonghun Kim (Now Professor at Dongguk University)
 

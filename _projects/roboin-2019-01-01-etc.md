@@ -7,7 +7,8 @@ importance: 99
 category: Undergraduate projects
 ---
 
-#### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**, Yonsei University, Seoul, South Korea
+#### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**
+#### Yonsei University, Seoul, South Korea
 
 **PI**: Professor Byung-Kwon Min
 

@@ -8,7 +8,8 @@ category: Undergraduate research projects
 giscus_comments: False
 ---
 
-#### **Research Laboratory of Manufacturing Mechatronics**, School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+#### **Research Laboratory of Manufacturing Mechatronics**
+#### School of Mechanical Engineering, Yonsei University, Seoul, South Korea
 
 **PI**: Professor Jun Young Yoon
 

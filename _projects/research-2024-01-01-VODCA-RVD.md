@@ -8,7 +8,8 @@ category: Graduate research projects
 giscus_comments: False
 ---
 
-#### **<a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Lab</a>**, University of Michigan, MI, USA
+#### **<a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Lab</a>**
+#### University of Michigan, MI, USA
 
 **PI**: Professor Anouck Girard and Professor Ilya Kolmanovsky
 

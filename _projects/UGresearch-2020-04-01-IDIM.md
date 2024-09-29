@@ -8,7 +8,8 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-#### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**, School of Mechanical Engineering, Seoul National University, Seoul, South Korea
+#### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**
+#### School of Mechanical Engineering, Seoul National University, Seoul, South Korea
 
 **PI**: Professor Sung-Hoon Ahn
 

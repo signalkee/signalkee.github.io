@@ -7,7 +7,8 @@ importance: 97
 category: Graduate research projects
 ---
 
-#### **<a href='https://dasc-lab.github.io/'>Distributed Autonomous Systems and Control Lab</a>**, University of Michigan, MI, USA
+#### **<a href='https://dasc-lab.github.io/'>Distributed Autonomous Systems and Control Lab</a>**
+#### University of Michigan, MI, USA
 
 **PI**: Professor Dimitra Panagou
 
@@ -37,7 +38,7 @@ The Online Adaptive ICCBF algorithm dynamically adapts Input Constrained Control
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/DASC_ICRA2025/ICRA_mo.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/DASC_ICRA2025/ICRA_mo1.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/DASC_ICRA2025/ICRA_mo2.gif" title="intro image" class="img-fluid rounded z-depth-1" %}
@@ -52,7 +53,7 @@ Control Barrier Functions (CBFs) are widely used in robotics to ensure system sa
 
 #### **Algorithm Breakdown**
 
-#### ***Data Generation***:
+#### **Data Generation**:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -69,7 +70,7 @@ Control Barrier Functions (CBFs) are widely used in robotics to ensure system sa
 We initially generate robot trajectories using the CBF-based controller to form the training dataset by varying the robot's initial state, obstacle configurations, and class-K function parameters. The risk level and deadlock time are recorded as the ground truth for prediction. The risk level is computed as the maximum safety loss value during navigation, defined by a safety loss density function that captures the collision risk.
 
 
-#### ***PENN Model Prediction***:
+#### **PENN Model Prediction**:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -88,7 +89,7 @@ We train the PENN model on the dataset, observing that the predicted risk level 
 Given the PENN model’s nature, the predicted values follow a Gaussian Mixture Model. We implement a two-step verification process using this PENN model to predict the CBF class K functions of interest. First, we quantify epistemic uncertainty using a closed-form solution from Jensen-Rényi Divergence (JRD) and discard predictions with low confidence. Next, we apply Distributionally-Robust Conditional Value at Risk (DR-CVaR) to ensure probabilistic satisfaction of the ICCBF validity condition. Further details on the relationship between the predicted risk level and the ICCBF validity can be found in the paper.
 
 
-#### ***Visualize Prediction Results for CBF Parameters of Interest***:
+#### **Visualize Prediction Results for CBF Parameters of Interest**:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -103,7 +104,7 @@ The visualizations above show the predicted risk levels online, without adapting
 Once valid ICCBF parameter sets are identified, we optimize the controller's performance by selecting the parameters with the minimum predicted deadlock time. By repeating this process at each time step, it continuously refines the ICCBF parameters based on the current state and the predictions from the PENN model, thereby optimizing performance while maintaining safety.
 
 
-#### ***Preview Experiments***:
+#### **Preview Experiments**:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -146,7 +147,9 @@ The video demonstrates simulation results comparing five different methods. For 
 ### **What I did**:
 
 (1) Developed and implemented the Probabilistic Ensemble Neural Network (PENN) for real-time adaptation of Input Constrained Control Barrier Functions (ICCBF).
+
 (2) Designed and integrated a two-step uncertainty verification process using Jensen-Rényi Divergence (JRD) and distributionally robust Conditional Value at Risk (CVaR) to ensure model confidence and local validity.
+
 (3) Conducted simulations and robot experiments for robot navigation to validate the method’s effectiveness and safety guarantees.
 
 

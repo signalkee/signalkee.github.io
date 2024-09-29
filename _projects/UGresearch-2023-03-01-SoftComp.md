@@ -8,11 +8,12 @@ category: Undergraduate research projects
 related_publications: False
 ---
 
-#### **<a href='https://sclab.yonsei.ac.kr/'>Soft Computing Lab</a>**, Department of Computer Science, Yonsei University, Seoul, South Korea
+#### **<a href='https://sclab.yonsei.ac.kr/'>Soft Computing Lab</a>**
+#### Department of Computer Science, Yonsei University, Seoul, South Korea
 
 **PI**: Dr. Seok-Jun Bu (Now Professor at Gyeongsang National University)
 
-### **Achievement**: 
+#### **Achievement**: 
 
 (1) **Robin Inho Kee**, Dahyun Nam, SeokJun Bu, “Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification”, IEEE Access, 2024
 
