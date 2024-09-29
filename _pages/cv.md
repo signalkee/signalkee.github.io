@@ -4,7 +4,7 @@ permalink: /CV/
 title: CV
 nav: true
 nav_order: 2
-cv_pdf: example.pdf
+cv_pdf: Robin_Inho_Kee_CV_slim.pdf
 ---
 
 <html>
