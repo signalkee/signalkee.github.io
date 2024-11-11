@@ -15,7 +15,7 @@ giscus_comments: False
 
 #### **Achievement**: 
 
-(1) Taehyeun Kim*, **Robin Inho Kee** * (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
+(1) Taehyeun Kim\*, **Robin Inho Kee**\* (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
 
 #### **Project**: **Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations in Elliptic Orbits**
 
