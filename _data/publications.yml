@@ -1,20 +1,13 @@
-in_progress:
-  # - authors: "Robin Inho Kee *, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
-  - authors: "Robin Inho Kee, TBD"
-    title: "Safe Adaptive Cruise Control for Autonomous Vehicles Using MPC-CBF and Time Shift Governor"
-    # status: "2025 American Control Conference (ACC), In preparation"
-    status: "In preparation"
-    # pdf: ACC2025_ACC_TSGCBF_arxiv.pdf
-
-  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
-    title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
-    status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
-    status: "Submitted"
-    pdf: ICRA2025_ICCBF.pdf
+# in_progress:
+  # - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+  #   title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
+  #   status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+  #   status: "Submitted"
+  #   pdf: ICRA2025_ICCBF.pdf
 
 
 journals:
-  - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu"
+  - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
@@ -33,10 +26,22 @@ journals:
 
 
 conferences:
+  - authors: "Robin Inho Kee *, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
+    title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
+    status: "2025 IEEE Conference on Control Technology and Applications (CCTA)"
+    status: "Submitted"
+    # pdf: CCTA2025_TSGCBF_arxiv.pdf
+
+  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+    title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
+    status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
+    status: "Submitted"
+    pdf: ICRA2025_ICCBF.pdf
+
   - authors: "Taehyeun Kim\*, Robin Inho Kee\* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
-    title: "Deep Learning-accelerated Time Shift Governor for Spacecraft Proximity Operations"
+    title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
     conference: "AIAA SCITECH 2025 Forum, To be presented at SciTech 2025"
-    # pdf: SciTech2025_DLTSG_temp.pdf
+    # pdf: SciTech2025_LTSG.pdf
 
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
     title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
