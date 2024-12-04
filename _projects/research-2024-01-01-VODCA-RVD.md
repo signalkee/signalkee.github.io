@@ -15,7 +15,7 @@ giscus_comments: False
 
 #### **Achievement**: 
 
-(1) Taehyeun Kim\*, **Robin Inho Kee**\* (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
+(1) Taehyeun Kim*, **Robin Inho Kee** * (*: Equal contribution), Ilya Kolmanovsky, Anouck Girard, “Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor”, AIAA SCITECH 2025 Forum, To be presented at SciTech 2025
 
 #### **Project**: **Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor**
 
