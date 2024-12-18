@@ -41,7 +41,7 @@ conferences:
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
     conference: "AIAA SCITECH 2025 Forum, To be presented at SciTech 2025"
-    # pdf: SciTech2025_LTSG.pdf
+    pdf: SciTech2025_LTSG.pdf
 
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
     title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"

@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 
 Hello, I'm Robin Inho Kee, a second-year Master's student in <a href='https://me.engin.umich.edu/'>Mechanical Engineering at the University of Michigan</a>, where I began my studies in August 2023.
 
-I’m fortunate to conduct my research in the <a href='https://vodca.engin.umich.edu/'>VODKA lab</a> under the guidance of Professor <a href='https://sites.google.com/a/umich.edu/kolmanovsky/'>Ilya Kolmanovsky</a> and Professor <a href='https://vodca.engin.umich.edu/'>Anouck Girard</a>.
+I’m fortunate to conduct my research in the <a href='https://vodca.engin.umich.edu/'>Vehicle Optimization, Dynamics, Control and Autonomy Laboratory</a> under the guidance of Professor <a href='https://sites.google.com/a/umich.edu/kolmanovsky/'>Ilya Kolmanovsky</a> and Professor <a href='https://vodca.engin.umich.edu/'>Anouck Girard</a>.
 
 My research focuses on developing **learning-based safety-critical control for constrained systems** by leveraging formal methods from both **control theory** and **machine learning**.
 This work has practical applications particularly in the fields of aerospace, robotics, and automotive domains.
