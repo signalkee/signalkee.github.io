@@ -14,7 +14,7 @@ category: Graduate research projects
 
 #### **Achievement**:
 
-(1) Taekyung Kim, **Robin Inho Kee**, Dimitra Panagou, "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation", 2025 IEEE International Conference on Robotics and Automation (ICRA), Submitted
+(1) Taekyung Kim, **Robin Inho Kee**, Dimitra Panagou, "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation", 2025 IEEE International Conference on Robotics and Automation (ICRA), Accepted
 
 #### **Project**: **Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation**
 

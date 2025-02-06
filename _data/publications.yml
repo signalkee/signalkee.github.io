@@ -7,6 +7,11 @@
 
 
 journals:
+  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Buu"
+    title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
+    journal: "Engineering Applications of Artificial Intelligence, Submitted"
+    year: "2025"
+
   - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
@@ -28,19 +33,18 @@ journals:
 conferences:
   - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
     title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
-    status: "2025 IEEE Conference on Control Technology and Applications (CCTA)"
-    status: "Submitted"
+    conference: "2025 IEEE Conference on Control Technology and Applications (CCTA), Submitted"
     # pdf: CCTA2025_TSGCBF_arxiv.pdf
 
   - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
     title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
-    status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
-    status: "Submitted"
+    conference: "2025 IEEE International Conference on Robotics and Automation (ICRA), Accepted"
     pdf: ICRA2025_ICCBF.pdf
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
-    conference: "AIAA SCITECH 2025 Forum, To be presented at SciTech 2025"
+    conference: "AIAA SCITECH 2025 Forum"
+    year: "2025"
     pdf: SciTech2025_LTSG.pdf
 
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"

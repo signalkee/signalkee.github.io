@@ -28,6 +28,6 @@ Before joining the University of Michigan, I was a research intern at the AI & R
 
 I completed my undergraduate degree in <a href='https://me.yonsei.ac.kr/me_en/index.do'>Mechanical Engineering at Yonsei University</a>, where I engaged in various research and projects. Learn more about my <a href='https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20research%20projects'>research experience</a> and <a href='https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20projects'>projects</a>.
 
-Outside of academics, I enjoy lifting weights and listening to music. I also served as a Staff Sergeant in the Intelligence Agency with the Republic of Korea Air Force, fulfulling my mandatory military service.
+Outside of academics, I enjoy lifting weights (<a href='https://www.instagram.com/umichpowerlifting?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>UMPL</a>, <a href='https://www.instagram.com/michiganmuscleclub?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='>MMC</a>) and listening to music. I also served as a Staff Sergeant in the Intelligence Agency with the Republic of Korea Air Force, fulfulling my mandatory military service.
 
 Feel free to reach out if you'd like to discuss my research or connect: ``inhokee@umich.edu``!
