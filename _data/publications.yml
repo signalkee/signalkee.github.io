@@ -1,17 +1,21 @@
-# in_progress:
-  # - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
-  #   title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
-  #   status: "2025 IEEE International Conference on Robotics and Automation (ICRA)"
-  #   status: "Submitted"
-  #   pdf: ICRA2025_ICCBF.pdf
-
-
-journals:
+in_progress:
+  - authors: "Sangdo Kim*, Jeonguk Kang* (*: Equal Contribution), Robin Inho Kee, Sunwoo Kim, Choa Kim, Youngsu Cha, Yisoo Lee, Kanggeon Kim, Jongwon Lee"
+    title: "Towards Daily Life Sarcopenia Detection: Deep Learning-Based Gait Analysis Using Wearable Hip Assistive Robot"
+    status: "Engineering Applications of Artificial Intelligence"
+    status: "Under Review"
+  
   - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Buu"
     title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
-    journal: "Engineering Applications of Artificial Intelligence, Submitted"
-    year: "2025"
+    status: "Engineering Applications of Artificial Intelligence"
+    status: "Under Review"
 
+  - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
+    title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
+    status: "2025 IEEE Conference on Control Technology and Applications (CCTA)"
+    status: "Under Review"
+    # pdf: CCTA2025_TSGCBF_arxiv.pdf
+
+journals:
   - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
@@ -31,11 +35,6 @@ journals:
 
 
 conferences:
-  - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
-    title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
-    conference: "2025 IEEE Conference on Control Technology and Applications (CCTA), Submitted"
-    # pdf: CCTA2025_TSGCBF_arxiv.pdf
-
   - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
     title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
     conference: "2025 IEEE International Conference on Robotics and Automation (ICRA), Accepted"
