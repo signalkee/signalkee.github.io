@@ -37,12 +37,13 @@ journals:
 conferences:
   - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
     title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
-    conference: "2025 IEEE International Conference on Robotics and Automation (ICRA), Accepted"
+    conference: "IEEE International Conference on Robotics and Automation (ICRA)"
+    year: "2025, Accepted"
     pdf: ICRA2025_ICCBF.pdf
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
-    conference: "AIAA SCITECH 2025 Forum"
+    conference: "AIAA SCITECH Forum"
     year: "2025"
     pdf: SciTech2025_LTSG.pdf
 
