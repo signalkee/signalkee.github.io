@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Online Adaptive Input Constrained Control Barrier Functions
-description: (02.2024-10.2024), University of Michigan, MI, USA
+description: (05.2024-10.2024), University of Michigan, MI, USA
 img: assets/img/DASC_ICRA2025/ICRA_title.gif
 importance: 97
 category: Graduate research projects
@@ -14,7 +14,7 @@ category: Graduate research projects
 
 #### **Achievement**:
 
-(1) Taekyung Kim, **Robin Inho Kee**, Dimitra Panagou, "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation", 2025 IEEE International Conference on Robotics and Automation (ICRA), Accepted
+(1) Taekyung Kim, **Robin Inho Kee**, Dimitra Panagou, "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation", 2025 IEEE International Conference on Robotics and Automation (ICRA)
 
 #### **Project**: **Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation**
 

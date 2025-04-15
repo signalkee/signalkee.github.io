@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Safe Adaptive Cruise Control in Dynamic Environments
-description: Vehicle Optimization, Dynamics, Control and Autonomy Lab (06.2024-ing), University of Michigan, MI, USA
+description: Vehicle Optimization, Dynamics, Control and Autonomy Lab (06.2024-02.2025), University of Michigan, MI, USA
 img: assets/img/VODCA_ACC2025/ACC_title.gif
 importance: 98
 category: Graduate research projects
@@ -14,7 +14,7 @@ category: Graduate research projects
 
 #### **Achievement**:
 
-(1) **Robin Inho Kee** *, Taehyeun Kim* (*: Equal contribution), Anouck Girard, Ilya Kolmanovsky, "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF”, Submitted
+(1) **Robin Inho Kee** *, Taehyeun Kim* (*: Equal contribution), Anouck Girard, Ilya Kolmanovsky, "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF”, Under review
 
 ### **Project**: **Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF**
 

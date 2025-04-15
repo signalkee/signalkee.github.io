@@ -7,8 +7,8 @@ nav: true
 nav_order: 3
 ---
 
-## In progress
-{% assign in_progress = 1 %}
+## Under review
+{% assign under_review = 1 %}
 {% for pub in site.data.publications.in_progress %}
 {% capture authors %}{{ pub.authors | escape }}{% endcapture %}
 {% capture authors_temp %}{{ authors | replace: 'Robin Inho Kee', 'TEMP_PLACEHOLDER' | replace: '*', '&#42;'}}{% endcapture %}
