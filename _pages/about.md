@@ -17,20 +17,13 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Hello, I'm **Robin Inho Kee**, an incoming Ph.D. student in <a href="https://robotics.umich.edu/">Robotics at the University of Michigan</a>. Starting this fall, I will join the <a href="https://vasileiostzoumas.com/">Intelligent Robotics and Autonomy Laboratory (iRaL)</a> under Professor <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a> and co-advised by Professor <a href="https://web.eecs.umich.edu/~necmiye/">Necmiye Ozay</a>. My research interests include **rapid and safe active situational awareness with multiple robots**, employing formal methods from **control theory** and **machine learning**.
+Hello, I'm **Robin Inho Kee**, an incoming Ph.D. student in <a href="https://robotics.umich.edu/">Robotics at the University of Michigan</a>. This fall, I’ll join the <a href="https://vasileiostzoumas.com/">Intelligent Robotics and Autonomy Laboratory (iRaL)</a> under Professor <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a> and co-advised by Professor <a href="https://web.eecs.umich.edu/~necmiye/">Necmiye Ozay</a>. My research focuses on **rapid and safe active situational awareness with multiple robots**, combining **control theory** and **machine learning**.
 
-I am fortunate to be fully funded through the <a href="https://www.draper.com/education-programs/draper-scholars-program">Draper Scholar Program</a>, which supports my work on decentralized multi-agent control for situational awareness. Many thanks to the <a href="https://www.draper.com/">Charles Stark Draper Laboratory</a> and <a href="https://www.draper.com/education-programs/draper-scholars-program/research-topics?tab=26905">Dr. Begum Cannataro</a> for this opportunity.
+I am fortunate to be fully supported by the <a href="https://www.draper.com/education-programs/draper-scholars-program">Draper Scholar Program</a> for my work on decentralized multi-agent control for situational awareness. Many thanks to the <a href="https://www.draper.com/">Charles Stark Draper Laboratory</a> and <a href="https://www.draper.com/education-programs/draper-scholars-program/research-topics?tab=26905">Dr. Begum Cannataro</a> for this opportunity.
 
-Previously, I pursued my Master’s degree in <a href="https://me.engin.umich.edu/">Mechanical Engineering at the University of Michigan</a>, where I conducted research under Professors <a href="https://sites.google.com/a/umich.edu/kolmanovsky/">Ilya Kolmanovsky</a> and <a href="https://vodca.engin.umich.edu/">Anouck Girard</a>, and also collaborated with Professor <a href="https://websites.umich.edu/~dpanagou/">Dimitra Panagou</a>. My work focused on **learning-based safety-critical control** for constrained systems, with applications in aerospace, robotics, and automotive domains.
+Previously, I completed my Master’s in <a href="https://me.engin.umich.edu/">Mechanical Engineering at the University of Michigan</a>, where I worked on **learning-based safety-critical control** under Professors <a href="https://sites.google.com/a/umich.edu/kolmanovsky/">Ilya Kolmanovsky</a>, <a href="https://vodca.engin.umich.edu/">Anouck Girard</a>, and <a href="https://websites.umich.edu/~dpanagou/">Dimitra Panagou</a>. Before that, I earned my Bachelor's degree from <a href="https://me.yonsei.ac.kr/me_en/index.do">Mechanical Engineering at Yonsei University</a> and was a research intern at the <a href="https://www.kist.re.kr/eng/index.do#firstPage">Korea Institute of Science and Technology (KIST)</a>.
 
-Before that, I was a research intern at the AI & Robotics Institute of the <a href="https://www.kist.re.kr/eng/index.do#firstPage">Korea Institute of Science and Technology (KIST)</a>. Check out my KIST experience <a href="https://signalkee.github.io/Researches%20&%20Projects/#Work%20experience">here</a>.
-
-I completed my undergraduate studies in <a href="https://me.yonsei.ac.kr/me_en/index.do">Mechanical Engineering at Yonsei University</a>, engaging in various research and projects. Feel free to learn more about my <a href="https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20research%20projects">research experience</a> and <a href="https://signalkee.github.io/Researches%20&%20Projects/#Undergraduate%20projects">projects</a>.
-
-Outside of academics, I enjoy lifting weights 
+Outside of research, I enjoy weightlifting 
 (<a href="https://www.instagram.com/umichpowerlifting?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==">UMPL</a>, 
 <a href="https://www.instagram.com/michiganmuscleclub?utm_source=ig_web_button_share_sheet&igshid=ZDNlZDc0MzIxNw==">MMC</a>) 
-and listening to music. I also served as a Staff Sergeant in the Intelligence Agency with the Republic of Korea Air Force, fulfilling my mandatory military service.
-
-Feel free to reach out if you'd like to discuss my research or connect: 
-``inhokee@umich.edu``
+and music. I also served as a Staff Sergeant in the Intelligence Agency with the <a href="https://www.airforce.mil.kr/user/indexMain.action?command=&siteId=airforce-eng">Republic of Korea Air Force</a>, fulfilling my mandatory military service.
