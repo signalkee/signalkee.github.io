@@ -58,12 +58,7 @@ related_publications: False
         {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_smartstartup.png" title="intro image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<iframe src="/assets/img/IDIM/IDIM_SMART_Skynet_ppt.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/IDIM/IDIM_SMART_Skynet_ppt.pdf">Download PDF</a>.
-</iframe>
-<div class="caption">
-    Final presentation pdf.
-</div>
+
 
 
 
