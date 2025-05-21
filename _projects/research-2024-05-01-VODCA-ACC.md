@@ -14,7 +14,7 @@ category: Graduate research projects
 
 #### **Achievement**:
 
-(1) **Robin Inho Kee** *, Taehyeun Kim* (*: Equal contribution), Anouck Girard, Ilya Kolmanovsky, "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF”, Under review
+(1) **Robin Inho Kee** *, Taehyeun Kim* (*: Equal contribution), Anouck Girard, Ilya Kolmanovsky, "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF”, 2025 IEEE Conference on Control Technology and Applications (CCTA)
 
 ### **Project**: **Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF**
 

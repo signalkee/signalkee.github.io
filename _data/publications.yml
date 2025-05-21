@@ -1,26 +1,19 @@
 under_review:
   - authors: "Sangdo Kim*, Jeonguk Kang* (*: Equal Contribution), Robin Inho Kee, Sunwoo Kim, Choa Kim, Youngsu Cha, Yisoo Lee, Kanggeon Kim, Jongwon Lee"
     title: "Towards Daily Life Sarcopenia Detection: Deep Learning-Based Gait Analysis Using Wearable Hip Assistive Robot"
-    status: "IEEE Robotics and Automation Letters (RAL)"
     status: "Under Review"
   
   - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Buu"
     title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
-    status: "Engineering Applications of Artificial Intelligence"
     status: "Under Review"
 
-  - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
-    title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
-    status: "2025 IEEE Conference on Control Technology and Applications (CCTA)"
-    status: "Under Review"
-    # pdf: CCTA2025_TSGCBF_arxiv.pdf
 
 journals:
   - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
-    pdf: IEEEAccess2024_TProto.pdf
+    # pdf: IEEEAccess2024_TProto.pdf
     
   - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
     title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
@@ -31,21 +24,27 @@ journals:
     title: "Measurement of ankle joint movements using IMUs during running"
     journal: "Sensors"
     year: "2021"
-    pdf: Sensors2021_IMU.pdf
+    # pdf: Sensors2021_IMU.pdf
 
 
 conferences:
+  - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
+    title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
+    conference: "IEEE Conference on Control Technology and Applications (CCTA)"
+    year: "2025, Accepted"
+    # pdf: CCTA2025_TSGCBF_arxiv.pdf
+
   - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
     title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
     conference: "IEEE International Conference on Robotics and Automation (ICRA)"
-    year: "2025, Accepted"
-    pdf: ICRA2025_ICCBF.pdf
+    year: "2025"
+    # pdf: ICRA2025_ICCBF.pdf
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
     conference: "AIAA SCITECH Forum"
     year: "2025"
-    pdf: SciTech2025_LTSG.pdf
+    # pdf: SciTech2025_LTSG.pdf
 
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
     title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
