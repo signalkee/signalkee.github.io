@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /CV/
-title: CV (Updated May 21, 2025)
+title: CV
 nav: true
 nav_order: 2
 cv_pdf: Robin_Inho_Kee_CV_slim.pdf
@@ -19,7 +19,7 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
 <br> -->
 <div class="post">
     <header class="post-header">
-        <h1 class="post-title">CV</h1>
+        <h1 class="post-title">CV (Updated May 21, 2025)</h1>
     </header>
     <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" style="min-height:100vh; width: 100%;" type='application/pdf' frameborder="0"></iframe>
 </div>
