@@ -29,9 +29,9 @@ journals:
 
 conferences:
   - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
-    title: "Safe Adaptive Cruise Control for Autonomous Vehicles using Time Shift Governor-Guided MPC-CBF"
+    title: "Time Shift Governor-Guided MPC with Collision Cone CBFs for Safe Adaptive Cruise Control in Dynamic Environments"
     conference: "IEEE Conference on Control Technology and Applications (CCTA)"
-    year: "2025, Accepted"
+    year: "2025"
     # pdf: CCTA2025_TSGCBF_arxiv.pdf
 
   - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
