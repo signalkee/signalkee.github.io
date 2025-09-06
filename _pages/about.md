@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 
-Hello, I'm **Robin Inho Kee**, a 1st year Ph.D. student in <a href="https://robotics.umich.edu/">Robotics at the University of Michigan</a>. This fall, I’ll join the <a href="https://vasileiostzoumas.com/">Intelligent Robotics and Autonomy Laboratory (iRaL)</a> under Professor <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a>. My research focuses on **rapid and safe active situational awareness with multiple robots**, combining **control theory** and **machine learning**.
+Hello, I'm **Robin Inho Kee**, a 1st year Ph.D. student in <a href="https://robotics.umich.edu/">Robotics at the University of Michigan</a>. I am a member of the <a href="https://vasileiostzoumas.com/">Intelligent Robotics and Autonomy Laboratory (iRaL)</a> led by Professor <a href="https://vasileiostzoumas.com/">Vasileios Tzoumas</a>. My research focuses on **rapid and safe active situational awareness with multiple robots**, combining **control theory** and **machine learning**.
 
 I am fortunate to be fully supported by the <a href="https://www.draper.com/education-programs/draper-scholars-program">Draper Scholar Program</a> for my work on decentralized multi-agent control for situational awareness. Many thanks to the <a href="https://www.draper.com/">Charles Stark Draper Laboratory</a> and <a href="https://www.draper.com/education-programs/draper-scholars-program/research-topics?tab=26905">Dr. Begum Cannataro</a> for this opportunity.
 
