@@ -5,23 +5,41 @@
     <div class="project-v2-copy">
       <p class="v2-eyebrow">{{ page.kicker | default: page.category | default: 'PROJECT' }}</p>
       <h1>{{ page.title }}</h1>
-      {% if page.description %}<p class="project-v2-deck">{{ page.description }}</p>{% endif %}
+      {% if page.description %}
+        <p class="project-v2-deck">{{ page.description }}</p>
+      {% endif %}
 
       {% if page.venue or page.year or page.role %}
         <div class="project-v2-meta">
-          {% if page.venue %}<span>{{ page.venue }}</span>{% endif %}
-          {% if page.year %}<span>{{ page.year }}</span>{% endif %}
-          {% if page.role %}<span>{{ page.role }}</span>{% endif %}
+          {% if page.venue -%}
+            <span>{{ page.venue }}</span>
+          {%- endif %}
+          {% if page.year -%}
+            <span>{{ page.year }}</span>
+          {%- endif %}
+          {% if page.role -%}
+            <span>{{ page.role }}</span>
+          {%- endif %}
         </div>
       {% endif %}
 
       {% if page.paper or page.arxiv or page.code or page.video or page.project_url %}
         <div class="v2-actions project-v2-actions">
-          {% if page.paper %}<a class="v2-btn v2-btn-primary" href="{{ page.paper }}" target="_blank" rel="noopener">Paper ↗</a>{% endif %}
-          {% if page.arxiv %}<a class="v2-btn" href="{{ page.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>{% endif %}
-          {% if page.code %}<a class="v2-btn" href="{{ page.code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
-          {% if page.video %}<a class="v2-btn" href="{{ page.video }}" target="_blank" rel="noopener">Video ↗</a>{% endif %}
-          {% if page.project_url %}<a class="v2-btn" href="{{ page.project_url }}" target="_blank" rel="noopener">Project ↗</a>{% endif %}
+          {% if page.paper -%}
+            <a class="v2-btn v2-btn-primary" href="{{ page.paper }}" target="_blank" rel="noopener">Paper ↗</a>
+          {%- endif %}
+          {% if page.arxiv -%}
+            <a class="v2-btn" href="{{ page.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>
+          {%- endif %}
+          {% if page.code -%}
+            <a class="v2-btn" href="{{ page.code }}" target="_blank" rel="noopener">Code ↗</a>
+          {%- endif %}
+          {% if page.video -%}
+            <a class="v2-btn" href="{{ page.video }}" target="_blank" rel="noopener">Video ↗</a>
+          {%- endif %}
+          {% if page.project_url -%}
+            <a class="v2-btn" href="{{ page.project_url }}" target="_blank" rel="noopener">Project ↗</a>
+          {%- endif %}
         </div>
       {% endif %}
     </div>

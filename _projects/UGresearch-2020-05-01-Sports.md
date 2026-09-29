@@ -21,7 +21,7 @@ We developed a portable system for measuring ankle-joint motion with wearable IM
 
 ## Validation
 
-The wearable measurements were validated against a motion-capture reference during running. This work contributed to a 2021 paper in *Sensors* on measuring ankle-joint movements using IMUs.
+The wearable measurements were validated against a motion-capture reference during running. This work contributed to a 2021 paper in _Sensors_ on measuring ankle-joint movements using IMUs.
 
 ## My contribution
 

@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
 <div class="robin-home">
   <section class="v2-hero" aria-labelledby="hero-title">
     <div class="v2-hero-copy">
       <p class="v2-eyebrow">ROBIN INHO KEE · UNIVERSITY OF MICHIGAN ROBOTICS</p>
       <h1 id="hero-title">Communication-aware autonomy for robot teams.</h1>
       <p class="v2-hero-lead">
-        I am a Ph.D. student in Robotics at the University of Michigan. I develop methods that let multi-robot systems
-        coordinate under limited range, bandwidth, and interference while staying focused on the mission.
+        I am a Ph.D. student in Robotics at the University of Michigan. I develop methods that let multi-robot systems coordinate under limited range,
+        bandwidth, and interference while staying focused on the mission.
       </p>
 
       <div class="v2-actions">
@@ -19,9 +18,15 @@ layout: default
       </div>
 
       <div class="v2-inline-links" aria-label="External profiles">
-        {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener">Google Scholar ↗</a>{% endif %}
-        {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
-        {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener">LinkedIn ↗</a>{% endif %}
+        {% if site.scholar_userid -%}
+          <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener">Google Scholar ↗</a>
+        {%- endif %}
+        {% if site.github_username -%}
+          <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub ↗</a>
+        {%- endif %}
+        {% if site.linkedin_username -%}
+          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        {%- endif %}
       </div>
     </div>
 
@@ -43,8 +48,8 @@ layout: default
         <h2 id="focus-title">Research built around real communication constraints.</h2>
       </div>
       <p>
-        My current work asks what robots should communicate, when they should communicate it, and who actually needs it
-        when the network cannot carry everything.
+        My current work asks what robots should communicate, when they should communicate it, and who actually needs it when the network cannot carry
+        everything.
       </p>
     </div>
 
@@ -79,9 +84,8 @@ layout: default
     <div class="v2-featured-work">
       <a class="v2-work-card v2-work-card-featured" href="{{ '/projects/research-2026-09-21-ACDC/' | relative_url }}">
         <div class="v2-work-art v2-work-art-network" aria-hidden="true">
-          <span class="v2-network-ring ring-a"></span><span class="v2-network-ring ring-b"></span>
-          <span class="v2-network-node node-a"></span><span class="v2-network-node node-b"></span>
-          <span class="v2-network-node node-c"></span><span class="v2-network-node node-d"></span>
+          <span class="v2-network-ring ring-a"></span><span class="v2-network-ring ring-b"></span> <span class="v2-network-node node-a"></span
+          ><span class="v2-network-node node-b"></span> <span class="v2-network-node node-c"></span><span class="v2-network-node node-d"></span>
           <strong>AC-DC</strong>
         </div>
         <div class="v2-work-copy">

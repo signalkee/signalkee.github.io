@@ -11,16 +11,35 @@
     <p class="publication-row-v2-authors">{{ authors }}</p>
     <p class="publication-row-v2-venue">
       {% if pub.status %}{{ pub.status }}{% elsif pub.journal %}{{ pub.journal }}{% elsif pub.conference %}{{ pub.conference }}{% endif %}
-      {% if pub.award %}<span class="publication-award">{{ pub.award }}</span>{% endif %}
+      {% if pub.award -%}
+        <span class="publication-award">{{ pub.award }}</span>
+      {%- endif %}
     </p>
     {% if pub.arxiv or pub.pdf or pub.code or pub.project or pub.website or pub.doi %}
       <div class="publication-row-v2-links">
-        {% if pub.arxiv %}<a href="{{ pub.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>{% endif %}
-        {% if pub.pdf %}<a href="{% if pub.pdf contains '/' %}{{ pub.pdf }}{% else %}{{ '/assets/pdf/' | append: pub.pdf | relative_url }}{% endif %}" target="_blank" rel="noopener">PDF ↗</a>{% endif %}
-        {% if pub.project %}<a href="{{ pub.project | relative_url }}">Project →</a>{% endif %}
-        {% if pub.code %}<a href="{{ pub.code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
-        {% if pub.website %}<a href="{{ pub.website }}" target="_blank" rel="noopener">Website ↗</a>{% endif %}
-        {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI ↗</a>{% endif %}
+        {% if pub.arxiv -%}
+          <a href="{{ pub.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>
+        {%- endif %}
+        {% if pub.pdf -%}
+          <a
+            href="{% if pub.pdf contains '/' %}{{ pub.pdf }}{% else %}{{ '/assets/pdf/' | append: pub.pdf | relative_url }}{% endif %}"
+            target="_blank"
+            rel="noopener"
+            >PDF ↗</a
+          >
+        {%- endif %}
+        {% if pub.project -%}
+          <a href="{{ pub.project | relative_url }}">Project →</a>
+        {%- endif %}
+        {% if pub.code -%}
+          <a href="{{ pub.code }}" target="_blank" rel="noopener">Code ↗</a>
+        {%- endif %}
+        {% if pub.website -%}
+          <a href="{{ pub.website }}" target="_blank" rel="noopener">Website ↗</a>
+        {%- endif %}
+        {% if pub.doi -%}
+          <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI ↗</a>
+        {%- endif %}
       </div>
     {% endif %}
   </div>
