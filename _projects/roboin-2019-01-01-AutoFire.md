@@ -22,20 +22,20 @@ For a senior project in Yonsei's robotics club, our team built a mobile robot th
 
 <div class="project-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/fire/demo.webp' | relative_url }}">
-    <source src="{{ 'assets/media/fire/demo.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/fire/demo.webp">
+    <source src="/assets/media/fire/demo.mp4" type="video/mp4">
   </video>
   <p class="caption">Autonomous heat-source tracking and fire-suppression demo.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/fire/stairs.webp' | relative_url }}">
-    <source src="{{ 'assets/media/fire/stairs.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/fire/stairs.webp">
+    <source src="/assets/media/fire/stairs.mp4" type="video/mp4">
   </video>
   <p class="caption">Mobility / stair test.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/fire/communication.webp' | relative_url }}">
-    <source src="{{ 'assets/media/fire/communication.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/fire/communication.webp">
+    <source src="/assets/media/fire/communication.mp4" type="video/mp4">
   </video>
   <p class="caption">Robot communication and control demo.</p>
 </div>
