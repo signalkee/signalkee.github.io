@@ -1597,7 +1597,7 @@ body {
 
 .v2-hero h1 {
   max-width: 700px;
-  font-size: clamp(2.35rem, 4vw, 3.65rem);
+  font-size: clamp(2.25rem, 3.7vw, 3.45rem);
   line-height: 1.02;
 }
 
@@ -1613,8 +1613,8 @@ body {
 }
 
 .v2-hero-visual {
-  width: min(100%, 270px);
-  max-width: 270px;
+  width: min(100%, 240px);
+  max-width: 240px;
   justify-self: end;
 }
 
@@ -1908,8 +1908,8 @@ body {
   }
 
   .v2-hero-visual {
-    width: min(100%, 235px);
-    max-width: 235px;
+    width: min(100%, 210px);
+    max-width: 210px;
   }
 
   .project-motion-grid {
@@ -1923,11 +1923,11 @@ body {
   }
 
   .v2-hero h1 {
-    font-size: clamp(2.1rem, 9.5vw, 2.85rem);
+    font-size: clamp(2rem, 9vw, 2.65rem);
   }
 
   .v2-hero-visual {
-    width: min(72vw, 220px);
+    width: min(68vw, 190px);
   }
 
   .v2-section {
