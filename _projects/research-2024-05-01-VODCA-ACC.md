@@ -2,7 +2,7 @@
 layout: page
 title: "Safe Adaptive Cruise Control in Dynamic Environments"
 description: "Time Shift Governor-guided MPC with Collision Cone CBFs for adaptive cruise control around moving obstacles."
-img: assets/img/VODCA_ACC2025/ACC_title.gif
+cover_label: SAFE ACC
 importance: 98
 category: Graduate research projects
 kicker: CCTA 2025 · SAFE CONTROL
