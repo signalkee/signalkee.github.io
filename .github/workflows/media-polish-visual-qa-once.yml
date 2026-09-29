@@ -1,5 +1,5 @@
 name: Media polish visual QA once
-# final rerun after media/profile cleanup
+# final rerun with source AC-DC figure
 
 on:
   push:
