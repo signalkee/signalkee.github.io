@@ -1,7 +1,7 @@
 /* Requested refinements ----------------------------------------------------- */
 .v2-hero h1 {
   max-width: 760px;
-  font-size: clamp(2.8rem, 5.25vw, 4.65rem);
+  font-size: clamp(2.65rem, 4.8vw, 4.25rem);
   line-height: 1.01;
 }
 
@@ -243,6 +243,66 @@
   font-size: 0.86rem;
   line-height: 1.48;
 }
+.v2-work-art-oa {
+  position: relative;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 7px;
+  overflow: hidden;
+  background: radial-gradient(circle at 25% 20%, #31638c 0, #073b63 45%, #00213d 100%);
+  color: #fff;
+}
+.v2-work-art-oa strong {
+  position: relative;
+  z-index: 3;
+  font-size: 2.05rem;
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+.v2-work-art-oa small {
+  position: relative;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.65rem;
+  font-weight: 750;
+  letter-spacing: 0.11em;
+}
+.v2-oa-orbit {
+  position: absolute;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 50%;
+}
+.v2-oa-orbit.orbit-a {
+  width: 180px;
+  height: 180px;
+}
+.v2-oa-orbit.orbit-b {
+  width: 112px;
+  height: 112px;
+}
+.v2-oa-candidate {
+  position: absolute;
+  z-index: 2;
+  width: 14px;
+  height: 14px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: var(--v2-maize);
+}
+.v2-oa-candidate.candidate-a {
+  top: 25%;
+  left: 27%;
+}
+.v2-oa-candidate.candidate-b {
+  top: 29%;
+  right: 24%;
+}
+.v2-oa-candidate.candidate-c {
+  right: 30%;
+  bottom: 22%;
+}
+
 @media (max-width: 900px) {
   .acdc-summary-figure,
   .project-highlight-grid,
@@ -256,6 +316,9 @@
 }
 
 @media (max-width: 620px) {
+  .v2-hero h1 {
+    font-size: clamp(2.35rem, 10.5vw, 3.15rem);
+  }
   .v2-page-header .post-title {
     font-size: clamp(2.25rem, 11vw, 3.35rem);
   }
