@@ -1,4 +1,11 @@
 under_review:
+  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+    title: "Learning to Adapt Control Barrier Functions Under Epistemic and Aleatoric Uncertainty"
+    status: "Preprint"
+    year: "2026"
+    arxiv: "https://arxiv.org/abs/2504.03038"
+    project: "/projects/research-2026-04-01-OA-CBF/"
+
   - authors: "Robin Inho Kee, Begum Cannataro, Vasileios Tzoumas"
     title: "AC-DC: Adaptive Communication for Scalable Dynamic Average Consensus in Multi-Robot Ergodic Search"
     status: "ICRA 2027 submission · arXiv preprint"
