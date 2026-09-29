@@ -18,12 +18,12 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
         University of Michigan Robotics · Draper Scholar · Multi-Robot Systems
       </p>
       <div class="v2-actions">
-        <a class="v2-btn v2-btn-primary" href="{{ '/assets/pdf/Robin_Inho_Kee_CV_slim.pdf' | relative_url }}" target="_blank" rel="noopener">Open CV PDF ↗</a>
-        <a class="v2-btn" href="{{ '/assets/pdf/Robin_Inho_Kee_CV_slim.pdf' | relative_url }}" download>Download PDF ↓</a>
+        <a class="v2-btn v2-btn-primary" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" target="_blank" rel="noopener">Open CV PDF ↗</a>
+        <a class="v2-btn" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" download>Download PDF ↓</a>
       </div>
     </div>
 
-    <a class="cv-v2-paper" href="{{ '/assets/pdf/Robin_Inho_Kee_CV_slim.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="Open Robin Inho Kee CV PDF">
+    <a class="cv-v2-paper" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" target="_blank" rel="noopener" aria-label="Open Robin Inho Kee CV PDF">
       <div class="cv-v2-paper-head">
         <strong>Robin Inho Kee</strong>
         <span>Curriculum Vitae</span>
@@ -56,7 +56,7 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
       <span class="archive-toggle">Show preview ↓</span>
     </summary>
     <div class="cv-v2-frame">
-      <iframe src="{{ '/assets/pdf/Robin_Inho_Kee_CV_slim.pdf' | relative_url }}" title="Robin Inho Kee CV"></iframe>
+      <iframe src="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" title="Robin Inho Kee CV"></iframe>
     </div>
   </details>
 </div>
