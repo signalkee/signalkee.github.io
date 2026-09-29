@@ -1,0 +1,48 @@
+name: V2 format once
+
+on:
+  push:
+    branches:
+      - website-v2-redesign
+    paths:
+      - ".github/workflows/v2-format-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: website-v2-redesign
+      - uses: actions/setup-node@v4
+      - name: Install Prettier
+        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+      - name: Format V2 files
+        run: |
+          npx prettier \
+            _config.yml \
+            _includes/project-detail-v2.liquid \
+            _includes/publication-row-v2.liquid \
+            _includes/projects.liquid \
+            _layouts/home-v2.liquid \
+            _layouts/page.liquid \
+            _pages/about.md \
+            _pages/cv.md \
+            _pages/projects.md \
+            _pages/publications.md \
+            _data/publications.yml \
+            _projects/*.md \
+            _sass/_robin-v2.scss \
+            _sass/_variables.scss \
+            assets/css/main.scss \
+            --write
+      - name: Commit formatting
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _config.yml _includes _layouts _pages _data _projects _sass assets/css/main.scss
+          git diff --cached --quiet || git commit -m "website v2: apply prettier formatting"
+          git push origin HEAD:website-v2-redesign
