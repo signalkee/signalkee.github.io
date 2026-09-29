@@ -1,4 +1,5 @@
 name: Final content visual QA
+# Final rerun after CCTA architecture refresh
 
 on:
   push:
