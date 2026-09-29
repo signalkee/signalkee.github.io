@@ -26,7 +26,9 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import html
           import re
+          from urllib.parse import unquote
           root = Path("_site")
           missing = []
           for html in root.rglob("*.html"):
@@ -34,6 +36,7 @@ jobs:
               for ref in re.findall(r'(?:src|href)="(/[^"#?]+)', text):
                   if ref.startswith("//"):
                       continue
+                  ref = unquote(html.unescape(ref))
                   target = root / ref.lstrip("/")
                   if target.is_dir():
                       target = target / "index.html"
