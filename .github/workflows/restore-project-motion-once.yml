@@ -70,11 +70,11 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          while IFS= read -r video; do
+          for video in assets/media/*/*.mp4; do
             poster="${video%.mp4}.webp"
             ffmpeg -hide_banner -loglevel error -y -i "$video" -frames:v 1 \
               -vf "scale='min(1200,iw)':-2:flags=lanczos" -c:v libwebp -quality 78 "$poster"
-          done < <(find assets/media -name '*.mp4' -type f | sort)
+          done
 
           mkdir -p assets/img/OACBF
           curl -L --fail --retry 3 --silent --show-error \
