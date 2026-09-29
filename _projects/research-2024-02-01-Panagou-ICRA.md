@@ -32,7 +32,7 @@ We developed an online adaptation framework that evaluates candidate ICCBF param
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/overview.webp">
     <source src="/assets/media/icra/overview.mp4" type="video/mp4">
   </video>
-  <p class="caption">Original animated method overview.</p>
+  <p class="caption">Online parameter adaptation with uncertainty-aware prediction and verification.</p>
 </div>
 
 The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict performance and risk metrics for candidate parameters while representing both epistemic and aleatoric uncertainty.
