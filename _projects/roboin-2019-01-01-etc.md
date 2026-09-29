@@ -1,94 +1,29 @@
 ---
 layout: page
-title: Other Robot works
-description: Roboin, Robotics club, Yonsei University, Seoul, South Korea
-img: assets/img/Roboin/Rob_title.jpg
+title: "Early Robotics Projects"
+description: "A collection of hands-on robot builds from Roboin, Yonsei University's robotics club."
+img: assets/img/Roboin/Rob_room.jpg
 importance: 99
 category: Undergraduate projects
+kicker: ROBOTICS CLUB · EARLY WORK
+year: "2018–2020"
+venue: "Yonsei University · Roboin"
 ---
 
-#### **<a href='https://www.youtube.com/@RoboinYonseiUniversity'>Roboin, Robotics club</a>**
-#### Yonsei University, Seoul, South Korea
+## Building robots before research papers
 
-**PI**: Professor Byung-Kwon Min
-
-
+Roboin was where I learned to build complete robotic systems from hardware upward. I worked on several small platforms spanning sensing, embedded control, aerial robotics, line following, and balancing.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_cctv.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_cctv2.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_cctv3.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    CCTV project.
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin/Rob_drone.jpg" title="Quadrotor project" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin/Rob_edpic.jpg" title="Line-tracer project" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin/Rob_selfbal.jpg" title="Self-balancing robot" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_drone.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_dronevid.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_dronevid2.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Arduino quadrotor project.
-</div>
+## What stayed with me
+
+These projects gave me practical experience with fabrication, embedded sensing, debugging, and integration—the physical side of robotics that continues to shape how I approach research systems today.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_edpic.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_edencoder.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_edvid.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Linetracer project.
-</div>
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_selfbal.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_selfbalvid.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_title.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Selfbalancing robot project (Left) Gimbal project (Right).
-</div>
-
-
-etc. 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_room.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_session.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_sessionMe.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Roboin/Rob_sessionMe2.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin/Rob_room.jpg" title="Roboin lab" class="img-fluid rounded z-depth-1" %}</div>
 </div>
