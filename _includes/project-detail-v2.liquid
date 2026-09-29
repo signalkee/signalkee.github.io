@@ -50,7 +50,7 @@
       </figure>
     {% else %}
       <div class="project-v2-cover project-v2-cover-fallback" aria-hidden="true">
-        <span>{{ page.title | slice: 0, 2 | upcase }}</span>
+        <span>{{ page.cover_label | default: page.title | slice: 0, 8 | upcase }}</span>
       </div>
     {% endif %}
   </header>
