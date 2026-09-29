@@ -475,3 +475,102 @@
     text-align: left;
   }
 }
+
+
+/* PhD roadmap refresh ------------------------------------------------------- */
+.v2-roadmap {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr;
+  gap: 12px;
+  align-items: stretch;
+  margin-top: 34px;
+}
+.v2-roadmap-step {
+  min-height: 148px;
+  padding: 20px;
+  border: 1px solid var(--v2-line);
+  border-radius: 18px;
+  background: var(--global-bg-color);
+}
+.v2-roadmap-step strong {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 1.08rem;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+}
+.v2-roadmap-step span {
+  display: block;
+  color: var(--v2-muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+}
+.v2-roadmap-step.foundation {
+  border-color: color-mix(in srgb, #0877bd 46%, var(--v2-line));
+}
+.v2-roadmap-step.current {
+  border-color: color-mix(in srgb, #7655b5 52%, var(--v2-line));
+  background: color-mix(in srgb, #7655b5 5%, var(--global-bg-color));
+}
+.v2-roadmap-step.hardware {
+  border-color: color-mix(in srgb, var(--v2-blue) 48%, var(--v2-line));
+}
+.v2-roadmap-step.next {
+  border-color: color-mix(in srgb, #e56a16 55%, var(--v2-line));
+  background: color-mix(in srgb, #e56a16 5%, var(--global-bg-color));
+}
+.v2-roadmap-arrow {
+  display: grid;
+  place-items: center;
+  color: var(--v2-muted);
+  font-size: 1.15rem;
+}
+.research-roadmap-v2,
+.research-program-v2 {
+  padding: 64px 0;
+  border-top: 1px solid var(--v2-line);
+}
+.research-roadmap-strip {
+  margin-top: 0;
+}
+.research-program-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.research-program-grid article {
+  padding: 25px;
+  border: 1px solid var(--v2-line);
+  border-radius: 20px;
+  background: var(--global-bg-color);
+}
+.research-program-grid article.next {
+  border-color: color-mix(in srgb, #e56a16 48%, var(--v2-line));
+}
+.research-program-grid h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  line-height: 1.26;
+  letter-spacing: -0.028em;
+}
+.research-program-grid article > p:not(.v2-card-meta) {
+  margin: 0;
+  color: var(--v2-muted);
+  font-size: 0.9rem;
+  line-height: 1.62;
+}
+@media (max-width: 900px) {
+  .v2-roadmap {
+    grid-template-columns: 1fr;
+  }
+  .v2-roadmap-arrow {
+    height: 18px;
+    transform: rotate(90deg);
+  }
+  .v2-roadmap-step {
+    min-height: auto;
+  }
+  .research-program-grid {
+    grid-template-columns: 1fr;
+  }
+}
