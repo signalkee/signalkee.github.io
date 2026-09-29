@@ -1,0 +1,54 @@
+<div class="project-v2">
+  <a class="v2-back-link" href="{{ '/Researches & Projects/' | relative_url }}">← Research</a>
+
+  <header class="project-v2-hero">
+    <div class="project-v2-copy">
+      <p class="v2-eyebrow">{{ page.kicker | default: page.category | default: 'PROJECT' }}</p>
+      <h1>{{ page.title }}</h1>
+      {% if page.description %}<p class="project-v2-deck">{{ page.description }}</p>{% endif %}
+
+      {% if page.venue or page.year or page.role %}
+        <div class="project-v2-meta">
+          {% if page.venue %}<span>{{ page.venue }}</span>{% endif %}
+          {% if page.year %}<span>{{ page.year }}</span>{% endif %}
+          {% if page.role %}<span>{{ page.role }}</span>{% endif %}
+        </div>
+      {% endif %}
+
+      {% if page.paper or page.arxiv or page.code or page.video or page.project_url %}
+        <div class="v2-actions project-v2-actions">
+          {% if page.paper %}<a class="v2-btn v2-btn-primary" href="{{ page.paper }}" target="_blank" rel="noopener">Paper ↗</a>{% endif %}
+          {% if page.arxiv %}<a class="v2-btn" href="{{ page.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>{% endif %}
+          {% if page.code %}<a class="v2-btn" href="{{ page.code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
+          {% if page.video %}<a class="v2-btn" href="{{ page.video }}" target="_blank" rel="noopener">Video ↗</a>{% endif %}
+          {% if page.project_url %}<a class="v2-btn" href="{{ page.project_url }}" target="_blank" rel="noopener">Project ↗</a>{% endif %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if page.img %}
+      <figure class="project-v2-cover">
+        <img src="{{ page.img | relative_url }}" alt="{{ page.title }} preview" loading="eager">
+      </figure>
+    {% else %}
+      <div class="project-v2-cover project-v2-cover-fallback" aria-hidden="true">
+        <span>{{ page.title | slice: 0, 2 | upcase }}</span>
+      </div>
+    {% endif %}
+  </header>
+
+  <article class="project-v2-body">
+    {{ include.content }}
+  </article>
+
+  {% if page.related_publications %}
+    <section class="project-v2-references">
+      <h2>References</h2>
+      <div class="publications">{% bibliography --cited_in_order %}</div>
+    </section>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>
