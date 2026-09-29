@@ -19,8 +19,8 @@ My undergraduate thesis was completed in the Research Laboratory of Manufacturin
 </div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/rem2/final-result.webp' | relative_url }}">
-    <source src="{{ 'assets/media/rem2/final-result.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/rem2/final-result.webp">
+    <source src="/assets/media/rem2/final-result.mp4" type="video/mp4">
   </video>
   <p class="caption">Final experimental result from the undergraduate thesis project.</p>
 </div>
