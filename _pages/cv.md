@@ -1,26 +1,25 @@
 ---
-layout: default
+layout: page
 permalink: /CV/
-title: CV
+title: Curriculum Vitae
+eyebrow: CV
+description: Education, research, publications, and professional experience.
 nav: true
-nav_order: 2
+nav_order: 4
 cv_pdf: Robin_Inho_Kee_CV_slim.pdf
 ---
 
-<html>
-<!-- <div class="post">
-    <header class="post-header">
-        <h1 class="post-title">Biographical Sketch</h1>
-    </header>
-    <article>
-        Robin Inho Kee, a Master's student in Mechanical Engineering at the University of Michigan, specializes in the application of deep learning and control in robotics. He holds a B.S. from Yonsei University and has worked at KIST, developing deep learning models for exoskeletons. His current research focuses on safety-guaranteed control for constrained systems using predictive control and deep learning.
-    </article>
+<div class="cv-v2">
+  <div class="cv-v2-meta">
+    <span>Robotics Ph.D. · University of Michigan</span>
+    <span>Draper Scholar</span>
+    <span>Multi-Robot Systems</span>
+  </div>
+  <div class="cv-v2-toolbar">
+    <p>The PDF below is the canonical version of my CV.</p>
+    <a class="v2-btn v2-btn-primary" href="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">Open CV PDF ↗</a>
+  </div>
+  <div class="cv-v2-frame">
+    <iframe src="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" title="Robin Inho Kee CV"></iframe>
+  </div>
 </div>
-<br> -->
-<div class="post">
-    <header class="post-header">
-        <h1 class="post-title">CV (Updated Oct 21, 2025)</h1>
-    </header>
-    <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}" style="min-height:100vh; width: 100%;" type='application/pdf' frameborder="0"></iframe>
-</div>
-</html>
