@@ -6,7 +6,7 @@
       </div>
     {% else %}
       <div class="project-card-v2-media project-card-v2-fallback" aria-hidden="true">
-        <span>{{ project.title | slice: 0, 2 | upcase }}</span>
+        <span>{{ project.cover_label | default: project.title | slice: 0, 8 | upcase }}</span>
       </div>
     {% endif %}
     <div class="project-card-v2-body">
