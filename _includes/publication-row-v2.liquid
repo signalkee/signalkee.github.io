@@ -15,10 +15,13 @@
         <span class="publication-award">{{ pub.award }}</span>
       {%- endif %}
     </p>
-    {% if pub.arxiv or pub.pdf or pub.code or pub.project or pub.website or pub.doi %}
+    {% if pub.arxiv or pub.paper or pub.pdf or pub.code or pub.project or pub.website or pub.doi %}
       <div class="publication-row-v2-links">
         {% if pub.arxiv -%}
           <a href="{{ pub.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>
+        {%- endif %}
+        {% if pub.paper -%}
+          <a href="{{ pub.paper }}" target="_blank" rel="noopener">Paper ↗</a>
         {%- endif %}
         {% if pub.pdf -%}
           <a
