@@ -27,6 +27,13 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
 </div>
 <div class="caption">Learning-assisted TSG architecture used to modify the reference while respecting mission constraints.</div>
 
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/scitech/overview.webp' | relative_url }}">
+    <source src="{{ 'assets/media/scitech/overview.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <p class="caption">Original animated spacecraft-rendezvous project overview.</p>
+</div>
+
 ## Results
 
 The learned predictor reduced the time required to obtain the time-shift parameter in most evaluated scenarios while the closed-loop system completed rendezvous missions under the imposed constraints.
