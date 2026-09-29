@@ -29,8 +29,8 @@ We developed an online adaptation framework that evaluates candidate ICCBF param
 <div class="caption">Predict candidate performance and risk, verify uncertainty, then adapt the safety-controller parameters online.</div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/icra/overview.webp' | relative_url }}">
-    <source src="{{ 'assets/media/icra/overview.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/overview.webp">
+    <source src="/assets/media/icra/overview.mp4" type="video/mp4">
   </video>
   <p class="caption">Original animated method overview.</p>
 </div>
@@ -54,26 +54,26 @@ The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict pe
 
 <div class="project-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/icra/realtime-1.webp' | relative_url }}">
-    <source src="{{ 'assets/media/icra/realtime-1.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/realtime-1.webp">
+    <source src="/assets/media/icra/realtime-1.mp4" type="video/mp4">
   </video>
   <p class="caption">Online adaptation in a representative navigation trial.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/icra/realtime-2.webp' | relative_url }}">
-    <source src="{{ 'assets/media/icra/realtime-2.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/realtime-2.webp">
+    <source src="/assets/media/icra/realtime-2.mp4" type="video/mp4">
   </video>
   <p class="caption">A second real-time adaptation example.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/icra/experiment-1.webp' | relative_url }}">
-    <source src="{{ 'assets/media/icra/experiment-1.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/experiment-1.webp">
+    <source src="/assets/media/icra/experiment-1.mp4" type="video/mp4">
   </video>
   <p class="caption">Representative experiment.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/icra/experiment-3.webp' | relative_url }}">
-    <source src="{{ 'assets/media/icra/experiment-3.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/experiment-3.webp">
+    <source src="/assets/media/icra/experiment-3.mp4" type="video/mp4">
   </video>
   <p class="caption">Representative experiment.</p>
 </div>
