@@ -1,4 +1,10 @@
 /* Requested refinements ----------------------------------------------------- */
+.v2-hero h1 {
+  max-width: 760px;
+  font-size: clamp(2.8rem, 5.25vw, 4.65rem);
+  line-height: 1.01;
+}
+
 .v2-page-header .post-title {
   font-size: clamp(2.45rem, 4.4vw, 3.95rem);
   letter-spacing: -0.048em;
