@@ -14,7 +14,7 @@ img: assets/img/ACDC/summary.webp
 ---
 
 <div class="project-v2-body-bleed project-main-figure">
-  <img src="{{ 'assets/img/ACDC/summary.webp' | relative_url }}" alt="AC-DC summary: search objective, communication layer, and results">
+  <img src="/assets/img/ACDC/summary.webp" alt="AC-DC summary: search objective, communication layer, and results">
 </div>
 <div class="caption">AC-DC overview: dynamic-priority search, local What/When/Who communication decisions, and the resulting search-quality / traffic tradeoff.</div>
 
