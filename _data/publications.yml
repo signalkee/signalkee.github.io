@@ -10,6 +10,7 @@ under_review:
     title: "Toward Daily-Life Sarcopenia Identification via Real-Time Gait Assessment Using a Wearable Hip Assistive Robot"
     status: "IEEE Robotics and Automation Letters · Under review"
     year: "2026"
+    project: "/projects/work-2022-07-01-KIST/"
 
   - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Bu"
     title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
@@ -30,12 +31,14 @@ conferences:
     arxiv: "https://arxiv.org/abs/2409.14616"
     project: "/projects/research-2024-02-01-Panagou-ICRA/"
     code: "https://github.com/tkkim-robot/online_adaptive_cbf"
+    pdf: "ICRA2025_ICCBF.pdf"
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
     conference: "AIAA SCITECH Forum"
     year: "2025"
     project: "/projects/research-2024-01-01-VODCA-RVD/"
+    pdf: "SciTech25_LTSG.pdf"
 
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
     title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
@@ -53,6 +56,8 @@ journals:
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
+    pdf: "IEEEAccess2024_TProto.pdf"
+    project: "/projects/UGresearch-2023-03-01-SoftComp/"
 
   - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
     title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
@@ -63,3 +68,5 @@ journals:
     title: "Measurement of ankle joint movements using IMUs during running"
     journal: "Sensors"
     year: "2021"
+    pdf: "Sensors2021_IMU.pdf"
+    project: "/projects/UGresearch-2020-05-01-Sports/"
