@@ -1,81 +1,27 @@
 ---
 layout: page
-title: Interoperable Smart Lab
-description: Innovative Design & Integrated Manufacturing Lab (04.2020-10.2020), Seoul National University, Seoul, South Korea
-img: assets/img/IDIM/IDIM_title.gif
+title: "Interoperable Smart Lab"
+description: "Lab automation with connected equipment, a mobile manipulator, and modular robotic tooling."
+img: assets/img/IDIM/IDIM_smartlab.png
 importance: 96
 category: Undergraduate research projects
-related_publications: False
+kicker: ROBOTIC LAB AUTOMATION · 2020
+year: "2020"
+venue: "Seoul National University"
 ---
 
-#### **<a href='https://fab.snu.ac.kr/'>Innovative Design & Integrated Manufacturing Lab</a>**
-#### School of Mechanical Engineering, Seoul National University, Seoul, South Korea
+## Project
 
-**PI**: Professor Sung-Hoon Ahn
-
-#### **Achievement**: 
-
-(1) International S.M.A.R.T Startup Competition 1st Place, Innovative Technology and Energy Center, 2020
-
-#### **Project 1**: **Interoperable Smart Lab**
-
-**Primary Motivation**: In rural areas where facilities or experts are scarce, research needs to be conducted remotely or with assistance. Therefore, We have pioneered lab automation that allows a mobile manipulator to conduct laboratory research autonomously. This study included various aspects of the robot laboratory, such as preparation to analysis, control and integration of data, and production.
+The project explored an interoperable smart laboratory in which robotic systems and experimental equipment could exchange information and execute parts of a laboratory workflow with less direct human intervention.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_smartlab.png" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Overview.
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/IDIM/IDIM_smartlab.png" title="Smart lab overview" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
-#### **What I did**: 
+## My contribution
 
-(1) Developed and integrated communication network platform between experimental equipments and robot.
+I worked on the communication layer between experimental equipment and the robot, designed a tool-changeable modular gripper concept, and programmed collaborative-robot experimental scenarios.
 
-(2) Developed design of tool changeable modular mechanical gripper for collaborative robot and application of torque and position control.
+## Recognition
 
-(3) Programmed experimental scenarios for collaborative robot.
-
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_gripper.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Demonstration of the designed mechanical gripper.
-</div>
-
-
-
-
-#### **Project 2**: **Low-cost appropriate robotic manipulator (Open quasi-direct drive robot)**
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_smartstartup.png" title="intro image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-
-
-
-
-
-
-etc. Find me if you can!
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_germany.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_labseminar.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/IDIM/IDIM_Me.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+The broader project received **1st Place** in the 2020 International S.M.A.R.T Startup Competition.
