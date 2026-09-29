@@ -18,6 +18,7 @@ jobs:
         with:
           ref: website-v2-media-polish
 
+# staged chunks repaired
       - name: Decode AC-DC summary figure
         shell: bash
         run: |
