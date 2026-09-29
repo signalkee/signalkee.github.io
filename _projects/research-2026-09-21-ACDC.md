@@ -10,40 +10,13 @@ venue: "ICRA 2027 submission · arXiv preprint"
 role: "Lead author"
 arxiv: https://arxiv.org/abs/2609.24702
 paper: https://arxiv.org/pdf/2609.24702
-cover_label: AC-DC
+img: assets/img/ACDC/summary.webp
 ---
 
-<div class="project-v2-body-bleed">
-  <div class="acdc-summary-figure">
-    <section class="acdc-summary-panel">
-      <h3>1 · Where should robots search?</h3>
-      <p>Search target: where information matters</p>
-      <div class="acdc-map"><span class="acdc-peak" style="left:29%;top:62%;--s:92px"></span><span class="acdc-peak" style="left:70%;top:30%;--s:70px"></span><span class="acdc-peak" style="left:75%;top:76%;--s:48px"></span></div>
-      <div class="acdc-arrow">↓</div>
-      <p style="color:#249966">Team visitation: where robots actually search</p>
-      <div class="acdc-map"><span class="acdc-visit" style="left:31%;top:64%;--s:86px;--c:#0877bd"></span><span class="acdc-visit" style="left:68%;top:31%;--s:70px;--c:#0b345b"></span><span class="acdc-visit" style="left:75%;top:76%;--s:48px;--c:#249966"></span></div>
-      <div class="acdc-pill-note">More important regions should receive more team search effort.</div>
-    </section>
-    <section class="acdc-summary-panel">
-      <h3>2 · AC-DC communication layer</h3>
-      <p>Robots choose <em>what, when, and with whom</em></p>
-      <div class="acdc-layer-top"><div class="acdc-layer-box blue">Where I<br>have searched</div><div class="acdc-layer-box green">What I<br>have sensed</div></div>
-      <div class="acdc-pill-note">Last information from nearby robots</div>
-      <div class="acdc-layer-core">AC-DC</div>
-      <div class="acdc-question-row"><strong style="background:#00a5a5">WHAT</strong><span>Which information is most useful?</span></div>
-      <div class="acdc-question-row"><strong style="background:#ed7d0b">WHEN</strong><span>Is it worth communicating now?</span></div>
-      <div class="acdc-question-row"><strong style="background:#0877bd">WHO</strong><span>Which neighbor is best to contact?</span></div>
-      <div class="acdc-pill-note" style="margin-top:14px">Output: better shared estimates of team coverage and sensing information</div>
-    </section>
-    <section class="acdc-summary-panel">
-      <h3>3 · What improves?</h3>
-      <p>Lower uncertainty with less modeled traffic</p>
-      <div class="acdc-map" style="height:155px"><svg viewBox="0 0 320 150" width="100%" height="100%"><line x1="26" y1="12" x2="26" y2="132" stroke="#98a2b3"/><line x1="26" y1="132" x2="305" y2="132" stroke="#98a2b3"/><line x1="138" y1="12" x2="138" y2="132" stroke="#98a2b3" stroke-dasharray="5 4"/><path d="M26 18 C58 55 72 85 110 106 S175 130 305 130" fill="none" stroke="#0877bd" stroke-width="5"/><path d="M26 18 C55 48 72 65 110 78 S175 112 305 123" fill="none" stroke="#e66a00" stroke-width="4" stroke-dasharray="12 7"/><path d="M26 18 C56 50 76 67 110 72 S185 83 305 91" fill="none" stroke="#07966b" stroke-width="4" stroke-dasharray="14 5 3 5"/><path d="M26 25 C44 70 60 105 90 121 S150 130 305 131" fill="none" stroke="#222" stroke-width="4" stroke-dasharray="3 5"/></svg></div>
-      <div class="acdc-metric-grid"><div class="acdc-metric-card"><strong>29.5%</strong><span>lower paired AUC vs ADMM-DAC</span></div><div class="acdc-metric-card"><strong>24.5%</strong><span>lower paired AUC vs PP-ACDC</span></div><div class="acdc-metric-card"><strong>5.8×</strong><span>ADMM-DAC / AC-DC traffic</span></div><div class="acdc-metric-card"><strong>11.5×</strong><span>PP-ACDC / AC-DC traffic</span></div></div>
-      <div class="acdc-pill-note" style="margin-top:14px;color:#0877bd">120 robots: 19.3 MB vs 19.2 MB<br><small>AC-DC vs ideal centralized reference</small></div>
-    </section>
-  </div>
+<div class="project-v2-body-bleed project-main-figure">
+  <img src="{{ 'assets/img/ACDC/summary.webp' | relative_url }}" alt="AC-DC summary: search objective, communication layer, and results">
 </div>
+<div class="caption">AC-DC overview: dynamic-priority search, local What/When/Who communication decisions, and the resulting search-quality / traffic tradeoff.</div>
 
 ## Why communication is part of the search problem
 
