@@ -23,7 +23,7 @@ We developed an intelligent lockout/tagout concept for monitoring the state of l
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/kbd/overview.webp">
     <source src="/assets/media/kbd/overview.mp4" type="video/mp4">
   </video>
-  <p class="caption">Original animated lockout/tagout system demonstration.</p>
+  <p class="caption">Lockout/tagout system demonstration.</p>
 </div>
 
 ## Outcome
