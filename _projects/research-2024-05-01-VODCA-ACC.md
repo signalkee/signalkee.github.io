@@ -19,12 +19,12 @@ Adaptive cruise control becomes difficult when the lead vehicle changes speed or
 ## Control architecture
 
 <div class="project-v2-body-bleed project-main-figure">
-  <img src="{{ 'assets/img/VODCA_ACC2025/overview.webp' | relative_url }}" alt="CCTA safe adaptive cruise control overview">
+  <img src="/assets/img/VODCA_ACC2025/overview.webp" alt="CCTA safe adaptive cruise control overview">
 </div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/ccta/overview-motion.webp' | relative_url }}">
-    <source src="{{ 'assets/media/ccta/overview-motion.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/ccta/overview-motion.webp">
+    <source src="/assets/media/ccta/overview-motion.mp4" type="video/mp4">
   </video>
   <p class="caption">Original animated CCTA project overview, restored as an optimized looping video.</p>
 </div>
