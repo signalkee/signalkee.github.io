@@ -26,22 +26,22 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          import html
+          import html as htmlmod
           import re
           from urllib.parse import unquote
           root = Path("_site")
           missing = []
-          for html in root.rglob("*.html"):
-              text = html.read_text(errors="ignore")
+          for page in root.rglob("*.html"):
+              text = page.read_text(errors="ignore")
               for ref in re.findall(r'(?:src|href)="(/[^"#?]+)', text):
                   if ref.startswith("//"):
                       continue
-                  ref = unquote(html.unescape(ref))
+                  ref = unquote(htmlmod.unescape(ref))
                   target = root / ref.lstrip("/")
                   if target.is_dir():
                       target = target / "index.html"
                   if not target.exists():
-                      missing.append((str(html), ref))
+                      missing.append((str(page), ref))
           if missing:
               for item in missing[:100]:
                   print(item)
