@@ -48,6 +48,7 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
       </div>
       <span class="cv-v2-paper-cta">Open full PDF ↗</span>
     </a>
+
   </section>
 
   <details class="cv-v2-embed">
