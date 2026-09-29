@@ -1,0 +1,46 @@
+name: Update latest CV PDF once
+
+on:
+  push:
+    branches:
+      - website-v2-redesign
+    paths:
+      - ".github/workflows/update-latest-cv-pdf-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  update-cv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: website-v2-redesign
+
+      - name: Reconstruct CV source
+        run: |
+          mkdir -p /tmp/robin-cv
+          cat .cv_build/cv_source_zip.part* > /tmp/robin-cv/source.b64
+          base64 -d /tmp/robin-cv/source.b64 > /tmp/robin-cv/source.zip
+          unzip -q /tmp/robin-cv/source.zip -d /tmp/robin-cv/src
+
+      - name: Compile latest web-safe CV
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: /tmp/robin-cv/src
+
+      - name: Replace website CV PDF
+        run: |
+          cp /tmp/robin-cv/src/main.pdf assets/pdf/Robin_Inho_Kee_CV_slim.pdf
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/Robin_Inho_Kee_CV_slim.pdf
+          if git diff --cached --quiet; then
+            echo "CV PDF already current."
+          else
+            git commit -m "website v2: replace CV PDF with latest version"
+            git push origin HEAD:website-v2-redesign
+          fi
