@@ -3,7 +3,7 @@ layout: page
 permalink: /CV/
 title: Curriculum Vitae
 eyebrow: CV
-description: Education, research experience, technical background, awards, teaching, and academic service.
+description: Academic CV covering education, research, publications, technical background, awards, teaching, and service.
 nav: true
 nav_order: 4
 cv_pdf: Robin_Inho_Kee_CV_slim.pdf
