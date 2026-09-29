@@ -2,7 +2,7 @@
 layout: page
 title: "Online Adaptive Control Barrier Functions"
 description: "Runtime CBF parameter adaptation under epistemic and aleatoric uncertainty, with local finite-horizon validation and task-progress-aware selection."
-cover_label: OA-CBF
+img: assets/img/OACBF/overview.webp
 importance: 99
 category: Graduate research projects
 kicker: PREPRINT · SAFE LEARNING & CONTROL
@@ -21,6 +21,10 @@ Control Barrier Functions provide a tractable safety layer, but their practical 
 OA-CBF asks how those parameters can be **adapted at runtime without treating one learned prediction as automatically trustworthy**.
 
 ## OA-CBF
+
+<div class="project-v2-body-bleed project-main-figure">
+  <img src="{{ 'assets/img/OACBF/overview.webp' | relative_url }}" alt="OA-CBF method overview">
+</div>
 
 <div class="oa-cbf-visual"><div class="oa-cbf-flow">
 <div><strong>1 · Query candidates</strong><p>Sample candidate CBF parameters for the current robot state and environment.</p></div>
