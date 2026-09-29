@@ -7,6 +7,6 @@ nav: false
 
 I am a Ph.D. student in [Robotics at the University of Michigan](https://robotics.umich.edu/), working on **multi-robot autonomy, communication-aware coordination, and learning-enabled control**. My Ph.D. roadmap builds from selective communication toward mission-aware reasoning, prediction-guided action, and real-robot deployment.
 
-I work with **Prof. Vasileios Tzoumas** and **Prof. Necmiye Ozay**, and I am supported by the **Draper Scholar Program** in collaboration with Charles Stark Draper Laboratory. Before my Ph.D., I worked on learning-enabled safety-critical control at Michigan and on wearable assistive robots at KIST.
+I am advised by **Prof. Vasileios Tzoumas** and **Prof. Necmiye Ozay** at the University of Michigan. Through the **Draper Scholars Program**, I am also advised by **Dr. Begum Cannataro** at Charles Stark Draper Laboratory. Before my Ph.D., I worked on learning-enabled safety-critical control at Michigan and on wearable assistive robots at KIST.
 
 Outside research, I enjoy weightlifting and music.
