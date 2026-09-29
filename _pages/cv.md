@@ -24,7 +24,7 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
       <div class="v2-actions">
         <a class="v2-btn v2-btn-primary" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" target="_blank" rel="noopener">Open CV PDF ↗</a>
         <a class="v2-btn" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" download>Download PDF ↓</a>
-        <a class="v2-btn" href="{{ '/Publications/' | relative_url }}">Publications →</a>
+        <a class="v2-btn" href="/Publications/">Publications →</a>
       </div>
     </div>
 
