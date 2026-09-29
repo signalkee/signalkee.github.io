@@ -22,26 +22,26 @@ Roboin was where I learned to build complete robotic systems from hardware upwar
 
 <div class="project-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/roboin/cctv.webp' | relative_url }}">
-    <source src="{{ 'assets/media/roboin/cctv.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/roboin/cctv.webp">
+    <source src="/assets/media/roboin/cctv.mp4" type="video/mp4">
   </video>
   <p class="caption">Early camera / CCTV robotics project.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/roboin/drone.webp' | relative_url }}">
-    <source src="{{ 'assets/media/roboin/drone.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/roboin/drone.webp">
+    <source src="/assets/media/roboin/drone.mp4" type="video/mp4">
   </video>
   <p class="caption">Quadrotor project in flight.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/roboin/edison.webp' | relative_url }}">
-    <source src="{{ 'assets/media/roboin/edison.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/roboin/edison.webp">
+    <source src="/assets/media/roboin/edison.mp4" type="video/mp4">
   </video>
   <p class="caption">Embedded mobile-robot project.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/roboin/self-balancing.webp' | relative_url }}">
-    <source src="{{ 'assets/media/roboin/self-balancing.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/roboin/self-balancing.webp">
+    <source src="/assets/media/roboin/self-balancing.mp4" type="video/mp4">
   </video>
   <p class="caption">Self-balancing robot demo.</p>
 </div>
