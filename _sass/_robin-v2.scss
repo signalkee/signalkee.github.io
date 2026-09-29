@@ -782,47 +782,6 @@ html[data-theme="dark"] .v2-btn-primary {
 }
 
 
-.cv-v2-toolbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  margin-bottom: 22px;
-  padding: 20px 22px;
-  border: 1px solid var(--v2-line);
-  border-radius: 18px;
-  background: var(--v2-soft);
-}
-.cv-v2-toolbar p {
-  margin: 0;
-  color: var(--v2-muted);
-}
-.cv-v2-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 22px;
-}
-.cv-v2-meta span {
-  padding: 8px 11px;
-  border: 1px solid var(--v2-line);
-  border-radius: 999px;
-  color: var(--v2-muted);
-  font-size: 0.82rem;
-}
-.cv-v2-frame {
-  overflow: hidden;
-  border: 1px solid var(--v2-line);
-  border-radius: 18px;
-  background: var(--v2-soft);
-}
-.cv-v2-frame iframe {
-  display: block;
-  width: 100%;
-  min-height: 1100px;
-  border: 0;
-}
-
 @media (max-width: 900px) {
   .v2-hero {
     grid-template-columns: 1fr;
@@ -917,15 +876,7 @@ html[data-theme="dark"] .v2-btn-primary {
   .project-stat-grid {
     grid-template-columns: 1fr 1fr;
   }
-  .cv-v2-toolbar {
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .cv-v2-frame iframe {
-    min-height: 720px;
-  }
 }
-
 
 /* CV ---------------------------------------------------------------------- */
 .cv-v2-overview {
@@ -962,7 +913,9 @@ html[data-theme="dark"] .v2-btn-primary {
   color: #101828 !important;
   text-decoration: none !important;
   transform: rotate(1deg);
-  transition: transform 180ms ease, box-shadow 180ms ease;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
 }
 .cv-v2-paper:hover {
   transform: rotate(0deg) translateY(-4px);
@@ -1005,9 +958,15 @@ html[data-theme="dark"] .v2-btn-primary {
   border-radius: 999px;
   background: #e7ebf0;
 }
-.cv-v2-paper-line.wide { width: 100%; }
-.cv-v2-paper-line.medium { width: 78%; }
-.cv-v2-paper-line.short { width: 58%; }
+.cv-v2-paper-line.wide {
+  width: 100%;
+}
+.cv-v2-paper-line.medium {
+  width: 78%;
+}
+.cv-v2-paper-line.short {
+  width: 58%;
+}
 .cv-v2-paper-cta {
   position: absolute;
   right: 28px;
@@ -1029,7 +988,9 @@ html[data-theme="dark"] .v2-btn-primary {
   cursor: pointer;
   list-style: none;
 }
-.cv-v2-embed summary::-webkit-details-marker { display: none; }
+.cv-v2-embed summary::-webkit-details-marker {
+  display: none;
+}
 .cv-v2-embed summary span:first-child {
   display: flex;
   flex-direction: column;
