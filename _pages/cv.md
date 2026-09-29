@@ -17,9 +17,9 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
   </div>
   <div class="cv-v2-toolbar">
     <p>The PDF below is the canonical version of my CV.</p>
-    <a class="v2-btn v2-btn-primary" href="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank" rel="noopener">Open CV PDF ↗</a>
+    <a class="v2-btn v2-btn-primary" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" target="_blank" rel="noopener">Open CV PDF ↗</a>
   </div>
   <div class="cv-v2-frame">
-    <iframe src="{{ page.cv_pdf | prepend: '/assets/pdf/' | relative_url }}" title="Robin Inho Kee CV"></iframe>
+    <iframe src="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" title="Robin Inho Kee CV"></iframe>
   </div>
 </div>
