@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+<div class="robin-home">
+  <section class="v2-hero" aria-labelledby="hero-title">
+    <div class="v2-hero-copy">
+      <p class="v2-eyebrow">ROBIN INHO KEE · UNIVERSITY OF MICHIGAN ROBOTICS</p>
+      <h1 id="hero-title">Communication-aware autonomy for robot teams.</h1>
+      <p class="v2-hero-lead">
+        I am a Ph.D. student in Robotics at the University of Michigan. I develop methods that let multi-robot systems
+        coordinate under limited range, bandwidth, and interference while staying focused on the mission.
+      </p>
+
+      <div class="v2-actions">
+        <a class="v2-btn v2-btn-primary" href="{{ '/Researches & Projects/' | relative_url }}">Explore research</a>
+        <a class="v2-btn" href="{{ '/Publications/' | relative_url }}">Publications</a>
+        <a class="v2-btn" href="{{ '/CV/' | relative_url }}">CV</a>
+      </div>
+
+      <div class="v2-inline-links" aria-label="External profiles">
+        {% if site.scholar_userid %}<a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank" rel="noopener">Google Scholar ↗</a>{% endif %}
+        {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
+        {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank" rel="noopener">LinkedIn ↗</a>{% endif %}
+      </div>
+    </div>
+
+    <div class="v2-hero-visual">
+      <div class="v2-profile-frame">
+        <img src="{{ 'assets/img/Umich_pic.jpg' | relative_url }}" alt="Robin Inho Kee" loading="eager">
+      </div>
+      <div class="v2-profile-note">
+        <span class="v2-status-dot" aria-hidden="true"></span>
+        <span>Multi-Robot Systems · Adaptive Communication · Safe Autonomy</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="v2-section" aria-labelledby="focus-title">
+    <div class="v2-section-head">
+      <div>
+        <p class="v2-eyebrow">CURRENT FOCUS</p>
+        <h2 id="focus-title">Research built around real communication constraints.</h2>
+      </div>
+      <p>
+        My current work asks what robots should communicate, when they should communicate it, and who actually needs it
+        when the network cannot carry everything.
+      </p>
+    </div>
+
+    <div class="v2-focus-grid">
+      <article class="v2-focus-card">
+        <span class="v2-focus-index">01</span>
+        <h3>Scalable multi-robot coordination</h3>
+        <p>Distributed coordination methods that remain useful as team size and communication pressure grow.</p>
+      </article>
+      <article class="v2-focus-card">
+        <span class="v2-focus-index">02</span>
+        <h3>Mission-aware communication</h3>
+        <p>Prioritizing information by how much it changes downstream search, planning, or team behavior.</p>
+      </article>
+      <article class="v2-focus-card">
+        <span class="v2-focus-index">03</span>
+        <h3>Safe & resilient autonomy</h3>
+        <p>Connecting adaptive policies with explicit guarantees for constrained robotic systems.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="v2-section" aria-labelledby="work-title">
+    <div class="v2-section-head v2-section-head-row">
+      <div>
+        <p class="v2-eyebrow">SELECTED WORK</p>
+        <h2 id="work-title">A few projects that define the trajectory.</h2>
+      </div>
+      <a class="v2-text-link" href="{{ '/Researches & Projects/' | relative_url }}">View all research →</a>
+    </div>
+
+    <div class="v2-featured-work">
+      <a class="v2-work-card v2-work-card-featured" href="{{ '/projects/research-2026-09-21-ACDC/' | relative_url }}">
+        <div class="v2-work-art v2-work-art-network" aria-hidden="true">
+          <span class="v2-network-ring ring-a"></span><span class="v2-network-ring ring-b"></span>
+          <span class="v2-network-node node-a"></span><span class="v2-network-node node-b"></span>
+          <span class="v2-network-node node-c"></span><span class="v2-network-node node-d"></span>
+          <strong>AC-DC</strong>
+        </div>
+        <div class="v2-work-copy">
+          <p class="v2-card-meta">2026 · Multi-Robot Systems</p>
+          <h3>Adaptive Communication for Scalable Dynamic Average Consensus</h3>
+          <p>Robots jointly decide <strong>who</strong> to communicate with, <strong>when</strong>, and <strong>what</strong> state to exchange.</p>
+          <span class="v2-card-cta">Project page →</span>
+        </div>
+      </a>
+
+      <a class="v2-work-card" href="{{ '/projects/research-2024-02-01-Panagou-ICRA/' | relative_url }}">
+        <div class="v2-work-image">
+          <img src="{{ 'assets/img/DASC_ICRA2025/ICRA_title.gif' | relative_url }}" alt="Online Adaptive ICCBF project preview" loading="lazy">
+        </div>
+        <div class="v2-work-copy">
+          <p class="v2-card-meta">ICRA 2025 · Safe Learning & Control</p>
+          <h3>Online Adaptive Input Constrained Control Barrier Functions</h3>
+          <p>Learning-based online adaptation of safety constraints with uncertainty-aware verification.</p>
+          <span class="v2-card-cta">Project page →</span>
+        </div>
+      </a>
+
+      <a class="v2-work-card" href="{{ '/projects/research-2024-05-01-VODCA-ACC/' | relative_url }}">
+        <div class="v2-work-image">
+          <img src="{{ 'assets/img/VODCA_ACC2025/ACC_title.gif' | relative_url }}" alt="Safe adaptive cruise control project preview" loading="lazy">
+        </div>
+        <div class="v2-work-copy">
+          <p class="v2-card-meta">CCTA 2025 · Constrained Control</p>
+          <h3>Safe Adaptive Cruise Control in Dynamic Environments</h3>
+          <p>Combining reference-governor ideas, MPC, and collision-cone CBFs for dynamic environments.</p>
+          <span class="v2-card-cta">Project page →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="v2-section v2-about-section" aria-labelledby="about-title">
+    <div class="v2-about-label">
+      <p class="v2-eyebrow">ABOUT</p>
+      <h2 id="about-title">Research across multi-robot systems, safe control, and learning.</h2>
+    </div>
+    <div class="v2-about-copy">
+      {{ content }}
+    </div>
+  </section>
+</div>
