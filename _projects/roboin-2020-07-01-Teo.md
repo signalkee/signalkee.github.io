@@ -20,14 +20,14 @@ We designed and fabricated a robot based on a Theo Jansen linkage and combined i
 
 <div class="project-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/teo/computer.webp' | relative_url }}">
-    <source src="{{ 'assets/media/teo/computer.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/teo/computer.webp">
+    <source src="/assets/media/teo/computer.mp4" type="video/mp4">
   </video>
   <p class="caption">Computer-vision and mechanism test.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/teo/field.webp' | relative_url }}">
-    <source src="{{ 'assets/media/teo/field.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/teo/field.webp">
+    <source src="/assets/media/teo/field.mp4" type="video/mp4">
   </video>
   <p class="caption">Autonomous navigation on the competition course.</p>
 </div>
