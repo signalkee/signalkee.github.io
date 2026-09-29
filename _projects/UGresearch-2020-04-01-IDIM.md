@@ -19,8 +19,8 @@ The project explored an interoperable smart laboratory in which robotic systems 
 </div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/idim/gripper.webp' | relative_url }}">
-    <source src="{{ 'assets/media/idim/gripper.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/idim/gripper.webp">
+    <source src="/assets/media/idim/gripper.mp4" type="video/mp4">
   </video>
   <p class="caption">Modular gripper concept in operation.</p>
 </div>
