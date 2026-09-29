@@ -18,6 +18,13 @@ My undergraduate thesis was completed in the Research Laboratory of Manufacturin
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/REM2/REM2_setup.png" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/rem2/final-result.webp' | relative_url }}">
+    <source src="{{ 'assets/media/rem2/final-result.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <p class="caption">Final experimental result from the undergraduate thesis project.</p>
+</div>
+
 ## Experience
 
 The project strengthened my experience with hands-on system integration and experimental validation during the early stage of my robotics work.
