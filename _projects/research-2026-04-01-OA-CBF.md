@@ -23,7 +23,7 @@ OA-CBF asks how those parameters can be **adapted at runtime without treating on
 ## OA-CBF
 
 <div class="project-v2-body-bleed project-main-figure">
-  <img src="{{ 'assets/img/OACBF/overview.webp' | relative_url }}" alt="OA-CBF method overview">
+  <img src="/assets/img/OACBF/overview.webp" alt="OA-CBF method overview">
 </div>
 
 <div class="oa-cbf-visual"><div class="oa-cbf-flow">
