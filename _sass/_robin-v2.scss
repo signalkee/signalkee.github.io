@@ -358,9 +358,7 @@ html[data-theme="dark"] .v2-btn-primary {
   align-content: center;
   gap: 6px;
   isolation: isolate;
-  background:
-    linear-gradient(115deg, rgba(0, 39, 76, 0.96), rgba(11, 79, 122, 0.9)),
-    var(--v2-blue);
+  background: linear-gradient(115deg, rgba(0, 39, 76, 0.96), rgba(11, 79, 122, 0.9)), var(--v2-blue);
   color: #fff;
 }
 .v2-work-art-control strong {
@@ -843,7 +841,6 @@ html[data-theme="dark"] .v2-btn-primary {
   font-weight: 650;
   text-decoration: none !important;
 }
-
 
 @media (max-width: 900px) {
   .v2-hero {
