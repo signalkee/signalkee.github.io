@@ -5,10 +5,10 @@ layout: default
   <section class="v2-hero" aria-labelledby="hero-title">
     <div class="v2-hero-copy">
       <p class="v2-eyebrow">ROBIN INHO KEE · UNIVERSITY OF MICHIGAN ROBOTICS</p>
-      <h1 id="hero-title">Robot teams that reason, communicate, and adapt.</h1>
+      <h1 id="hero-title">Robot teams that understand the mission, communicate selectively, and predict before acting.</h1>
       <p class="v2-hero-lead">
-        I am a Ph.D. student in Robotics at the University of Michigan. I develop multi-robot autonomy that identifies what information matters,
-        communicates under real network constraints, and adapts team behavior as the mission context changes.
+        I am a Ph.D. student in Robotics at the University of Michigan. I build practical multi-robot autonomy across reasoning, communication,
+        prediction, and real-hardware deployment.
       </p>
 
       <div class="v2-actions">
@@ -44,31 +44,57 @@ layout: default
   <section class="v2-section" aria-labelledby="focus-title">
     <div class="v2-section-head">
       <div>
-        <p class="v2-eyebrow">CURRENT FOCUS</p>
-        <h2 id="focus-title">From mission context to coordinated robot behavior.</h2>
+        <p class="v2-eyebrow">PHD DIRECTION</p>
+        <h2 id="focus-title">From useful information to prediction-guided action.</h2>
       </div>
       <p>
-        My research connects mission-aware reasoning, adaptive communication, and resilient execution so robot teams can act on the right information
-        without assuming perfect connectivity.
+        My roadmap builds from selective communication to mission-aware reasoning and predictive execution, then validates those capabilities on real
+        robotic systems.
       </p>
     </div>
 
     <div class="v2-focus-grid">
       <article class="v2-focus-card">
         <span class="v2-focus-index">01</span>
-        <h3>Mission-aware reasoning</h3>
-        <p>Turn observations and mission context into the information and priorities that should change team behavior.</p>
+        <h3>Selective communication</h3>
+        <p>Move only useful information through the team: who should communicate, when, and what should be exchanged.</p>
       </article>
       <article class="v2-focus-card">
         <span class="v2-focus-index">02</span>
-        <h3>Adaptive communication</h3>
-        <p>Decide what to communicate, when, and with whom under finite range, bandwidth, and interference.</p>
+        <h3>Mission-aware reasoning</h3>
+        <p>Use mission, observation, and context to produce grounded evidence and bounded mission updates—not captions alone.</p>
       </article>
       <article class="v2-focus-card">
         <span class="v2-focus-index">03</span>
-        <h3>Predictive & resilient execution</h3>
-        <p>Use predictive models and safety-aware control to anticipate communication risk, agent loss, and changing environments.</p>
+        <h3>Prediction-guided execution</h3>
+        <p>Predict future communication, task progress, exposure, and agent-loss outcomes before choosing an action.</p>
       </article>
+    </div>
+
+    <div class="v2-roadmap" aria-label="PhD research roadmap">
+      <div class="v2-roadmap-step foundation">
+        <p class="v2-card-meta">FOUNDATION</p>
+        <strong>AC-DC</strong>
+        <span>Selective communication · Who / When / What</span>
+      </div>
+      <div class="v2-roadmap-arrow" aria-hidden="true">→</div>
+      <div class="v2-roadmap-step current">
+        <p class="v2-card-meta">NOW · EARLY 2027</p>
+        <strong>Theory + VLM</strong>
+        <span>Agreement & tracking guarantees · mission-conditioned semantic updates</span>
+      </div>
+      <div class="v2-roadmap-arrow" aria-hidden="true">→</div>
+      <div class="v2-roadmap-step hardware">
+        <p class="v2-card-meta">SUMMER 2027 · DRAPER</p>
+        <strong>Real-robot deployment</strong>
+        <span>Move the VLM into the Draper software stack and onto ground robots</span>
+      </div>
+      <div class="v2-roadmap-arrow" aria-hidden="true">→</div>
+      <div class="v2-roadmap-step next">
+        <p class="v2-card-meta">NEXT PILLAR</p>
+        <strong>World model</strong>
+        <span>Predict communication, task, and risk outcomes before action</span>
+      </div>
     </div>
   </section>
 
@@ -76,7 +102,7 @@ layout: default
     <div class="v2-section-head v2-section-head-row">
       <div>
         <p class="v2-eyebrow">SELECTED WORK</p>
-        <h2 id="work-title">Research foundations for the next autonomy stack.</h2>
+        <h2 id="work-title">Research foundations already in place.</h2>
       </div>
       <a class="v2-text-link" href="{{ '/Researches & Projects/' | relative_url }}">View all research →</a>
     </div>
@@ -131,7 +157,7 @@ layout: default
   <section class="v2-section v2-about-section" aria-labelledby="about-title">
     <div class="v2-about-label">
       <p class="v2-eyebrow">ABOUT</p>
-      <h2 id="about-title">Multi-robot autonomy, communication-aware coordination, and learning-enabled control.</h2>
+      <h2 id="about-title">Building toward practical autonomy systems.</h2>
     </div>
     <div class="v2-about-copy">
       {{ content }}
