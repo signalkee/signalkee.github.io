@@ -1,5 +1,5 @@
 name: Media polish visual QA once
-# final rerun
+# final rerun after media/profile cleanup
 
 on:
   push:
