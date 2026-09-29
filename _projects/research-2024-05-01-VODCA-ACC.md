@@ -2,7 +2,7 @@
 layout: page
 title: "Time Shift Governor-Guided MPC-CBF for Safe Adaptive Cruise Control"
 description: "Reference adaptation, MPC, and relaxed Collision Cone CBFs for adaptive cruise control with rapidly changing lead-vehicle behavior and moving obstacles."
-img: assets/img/VODCA_ACC2025/overview.webp
+img: assets/media/ccta/overview-motion.webp
 importance: 98
 category: Graduate research projects
 kicker: CCTA 2025 · SAFE CONTROL
@@ -17,10 +17,6 @@ paper: https://ieeexplore.ieee.org/abstract/document/11151321/
 Adaptive cruise control becomes difficult when the lead vehicle changes speed or direction abruptly while other obstacles are also moving. A nominal MPC-CBF controller can react too late, lose recursive feasibility, or become overly conservative when the safety constraints change quickly.
 
 ## Control architecture
-
-<div class="project-v2-body-bleed project-main-figure">
-  <img src="/assets/img/VODCA_ACC2025/overview.webp" alt="CCTA safe adaptive cruise control overview">
-</div>
 
 <div class="project-motion-wrap">
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/ccta/overview-motion.webp">
