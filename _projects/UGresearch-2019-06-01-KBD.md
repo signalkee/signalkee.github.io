@@ -20,8 +20,8 @@ We developed an intelligent lockout/tagout concept for monitoring the state of l
 </div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/kbd/overview.webp' | relative_url }}">
-    <source src="{{ 'assets/media/kbd/overview.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/kbd/overview.webp">
+    <source src="/assets/media/kbd/overview.mp4" type="video/mp4">
   </video>
   <p class="caption">Original animated lockout/tagout system demonstration.</p>
 </div>
