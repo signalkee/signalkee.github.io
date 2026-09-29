@@ -1,50 +1,27 @@
 ---
 layout: page
-title: Undergrad Thesis
-description: Research Laboratory of Manufacturing Mechatronics (02.2020-06.2020), Yonsei University, Seoul, South Korea
-img: assets/img/REM2/REM2_title.gif
+title: "Undergraduate Thesis: Manufacturing Mechatronics"
+description: "Undergraduate thesis work in manufacturing mechatronics at Yonsei University."
+img: assets/img/REM2/REM2_setup.png
 importance: 97
 category: Undergraduate research projects
-giscus_comments: False
+kicker: UNDERGRADUATE THESIS · 2020
+year: "2020"
+venue: "Yonsei University"
 ---
 
-#### **Research Laboratory of Manufacturing Mechatronics**
-#### School of Mechanical Engineering, Yonsei University, Seoul, South Korea
+## Thesis work
 
-**PI**: Professor Jun Young Yoon
-
-#### **Project**: **Linear motor active damper for precision manufacturing vibration reduction**
-
-**Abstract**: Chatter vibration is considered to be a significant factor on work piece quality. Among the types of chatter vibration, there is self-excited vibration created by the interaction between the machine tool and the work piece which is still being studied. This paper presents a linear motor active damper (LMAD) system which handles the vibration as an active strategy. As an active damper, LMAD uses an accelerometer to monitor the changes of system dynamics, and uses a linear motor as an actuator. Additionally, LMAD is controlled with direct velocity feedback (DVF) with an input of accelerometer data. The actual experiments were applied to 1DOF and 2DOF structures which achieved vibration reduction approximately 63.7% for 1DOF and an average of 52% for 2DOF structures. Experimental results show that LMAD damped structure vibration significantly with a DVF controller, while finding the feasibility for dealing with the entire frequency.
-
-
-<iframe src="/assets/img/REM2/REM2_final_ppt.pdf" width="100%" height="600px">
-    This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/img/REM2/REM2_final_ppt.pdf">Download PDF</a>.
-</iframe>
-<div class="caption">
-    Final presentation pdf of the thesis.
-</div>
+My undergraduate thesis was completed in the Research Laboratory of Manufacturing Mechatronics at Yonsei University and combined experimental setup, mechatronic implementation, and evaluation.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/REM2/REM2_setup.png" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/REM2/REM2_setup.png" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
 </div>
+
+## Experience
+
+The project strengthened my experience with hands-on system integration and experimental validation during the early stage of my robotics work.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/REM2/REM2_final_result.gif" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Final result gif of the thesis.
-</div>
-
-
-
-etc. Spending a rare time in the lab during COVID-19
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/REM2/REM2_lab.jpg" title="fab image" class="img-fluid rounded z-depth-1" %}
-    </div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/REM2/REM2_lab.jpg" title="Lab" class="img-fluid rounded z-depth-1" %}</div>
 </div>
