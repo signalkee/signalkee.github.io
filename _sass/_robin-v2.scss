@@ -351,6 +351,69 @@ html[data-theme="dark"] .v2-btn-primary {
   font-size: clamp(2.8rem, 7vw, 5.8rem);
   letter-spacing: -0.07em;
 }
+.v2-work-art-control {
+  position: relative;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 6px;
+  isolation: isolate;
+  background:
+    linear-gradient(115deg, rgba(0, 39, 76, 0.96), rgba(11, 79, 122, 0.9)),
+    var(--v2-blue);
+  color: #fff;
+}
+.v2-work-art-control strong {
+  position: relative;
+  z-index: 3;
+  font-size: 2.1rem;
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+.v2-work-art-control small {
+  position: relative;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+}
+.v2-control-road {
+  position: absolute;
+  z-index: 1;
+  width: 150%;
+  height: 54px;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  transform: rotate(-18deg);
+}
+.v2-control-road::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-top: 2px dashed rgba(255, 203, 5, 0.72);
+}
+.v2-control-car {
+  position: absolute;
+  z-index: 2;
+  width: 38px;
+  height: 18px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  background: var(--v2-maize);
+}
+.v2-control-car.car-a {
+  top: 31%;
+  left: 19%;
+  transform: rotate(-18deg);
+}
+.v2-control-car.car-b {
+  right: 18%;
+  bottom: 28%;
+  transform: rotate(-18deg);
+}
 .v2-network-ring {
   position: absolute;
   border: 1px solid rgba(255, 255, 255, 0.22);
