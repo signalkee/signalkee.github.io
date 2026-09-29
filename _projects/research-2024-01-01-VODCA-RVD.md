@@ -31,7 +31,7 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/scitech/overview.webp">
     <source src="/assets/media/scitech/overview.mp4" type="video/mp4">
   </video>
-  <p class="caption">Original animated spacecraft-rendezvous project overview.</p>
+  <p class="caption">Learning-assisted Time Shift Governor for constrained spacecraft rendezvous.</p>
 </div>
 
 ## Results
