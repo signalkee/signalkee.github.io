@@ -1,0 +1,79 @@
+name: Final content visual QA
+
+on:
+  push:
+    branches: [website-final-content-polish]
+    paths:
+      - ".github/workflows/final-content-visual-qa.yml"
+
+jobs:
+  visual-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+
+      - name: Build site
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Check local static references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          root = Path("_site")
+          missing = []
+          for html in root.rglob("*.html"):
+              text = html.read_text(errors="ignore")
+              for ref in re.findall(r'(?:src|href)="(/[^"#?]+)', text):
+                  if ref.startswith("//"):
+                      continue
+                  target = root / ref.lstrip("/")
+                  if target.is_dir():
+                      target = target / "index.html"
+                  if not target.exists():
+                      missing.append((str(html), ref))
+          if missing:
+              for item in missing[:100]:
+                  print(item)
+              raise SystemExit(f"{len(missing)} missing local references")
+          print("0 missing local references")
+          PY
+
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+
+      - name: Render screenshots
+        run: |
+          python3 -m http.server 8080 --directory _site >/tmp/site.log 2>&1 &
+          sleep 2
+          CHROME="$(which chrome || which google-chrome || which chromium)"
+          mkdir -p preview
+          render() {
+            name="$1"; size="$2"; url="$3"
+            "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --virtual-time-budget=3500 --window-size="$size" --screenshot="preview/$name.png" "http://127.0.0.1:8080$url"
+          }
+          render home-desktop 1440,3600 /
+          render home-mobile 390,4200 /
+          render research-desktop 1440,5200 "/Researches%20%26%20Projects/"
+          render research-mobile 390,6200 "/Researches%20%26%20Projects/"
+          render publications-desktop 1440,4200 /Publications/
+          render cv-desktop 1440,5200 /CV/
+          render acdc-desktop 1440,6800 /projects/research-2026-09-21-ACDC/
+          render acdc-mobile 390,8000 /projects/research-2026-09-21-ACDC/
+          render oa-cbf-desktop 1440,7200 /projects/research-2026-04-01-OA-CBF/
+          render ccta-desktop 1440,6800 /projects/research-2024-05-01-VODCA-ACC/
+          render ccta-mobile 390,7600 /projects/research-2024-05-01-VODCA-ACC/
+          render teo-desktop 1440,5200 /projects/roboin-2020-07-01-Teo/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: final-content-visual-qa
+          path: preview
+          retention-days: 7
