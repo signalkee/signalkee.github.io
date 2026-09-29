@@ -28,8 +28,8 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
 <div class="caption">Learning-assisted TSG architecture used to modify the reference while respecting mission constraints.</div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="{{ 'assets/media/scitech/overview.webp' | relative_url }}">
-    <source src="{{ 'assets/media/scitech/overview.mp4' | relative_url }}" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/scitech/overview.webp">
+    <source src="/assets/media/scitech/overview.mp4" type="video/mp4">
   </video>
   <p class="caption">Original animated spacecraft-rendezvous project overview.</p>
 </div>
