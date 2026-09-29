@@ -1,4 +1,5 @@
 name: Finalize media polish once
+# rerun after final density pass
 
 on:
   push:
