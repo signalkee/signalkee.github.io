@@ -37,11 +37,6 @@ For safety, the controller combines a CBF for adaptive cruise control with a **r
 
 We evaluate the controller on a circular road with a fluctuating-speed lead vehicle and **2–5 moving obstacles**. The lead vehicle exhibits sinusoidal speed changes, sudden reversals, and off-track deviations, while the obstacles move along randomized radial trajectories.
 
-<div class="project-v2-body-bleed project-main-figure">
-  <img src="/assets/img/CCTA/representative-trials.webp" alt="Representative CCTA trials comparing baseline MPC-CBF and TSG-guided MPC-CBF">
-</div>
-<div class="caption">Representative trials from the paper compare baseline MPC-CBF with the TSG-guided controller across trajectory, relative-motion, control-input, barrier-function, and time-shift histories.</div>
-
 The representative cases show two failure modes of the baseline. In one case, the baseline reacts too late to a lead-vehicle reversal and produces a rear-end collision. In another, it reacts too late to a crossing obstacle. The TSG-guided controller adjusts the virtual target through the time-shift variable and maintains safety in both cases.
 
 ## Results
