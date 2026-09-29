@@ -43,7 +43,7 @@ I worked on hardware design and fabrication and developed the vision algorithms 
 
 ## Recognition
 
-The project received **1st Place** in the 2020 Computational Design Competition.
+The robot recorded 1st Place in fastest completion time in the 2020 Computational Design Competition.
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin_Teo/Teo_wip.jpg" title="Prototype" class="img-fluid rounded z-depth-1" %}</div>
