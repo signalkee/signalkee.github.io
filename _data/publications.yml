@@ -1,50 +1,41 @@
 under_review:
-  - authors: "Sangdo Kim*, Jeonguk Kang* (*: Equal Contribution), Robin Inho Kee, Sunwoo Kim, Choa Kim, Youngsu Cha, Yisoo Lee, Kanggeon Kim, Jongwon Lee"
-    title: "Towards Daily Life Sarcopenia Detection: Deep Learning-Based Gait Analysis Using Wearable Hip Assistive Robot"
-    status: "Under Review"
-  
-  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Buu"
+  - authors: "Robin Inho Kee, Begum Cannataro, Vasileios Tzoumas"
+    title: "AC-DC: Adaptive Communication for Scalable Dynamic Average Consensus in Multi-Robot Ergodic Search"
+    status: "ICRA 2027 submission · arXiv preprint"
+    year: "2026"
+    arxiv: "https://arxiv.org/abs/2609.24702"
+    project: "/projects/research-2026-09-21-ACDC/"
+
+  - authors: "Sangdo Kim, Sunwoo Kim, Jeonguk Kang, Robin Inho Kee, Kyung-Ryoul Mun, Yisoo Lee, KangGeon Kim, Youngsu Cha, Jongwon Lee"
+    title: "Toward Daily-Life Sarcopenia Identification via Real-Time Gait Assessment Using a Wearable Hip Assistive Robot"
+    status: "IEEE Robotics and Automation Letters · Under review"
+    year: "2026"
+
+  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Bu"
     title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
-    status: "Under Review"
-
-
-journals:
-  - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
-    title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
-    journal: "IEEE Access"
-    year: "2024"
-    # pdf: IEEEAccess2024_TProto.pdf
-    
-  - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
-    title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
-    journal: "The Journal of Korea Robotics Society"
-    year: "2023"
-
-  - authors: "Byonghun Kim, Sunghyun Hong, Inwook Oh, Yangwoo Lee, Inho Kee, Saeyong Lee"
-    title: "Measurement of ankle joint movements using IMUs during running"
-    journal: "Sensors"
-    year: "2021"
-    # pdf: Sensors2021_IMU.pdf
-
+    status: "Under review"
+    year: "2026"
 
 conferences:
   - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
     title: "Time Shift Governor-Guided MPC with Collision Cone CBFs for Safe Adaptive Cruise Control in Dynamic Environments"
     conference: "IEEE Conference on Control Technology and Applications (CCTA)"
     year: "2025"
-    # pdf: CCTA2025_TSGCBF_arxiv.pdf
+    project: "/projects/research-2024-05-01-VODCA-ACC/"
 
   - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
     title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
     conference: "IEEE International Conference on Robotics and Automation (ICRA)"
     year: "2025"
-    # pdf: ICRA2025_ICCBF.pdf
+    arxiv: "https://arxiv.org/abs/2409.14616"
+    project: "/projects/research-2024-02-01-Panagou-ICRA/"
+    code: "https://github.com/tkkim-robot/online_adaptive_cbf"
 
   - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
     title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
     conference: "AIAA SCITECH Forum"
     year: "2025"
-    # pdf: SciTech2025_LTSG.pdf
+    project: "/projects/research-2024-01-01-VODCA-RVD/"
 
   - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
     title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
@@ -57,3 +48,18 @@ conferences:
     conference: "IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)"
     year: "2019"
 
+journals:
+  - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
+    title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
+    journal: "IEEE Access"
+    year: "2024"
+
+  - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
+    title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
+    journal: "The Journal of Korea Robotics Society"
+    year: "2023"
+
+  - authors: "Byonghun Kim, Sunghyun Hong, Inwook Oh, Yangwoo Lee, Inho Kee, Saeyong Lee"
+    title: "Measurement of ankle joint movements using IMUs during running"
+    journal: "Sensors"
+    year: "2021"
