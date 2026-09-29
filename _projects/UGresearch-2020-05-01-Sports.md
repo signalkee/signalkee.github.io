@@ -19,6 +19,27 @@ We developed a portable system for measuring ankle-joint motion with wearable IM
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Sport/Sport_setup.png" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
+<div class="project-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/sport/trial-1.webp">
+    <source src="/assets/media/sport/trial-1.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Representative running trial with wearable IMU feedback.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/sport/trial-n.webp">
+    <source src="/assets/media/sport/trial-n.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Additional trial demonstrating repeatable real-time feedback.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/sport/experiment.webp">
+    <source src="/assets/media/sport/experiment.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Experimental validation setup in motion.</p>
+</div>
+</div>
+
 ## Validation
 
 The wearable measurements were validated against a motion-capture reference during running. This work contributed to a 2021 paper in _Sensors_ on measuring ankle-joint movements using IMUs.

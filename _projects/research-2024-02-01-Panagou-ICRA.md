@@ -28,6 +28,13 @@ We developed an online adaptation framework that evaluates candidate ICCBF param
 <div class="row"><div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/DASC_ICRA2025/ICRA_overview.webp" title="Online Adaptive ICCBF overview" class="img-fluid rounded z-depth-1" %}</div></div>
 <div class="caption">Predict candidate performance and risk, verify uncertainty, then adapt the safety-controller parameters online.</div>
 
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/overview.webp">
+    <source src="/assets/media/icra/overview.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Original animated method overview.</p>
+</div>
+
 The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict performance and risk metrics for candidate parameters while representing both epistemic and aleatoric uncertainty.
 
 ## Two-step uncertainty verification
@@ -44,6 +51,33 @@ The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict pe
 </div>
 
 ## Experiments
+
+<div class="project-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/realtime-1.webp">
+    <source src="/assets/media/icra/realtime-1.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Online adaptation in a representative navigation trial.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/realtime-2.webp">
+    <source src="/assets/media/icra/realtime-2.mp4" type="video/mp4">
+  </video>
+  <p class="caption">A second real-time adaptation example.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/experiment-1.webp">
+    <source src="/assets/media/icra/experiment-1.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Representative experiment.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/experiment-3.webp">
+    <source src="/assets/media/icra/experiment-3.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Representative experiment.</p>
+</div>
+</div>
 
 We evaluated the method in robot-navigation scenarios against fixed-parameter and existing adaptive approaches. The experiments test the tradeoff the method is designed around: maintaining feasibility and safety near obstacles without forcing the robot to remain unnecessarily conservative when more aggressive parameters are locally appropriate.
 

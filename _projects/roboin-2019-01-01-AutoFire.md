@@ -20,6 +20,27 @@ For a senior project in Yonsei's robotics club, our team built a mobile robot th
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin_Fire/Fire_session.jpg" title="Robot development" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
+<div class="project-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/fire/demo.webp">
+    <source src="/assets/media/fire/demo.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Autonomous heat-source tracking and fire-suppression demo.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/fire/stairs.webp">
+    <source src="/assets/media/fire/stairs.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Mobility / stair test.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/fire/communication.webp">
+    <source src="/assets/media/fire/communication.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Robot communication and control demo.</p>
+</div>
+</div>
+
 ## My contribution
 
 I served as team leader and led the hardware/software integration, including mobile-robot control and the heat-source tracking pipeline.

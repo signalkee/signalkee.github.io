@@ -18,6 +18,13 @@ The project explored an interoperable smart laboratory in which robotic systems 
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/IDIM/IDIM_smartlab.png" title="Smart lab overview" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/idim/gripper.webp">
+    <source src="/assets/media/idim/gripper.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Modular gripper concept in operation.</p>
+</div>
+
 ## My contribution
 
 I worked on the communication layer between experimental equipment and the robot, designed a tool-changeable modular gripper concept, and programmed collaborative-robot experimental scenarios.

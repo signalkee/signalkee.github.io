@@ -18,6 +18,21 @@ We designed and fabricated a robot based on a Theo Jansen linkage and combined i
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/Roboin_Teo/Teo_system.jpg" title="Theo Jansen robot system" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
+<div class="project-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/teo/computer.webp">
+    <source src="/assets/media/teo/computer.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Computer-vision and mechanism test.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/teo/field.webp">
+    <source src="/assets/media/teo/field.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Autonomous navigation on the competition course.</p>
+</div>
+</div>
+
 ## Autonomy
 
 A Raspberry Pi camera was used for path recognition as well as STOP-sign and AR-marker detection, allowing the robot to choose turns and execute simple commands along a course.
