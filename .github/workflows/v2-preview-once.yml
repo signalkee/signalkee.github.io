@@ -1,11 +1,9 @@
-name: V2 visual preview once
+name: V2 visual preview
 
 on:
   push:
     branches:
       - website-v2-redesign
-    paths:
-      - ".github/workflows/v2-preview-once.yml"
 
 permissions:
   contents: read
