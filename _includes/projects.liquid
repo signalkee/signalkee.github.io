@@ -1,35 +1,19 @@
 <div class="col">
-  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if project.img %}
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
+  <a class="project-card-v2" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    {% if project.img %}
+      <div class="project-card-v2-media">
+        <img src="{{ project.img | relative_url }}" alt="{{ project.title }} preview" loading="lazy">
       </div>
+    {% else %}
+      <div class="project-card-v2-media project-card-v2-fallback" aria-hidden="true">
+        <span>{{ project.cover_label | default: project.title | slice: 0, 8 | upcase }}</span>
+      </div>
+    {% endif %}
+    <div class="project-card-v2-body">
+      <p class="v2-card-meta">{{ project.kicker | default: project.category }}</p>
+      <h3>{{ project.title }}</h3>
+      <p>{{ project.description }}</p>
+      <span class="v2-card-cta">Open project →</span>
     </div>
   </a>
 </div>

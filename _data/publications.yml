@@ -1,59 +1,78 @@
 under_review:
-  - authors: "Sangdo Kim*, Jeonguk Kang* (*: Equal Contribution), Robin Inho Kee, Sunwoo Kim, Choa Kim, Youngsu Cha, Yisoo Lee, Kanggeon Kim, Jongwon Lee"
-    title: "Towards Daily Life Sarcopenia Detection: Deep Learning-Based Gait Analysis Using Wearable Hip Assistive Robot"
-    status: "Under Review"
-  
-  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Buu"
-    title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
-    status: "Under Review"
+  - authors: "Robin Inho Kee, Begum Cannataro, Vasileios Tzoumas"
+    title: "AC-DC: Adaptive Communication for Scalable Dynamic Average Consensus in Multi-Robot Ergodic Search"
+    status: "IEEE ICRA 2027 · Submitted"
+    year: "2026"
+    arxiv: "https://arxiv.org/abs/2609.24702"
+    project: "/projects/research-2026-09-21-ACDC/"
 
+  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+    title: "Learning to Adapt Control Barrier Functions Under Epistemic and Aleatoric Uncertainty"
+    status: "Preprint / under review"
+    year: "2026"
+    arxiv: "https://arxiv.org/abs/2504.03038"
+    project: "/projects/research-2026-04-01-OA-CBF/"
+
+  - authors: "Sangdo Kim*, Sunwoo Kim*, Jeonguk Kang, Robin Inho Kee, Kyung-Ryoul Mun, Yisoo Lee, KangGeon Kim, Youngsu Cha, Jongwon Lee"
+    title: "Toward Daily-Life Sarcopenia Identification via Real-Time Gait Assessment Using a Wearable Hip Assistive Robot"
+    status: "IEEE Robotics and Automation Letters · Under review"
+    year: "2026"
+    project: "/projects/work-2022-07-01-KIST/"
+
+  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Bu"
+    title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
+    status: "arXiv preprint"
+    year: "2025"
+    arxiv: "https://arxiv.org/abs/2502.05500"
+
+conferences:
+  - authors: "Robin Inho Kee*, Taehyeun Kim*, Anouck Girard, Ilya Kolmanovsky"
+    title: "Time Shift Governor-Guided MPC with Collision Cone CBFs for Safe Adaptive Cruise Control in Dynamic Environments"
+    conference: "IEEE CCTA"
+    year: "2025"
+    paper: "https://ieeexplore.ieee.org/abstract/document/11151321/"
+    project: "/projects/research-2024-05-01-VODCA-ACC/"
+
+  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
+    title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
+    conference: "IEEE ICRA"
+    year: "2025"
+    paper: "https://ieeexplore.ieee.org/abstract/document/11128840/"
+    arxiv: "https://arxiv.org/abs/2409.14616"
+    project: "/projects/research-2024-02-01-Panagou-ICRA/"
+    code: "https://github.com/tkkim-robot/online_adaptive_cbf"
+
+  - authors: "Taehyeun Kim*, Robin Inho Kee*, Ilya Kolmanovsky, Anouck Girard"
+    title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Based Time Shift Governor"
+    conference: "AIAA SciTech Forum"
+    year: "2025"
+    paper: "https://arc.aiaa.org/doi/10.2514/6.2025-1700"
+    project: "/projects/research-2024-01-01-VODCA-RVD/"
+
+  - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
+    title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
+    conference: "Korea Data Mining Society"
+    year: "2023"
+    award: "SAS Student Paper Award"
+    project: "/projects/UGresearch-2023-03-01-SoftComp/"
+
+  - authors: "Woojin Jo, Sehyun Hwang, Inho Kee, Soohong Lee"
+    title: "An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device"
+    conference: "IEEE IEEM"
+    year: "2019"
+    project: "/projects/UGresearch-2019-06-01-KBD/"
 
 journals:
-  - authors: "Robin Inho Kee, Dahyun Nam, SeokJun Bu, SungBae Cho"
+  - authors: "Robin Inho Kee, Dahyun Nam, Seok-Jun Bu, SungBae Cho"
     title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
-    # pdf: IEEEAccess2024_TProto.pdf
-    
-  - authors: "Hobin Kim, Jongbok Lee, Sunwoo Kim, Inho Kee, Sangdo Kim, Shinsuk Park, Kanggeon Kim, Jongwon Lee"
-    title: "Gait Phase Estimation Method Adaptable to Changes in Gait Speed on Level Ground and Stairs"
-    journal: "The Journal of Korea Robotics Society"
-    year: "2023"
+    paper: "https://ieeexplore.ieee.org/document/10521661"
+    project: "/projects/UGresearch-2023-03-01-SoftComp/"
 
   - authors: "Byonghun Kim, Sunghyun Hong, Inwook Oh, Yangwoo Lee, Inho Kee, Saeyong Lee"
     title: "Measurement of ankle joint movements using IMUs during running"
     journal: "Sensors"
     year: "2021"
-    # pdf: Sensors2021_IMU.pdf
-
-
-conferences:
-  - authors: "Robin Inho Kee*, Taehyeun Kim* (*: Equal Contribution), Anouck Girard, Ilya Kolmanovsky"
-    title: "Time Shift Governor-Guided MPC with Collision Cone CBFs for Safe Adaptive Cruise Control in Dynamic Environments"
-    conference: "IEEE Conference on Control Technology and Applications (CCTA)"
-    year: "2025"
-    # pdf: CCTA2025_TSGCBF_arxiv.pdf
-
-  - authors: "Taekyung Kim, Robin Inho Kee, Dimitra Panagou"
-    title: "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
-    conference: "IEEE International Conference on Robotics and Automation (ICRA)"
-    year: "2025"
-    # pdf: ICRA2025_ICCBF.pdf
-
-  - authors: "Taehyeun Kim*, Robin Inho Kee* (*: Equal Contribution), Ilya Kolmanovsky, Anouck Girard"
-    title: "Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Accelerated Time Shift Governor"
-    conference: "AIAA SCITECH Forum"
-    year: "2025"
-    # pdf: SciTech2025_LTSG.pdf
-
-  - authors: "Dahyun Nam, Inho Kee, Seok-Jun Bu, SungBae Cho"
-    title: "Dynamic Prototype-guided Memory Replay for In-Vehicle Noise Classification"
-    conference: "Korea Data Mining Society (KDMS)"
-    year: "2023"
-    award: "SAS Student Paper Award (Honorable Mention)"
-
-  - authors: "Woojin Jo, Sehyun Hwang, Inho Kee, Soohong Lee"
-    title: "An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device"
-    conference: "IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)"
-    year: "2019"
-
+    paper: "https://www.mdpi.com/1424-8220/21/12/4240"
+    project: "/projects/UGresearch-2020-05-01-Sports/"

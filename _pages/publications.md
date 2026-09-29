@@ -2,37 +2,42 @@
 layout: page
 permalink: /Publications/
 title: Publications
-description: 
+eyebrow: PUBLICATIONS
+description: Peer-reviewed papers, preprints, and manuscripts in multi-robot autonomy, safe control, and learning-enabled robotics.
 nav: true
 nav_order: 3
 ---
 
-## Under review
-{% assign under_review = 1 %}
-{% for pub in site.data.publications.under_review %}
-{% capture authors %}{{ pub.authors | escape }}{% endcapture %}
-{% capture authors_temp %}{{ authors | replace: 'Robin Inho Kee', 'TEMP_PLACEHOLDER' | replace: '*', '&#42;'}}{% endcapture %}
-{% capture authors_final %}{{ authors_temp | replace: 'Inho Kee', '**<u>Inho Kee</u>**' | replace: 'TEMP_PLACEHOLDER', '**<u>Robin Inho Kee</u>**'}}{% endcapture %}
-{{ under_review }}. {{ authors_final }}, "{{ pub.title }}", {{ pub.status }}{% if pub.pdf %} [<a href="{% if pub.pdf contains "/" %}{{ pub.pdf }}{% else %}/assets/pdf/{{ pub.pdf }}{% endif %}" target="_blank">PDF</a>]{% endif %}
-{% assign under_review = under_review | plus: 1 %}
-{% endfor %}
+<p class="publication-note-v2">* Equal contribution</p>
 
-## Journals
-{% assign journal = 1 %}
-{% for pub in site.data.publications.journals %}
-{% capture authors %}{{ pub.authors }}{% endcapture %}
-{% capture authors_temp %}{{ authors | replace: 'Robin Inho Kee', 'TEMP_PLACEHOLDER' | replace: '*', '&#42;'}}{% endcapture %}
-{% capture authors_final %}{{ authors_temp | replace: 'Inho Kee', '**<u>Inho Kee</u>**'  | replace: 'TEMP_PLACEHOLDER', '**<u>Robin Inho Kee</u>**'}}{% endcapture %}
-{{ journal }}. {{ authors_final }}, "{{ pub.title }}", {{ pub.journal }}, {{ pub.year }}{% if pub.pdf %} [<a href="{% if pub.pdf contains "/" %}{{ pub.pdf }}{% else %}/assets/pdf/{{ pub.pdf }}{% endif %}" target="_blank">PDF</a>]{% endif %}
-{% assign journal = journal | plus: 1 %}
-{% endfor %}
+<div class="publications-v2">
+  <section class="publications-v2-section">
+    <div class="publications-v2-heading">
+      <p class="v2-eyebrow">MANUSCRIPTS</p>
+      <h2>Under review & preprints</h2>
+    </div>
+    {% for pub in site.data.publications.under_review %}
+      {% include publication-row-v2.liquid pub=pub label='Manuscript' %}
+    {% endfor %}
+  </section>
 
-## Conferences
-{% assign conference = 1 %}
-{% for pub in site.data.publications.conferences %}
-{% capture authors %}{{ pub.authors }}{% endcapture %}
-{% capture authors_temp %}{{ authors | replace: 'Robin Inho Kee', 'TEMP_PLACEHOLDER' | replace: '*', '&#42;'}}{% endcapture %}
-{% capture authors_final %}{{ authors_temp | replace: 'Inho Kee', '**<u>Inho Kee</u>**'  | replace: 'TEMP_PLACEHOLDER', '**<u>Robin Inho Kee</u>**'}}{% endcapture %}
-{{ conference }}. {{ authors_final }}, "{{ pub.title }}", {{ pub.conference }}, {{ pub.year }}{% if pub.award %}, **{{ pub.award }}**{% endif %}{% if pub.pdf %} [<a href="{% if pub.pdf contains "/" %}{{ pub.pdf }}{% else %}/assets/pdf/{{ pub.pdf }}{% endif %}" target="_blank">PDF</a>]{% endif %}
-{% assign conference = conference | plus: 1 %}
-{% endfor %}
+  <section class="publications-v2-section">
+    <div class="publications-v2-heading">
+      <p class="v2-eyebrow">CONFERENCES</p>
+      <h2>Conference papers</h2>
+    </div>
+    {% for pub in site.data.publications.conferences %}
+      {% include publication-row-v2.liquid pub=pub label='Conference' %}
+    {% endfor %}
+  </section>
+
+  <section class="publications-v2-section">
+    <div class="publications-v2-heading">
+      <p class="v2-eyebrow">JOURNALS</p>
+      <h2>Journal papers</h2>
+    </div>
+    {% for pub in site.data.publications.journals %}
+      {% include publication-row-v2.liquid pub=pub label='Journal' %}
+    {% endfor %}
+  </section>
+</div>
