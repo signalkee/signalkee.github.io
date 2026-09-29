@@ -1,0 +1,70 @@
+name: Restore project motion once
+
+on:
+  push:
+    branches:
+      - website-v2-media-polish
+    paths:
+      - ".github/workflows/restore-project-motion-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  restore-motion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: website-v2-media-polish
+      - name: Convert legacy GIFs to efficient MP4
+        shell: bash
+        run: |
+          set -euo pipefail
+          OLD=6b5beb213769bd58617ba490e9a7cb927bcd1583
+          ROOT="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${OLD}"
+          mkdir -p assets/media/{kbd,rem2,idim,sport,scitech,icra,ccta,fire,roboin,teo,kist}
+          convert_one() {
+            src="$1"; dst="$2"
+            echo "Converting $src -> $dst"
+            curl -L --fail --retry 3 --silent --show-error "$ROOT/$src" -o /tmp/input.gif
+            ffmpeg -hide_banner -loglevel error -y -i /tmp/input.gif -an               -vf "fps=15,scale='min(960,iw)':-2:flags=lanczos"               -c:v libx264 -preset veryfast -crf 25 -pix_fmt yuv420p -movflags +faststart "$dst"
+            rm -f /tmp/input.gif
+          }
+
+          convert_one assets/img/KBD/KBD_title.gif assets/media/kbd/overview.mp4
+          convert_one assets/img/REM2/REM2_final_result.gif assets/media/rem2/final-result.mp4
+          convert_one assets/img/IDIM/IDIM_gripper.gif assets/media/idim/gripper.mp4
+          convert_one assets/img/Sport/Sport_exp_trial1.gif assets/media/sport/trial-1.mp4
+          convert_one assets/img/Sport/Sport_exp_trialN.gif assets/media/sport/trial-n.mp4
+          convert_one assets/img/Sport/Sport_exptest.gif assets/media/sport/experiment.mp4
+          convert_one assets/img/VODCA_SciTech2025/Sci_title.gif assets/media/scitech/overview.mp4
+          convert_one assets/img/DASC_ICRA2025/ICRA_title.gif assets/media/icra/overview.mp4
+          convert_one assets/img/DASC_ICRA2025/ICRA_realtimeplot.gif assets/media/icra/realtime-1.mp4
+          convert_one assets/img/DASC_ICRA2025/ICRA_realtimeplot2.gif assets/media/icra/realtime-2.mp4
+          convert_one assets/img/DASC_ICRA2025/ICRA_exp1.gif assets/media/icra/experiment-1.mp4
+          convert_one assets/img/DASC_ICRA2025/ICRA_exp3.gif assets/media/icra/experiment-3.mp4
+          convert_one assets/img/DASC_ICRA2025/ICRA_exp5.gif assets/media/icra/experiment-5.mp4
+          convert_one assets/img/VODCA_ACC2025/ACC_title.gif assets/media/ccta/overview-motion.mp4
+          convert_one assets/img/Roboin_Fire/Fire_demo.gif assets/media/fire/demo.mp4
+          convert_one assets/img/Roboin_Fire/Fire_stair.gif assets/media/fire/stairs.mp4
+          convert_one assets/img/Roboin_Fire/Fire_COM.gif assets/media/fire/communication.mp4
+          convert_one assets/img/Roboin/Rob_cctv.gif assets/media/roboin/cctv.mp4
+          convert_one assets/img/Roboin/Rob_dronevid.gif assets/media/roboin/drone.mp4
+          convert_one assets/img/Roboin/Rob_edvid.gif assets/media/roboin/edison.mp4
+          convert_one assets/img/Roboin/Rob_selfbalvid.gif assets/media/roboin/self-balancing.mp4
+          convert_one assets/img/Roboin_Teo/Teo_comp.gif assets/media/teo/computer.mp4
+          convert_one assets/img/Roboin_Teo/Teo_field.gif assets/media/teo/field.mp4
+          convert_one assets/img/KIST/KIST_exp_overground.gif assets/media/kist/overground.mp4
+          convert_one assets/img/KIST/KIST_exp_sidewalk.gif assets/media/kist/sidewalk.mp4
+          convert_one assets/img/KIST/KIST_exp_sitstand.gif assets/media/kist/sit-stand.mp4
+
+          du -h assets/media/*/* | sort -h
+      - name: Commit optimized motion assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/media
+          git commit -m "website v2: restore project motion as optimized MP4"
+          git pull --rebase origin website-v2-media-polish
+          git push origin HEAD:website-v2-media-polish
