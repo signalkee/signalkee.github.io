@@ -65,11 +65,30 @@ jobs:
           convert_one assets/img/KIST/KIST_exp_sitstand.gif assets/media/kist/sit-stand.mp4
 
           du -h assets/media/*/* | sort -h
+
+      - name: Create lightweight posters
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r video; do
+            poster="${video%.mp4}.webp"
+            ffmpeg -hide_banner -loglevel error -y -i "$video" -frames:v 1 \
+              -vf "scale='min(1200,iw)':-2:flags=lanczos" -c:v libwebp -quality 78 "$poster"
+          done < <(find assets/media -name '*.mp4' -type f | sort)
+
+          mkdir -p assets/img/OACBF
+          curl -L --fail --retry 3 --silent --show-error \
+            "https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36518d5c-31e3-809b-9d46-ec8fbb3290a9&src=attachment%3A74e67ea4-43e4-4668-af23-22f429c44993%3AFrame_8_%281%29.png" \
+            -o /tmp/oa-overview.png
+          ffmpeg -hide_banner -loglevel error -y -i /tmp/oa-overview.png \
+            -vf "scale='min(1400,iw)':-2:flags=lanczos" -c:v libwebp -quality 82 assets/img/OACBF/overview.webp
+
+          du -h assets/media/*/*.webp assets/img/OACBF/overview.webp | sort -h
       - name: Commit optimized motion assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/media
+          git add assets/media assets/img/OACBF
           git commit -m "website v2: restore project motion as optimized MP4"
           git pull --rebase origin website-v2-media-polish
           git push origin HEAD:website-v2-media-polish
