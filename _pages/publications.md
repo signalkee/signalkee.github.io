@@ -17,17 +17,7 @@ nav_order: 3
       <h2>Under review & preprints</h2>
     </div>
     {% for pub in site.data.publications.under_review %}
-      {% include publication-row-v2.liquid pub=pub label='Manuscript' %}
-    {% endfor %}
-  </section>
-
-  <section class="publications-v2-section">
-    <div class="publications-v2-heading">
-      <p class="v2-eyebrow">CONFERENCES</p>
-      <h2>Conference papers</h2>
-    </div>
-    {% for pub in site.data.publications.conferences %}
-      {% include publication-row-v2.liquid pub=pub label='Conference' %}
+      {% include publication-row-v2.liquid pub=pub %}
     {% endfor %}
   </section>
 
@@ -37,7 +27,17 @@ nav_order: 3
       <h2>Journal papers</h2>
     </div>
     {% for pub in site.data.publications.journals %}
-      {% include publication-row-v2.liquid pub=pub label='Journal' %}
+      {% include publication-row-v2.liquid pub=pub %}
+    {% endfor %}
+  </section>
+
+  <section class="publications-v2-section">
+    <div class="publications-v2-heading">
+      <p class="v2-eyebrow">CONFERENCES</p>
+      <h2>Conference papers</h2>
+    </div>
+    {% for pub in site.data.publications.conferences %}
+      {% include publication-row-v2.liquid pub=pub %}
     {% endfor %}
   </section>
 </div>

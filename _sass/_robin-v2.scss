@@ -1944,3 +1944,76 @@ body {
     padding-top: 34px;
   }
 }
+
+/* Publication density refinement ------------------------------------------- */
+.publications-v2-section {
+  padding: 18px 0 24px;
+}
+.publications-v2-heading {
+  margin-bottom: 8px;
+}
+.publication-note-v2 {
+  margin-bottom: 14px;
+}
+.publication-row-v2 {
+  padding: 10px 0;
+}
+.publication-row-v2-authors {
+  margin-top: 3px;
+}
+.publication-row-v2-links {
+  margin-top: 5px;
+}
+@media (max-width: 620px) {
+  .publications-v2-section {
+    padding: 15px 0 20px;
+  }
+  .publication-row-v2 {
+    padding: 9px 0;
+  }
+}
+
+/* OA-CBF motion thumbnails / CCTA paper result table ----------------------- */
+.project-card-v2-media video,
+.v2-work-image video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.v2-work-image-contain video {
+  object-fit: contain;
+  background: #fff;
+}
+.ccta-paper-table-wrap {
+  overflow-x: auto;
+  margin: 18px 0 8px;
+  padding: 22px 26px;
+  border: 1px solid var(--v2-line);
+  border-radius: 18px;
+  background: #fff;
+}
+.ccta-paper-table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  color: var(--global-text-color);
+  font-size: 1rem;
+}
+.ccta-paper-table th,
+.ccta-paper-table td {
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--v2-line);
+  text-align: center;
+}
+.ccta-paper-table th:first-child,
+.ccta-paper-table td:first-child {
+  text-align: left;
+}
+.ccta-paper-table thead th {
+  border-top: 3px solid var(--global-text-color);
+  font-weight: 700;
+}
+.ccta-paper-table tbody tr:last-child td {
+  border-bottom: 3px solid var(--global-text-color);
+}

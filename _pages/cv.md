@@ -39,6 +39,11 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
 
   </section>
 
+  <details class="cv-v2-embed">
+    <summary><span><strong>Embedded PDF preview</strong><small>Open the complete two-page academic CV without leaving this page.</small></span><span class="archive-toggle">Show preview ↓</span></summary>
+    <div class="cv-v2-frame"><iframe src="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" title="Robin Inho Kee CV"></iframe></div>
+  </details>
+
   <section class="cv-web-section">
     <div class="cv-web-heading"><p class="v2-eyebrow">EDUCATION</p><h2>University of Michigan · Yonsei University</h2></div>
     <div class="cv-web-list">
@@ -103,8 +108,4 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
     </div>
   </section>
 
-  <details class="cv-v2-embed">
-    <summary><span><strong>Embedded PDF preview</strong><small>Open the complete two-page academic CV without leaving this page.</small></span><span class="archive-toggle">Show preview ↓</span></summary>
-    <div class="cv-v2-frame"><iframe src="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" title="Robin Inho Kee CV"></iframe></div>
-  </details>
 </div>

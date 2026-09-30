@@ -42,10 +42,16 @@ The representative cases show two failure modes of the baseline. In one case, th
 
 ## Results
 
-<div class="project-v2-body-bleed project-main-figure">
-  <img src="/assets/img/CCTA/performance-table.webp" alt="Performance comparison over 50 randomized CCTA trials">
+<div class="ccta-paper-table-wrap" role="group" aria-label="Performance comparison over 50 randomized trials">
+  <table class="ccta-paper-table">
+    <thead><tr><th>Controller</th><th>Success rate</th><th>Collision rate</th></tr></thead>
+    <tbody>
+      <tr><td>Baseline MPC-CBF</td><td>82%</td><td>18%</td></tr>
+      <tr><td><strong>TSG-guided MPC-CBF</strong></td><td><strong>100%</strong></td><td>0%</td></tr>
+    </tbody>
+  </table>
 </div>
-<div class="caption">Performance over 50 randomized trials reported in the paper.</div>
+<div class="caption">Performance comparison over 50 randomized trials reported in the paper.</div>
 
 Across **50 randomized simulations**, the baseline MPC-CBF failed in **9 trials**: six collisions with the lead vehicle and three collisions with dynamic obstacles. The TSG-guided MPC-CBF completed **all 50 trials without collision**.
 
