@@ -2,7 +2,6 @@
 layout: page
 permalink: /CV/
 title: Curriculum Vitae
-eyebrow: CV
 description: Academic CV covering education, research, publications, technical background, awards, teaching, and service.
 nav: true
 nav_order: 4
