@@ -28,7 +28,7 @@ The project explored an interoperable smart laboratory in which robotic systems 
 
 ## My contribution
 
-I worked on the communication layer between experimental equipment and the robot, designed a tool-changeable modular gripper concept, and programmed collaborative-robot experimental scenarios.
+I worked on the communication layer between experimental equipment and the robot, designed a modular tool-changing gripper concept, and programmed collaborative-robot experimental scenarios.
 
 ## Recognition
 
