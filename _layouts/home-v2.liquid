@@ -41,6 +41,42 @@ layout: default
     </div>
   </section>
 
+  <section class="v2-section v2-news-section" aria-labelledby="news-title">
+    <div class="v2-section-head v2-news-head">
+      <div>
+        <p class="v2-eyebrow">RECENT NEWS</p>
+        <h2 id="news-title">Recent updates.</h2>
+      </div>
+      <p>Research, milestones, and community activities.</p>
+    </div>
+
+    <div class="v2-news-list">
+      {% for item in site.data.news limit:6 %}
+        <article class="v2-news-row">
+          <time class="v2-news-date" datetime="{{ item.datetime }}">{{ item.date }}</time>
+          <div class="v2-news-copy">{{ item.text | markdownify }}</div>
+        </article>
+      {% endfor %}
+    </div>
+
+    {% if site.data.news.size > 6 %}
+      <details class="v2-news-more">
+        <summary>
+          <span class="v2-news-more-closed">Show earlier news ↓</span>
+          <span class="v2-news-more-open">Hide earlier news ↑</span>
+        </summary>
+        <div class="v2-news-list v2-news-list-older">
+          {% for item in site.data.news offset:6 %}
+            <article class="v2-news-row">
+              <time class="v2-news-date" datetime="{{ item.datetime }}">{{ item.date }}</time>
+              <div class="v2-news-copy">{{ item.text | markdownify }}</div>
+            </article>
+          {% endfor %}
+        </div>
+      </details>
+    {% endif %}
+  </section>
+
   <section class="v2-section" aria-labelledby="focus-title">
     <div class="v2-section-head">
       <div>
