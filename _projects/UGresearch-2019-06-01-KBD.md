@@ -7,6 +7,7 @@ importance: 98
 category: Undergraduate research projects
 kicker: INDUSTRIAL SAFETY · 2019
 year: "2019"
+sort_date: "2019-06-01"
 venue: "Yonsei University"
 ---
 
