@@ -1,0 +1,62 @@
+name: Import AC-DC source figures once
+
+on:
+  push:
+    branches: [website-final-content-polish]
+    paths:
+      - ".github/workflows/import-acdc-figures-once.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: website-final-content-polish
+          fetch-depth: 1
+
+      - name: Download arXiv source and extract figures
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/acdc-src assets/img/ACDC
+          curl -fL --retry 4 -A "Mozilla/5.0"             https://arxiv.org/e-print/2609.24702             -o /tmp/acdc-source
+          file /tmp/acdc-source
+          tar -xf /tmp/acdc-source -C /tmp/acdc-src
+          PRIORITY="$(find /tmp/acdc-src -type f -name 'dynamic_priority_setup.png' | head -1)"
+          RESULTS="$(find /tmp/acdc-src -type f -name 'representative_4_metric_time.png' | head -1)"
+          test -n "$PRIORITY" && test -s "$PRIORITY"
+          test -n "$RESULTS" && test -s "$RESULTS"
+          cp "$PRIORITY" /tmp/dynamic_priority_setup.png
+          cp "$RESULTS" /tmp/representative_4_metric_time.png
+          ls -lh /tmp/dynamic_priority_setup.png /tmp/representative_4_metric_time.png
+
+      - name: Convert source figures to WebP
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          ffmpeg -y -loglevel error -i /tmp/dynamic_priority_setup.png             -c:v libwebp -quality 92 assets/img/ACDC/dynamic-priority-setup.webp
+          ffmpeg -y -loglevel error -i /tmp/representative_4_metric_time.png             -c:v libwebp -quality 92 assets/img/ACDC/representative-results.webp
+          python3 - <<'PY'
+          from pathlib import Path
+          for p in [
+              Path("assets/img/ACDC/dynamic-priority-setup.webp"),
+              Path("assets/img/ACDC/representative-results.webp"),
+          ]:
+              b = p.read_bytes()
+              assert b[:4] == b"RIFF" and b[8:12] == b"WEBP"
+              assert len(b) > 25000, (p, len(b))
+              print(p, len(b))
+          PY
+
+      - name: Commit source figures
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/ACDC/dynamic-priority-setup.webp assets/img/ACDC/representative-results.webp
+          git commit -m "website polish: install AC-DC source figures"
+          git push origin HEAD:website-final-content-polish
