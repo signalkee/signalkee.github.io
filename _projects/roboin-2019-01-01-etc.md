@@ -44,7 +44,7 @@ Roboin was where I learned to build complete robotic systems from hardware upwar
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/roboin/self-balancing.webp">
     <source src="/assets/media/roboin/self-balancing.mp4" type="video/mp4">
   </video>
-  <p class="caption">Working on self-balancing robot</p>
+  <p class="caption">Self-balancing robot in development.</p>
 </div>
 </div>
 

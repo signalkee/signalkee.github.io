@@ -1,9 +1,9 @@
-# Homepage news, newest first.
+# Homepage news entries, newest first.
 # Keep preprints/manuscripts concise: "New paper [Title]."
 - date: "Oct. 2026"
   datetime: "2026-10"
   text: >-
-    Will present **AC-DC** at the **Draper Scholar Symposium** at Draper in Cambridge, MA.
+    Will present **AC-DC** at the **Draper Scholars Research Symposium 2026**.
 
 - date: "Sep. 2026"
   datetime: "2026-09"
@@ -73,4 +73,4 @@
 - date: "May 2024"
   datetime: "2024-05"
   text: >-
-    Paper [**Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification**](https://ieeexplore.ieee.org/document/10521661) published in *IEEE Access*.
+    Paper [**Disentangled Prototypical Convolutional Network for Few-Shot Learning in In-Vehicle Noise Classification**](https://ieeexplore.ieee.org/document/10521661) published in *IEEE Access*.

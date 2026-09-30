@@ -26,4 +26,4 @@ I worked on few-shot and continual-learning approaches for in-vehicle noise clas
 
 ## Outcomes
 
-The work led to an IEEE Access paper on disentangled prototyping with a triplet-trained prototypical network and a KDMS paper on dynamic prototype-guided memory replay.
+The work led to an IEEE Access paper on a disentangled prototypical convolutional network and a KDMS paper on dynamic prototype-guided memory replay.

@@ -9,7 +9,7 @@ importance: 99
 category: Graduate research projects
 kicker: PREPRINT · SAFE LEARNING & CONTROL
 year: "2026"
-sort_date: "2026-04-01"
+sort_date: "2026-06-02"
 venue: "Preprint"
 role: "Co-author"
 arxiv: https://arxiv.org/abs/2504.03038
@@ -50,7 +50,7 @@ The learned model does not directly output a single “best” CBF parameter. It
 
 ## VTOL quadplane case study
 
-We apply OA-CBF to a **VTOL quadplane transition and landing scenario**, including the first CBF application reported by the project to this VTOL quadplane control task. Fixed low CBF parameters can produce a large altitude detour, while fixed high parameters can become infeasible and eventually collide.
+We apply OA-CBF to a **VTOL quadplane transition and landing scenario**. Fixed low CBF parameters can produce a large altitude detour, while fixed high parameters can become infeasible and eventually collide.
 
 OA-CBF adapts the parameters with the aircraft state. At high speed it keeps lower parameters, encouraging the elevator to pitch up and generate additional drag; as the aircraft slows, the parameters increase to improve performance.
 
