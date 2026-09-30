@@ -52,25 +52,25 @@ cv_pdf: robin-inho-kee-cv.pdf
         <p class="v2-card-meta">AUG 2025–PRESENT · UNIVERSITY OF MICHIGAN</p>
         <h3>Intelligent Robotics and Autonomy Lab</h3>
         <p>Conceived and implemented AC-DC, jointly adapting communication partners, timing, and consensus-state blocks under range, rate, and interference constraints.</p>
-        <div class="cv-impact-row"><span><strong>12</strong> settings</span><span><strong>20</strong> runs each</span><span><strong>1–2 orders</strong> fewer bytes</span></div>
+        <div class="cv-impact-row"><span><strong>12</strong> settings</span><span><strong>20</strong> runs each</span><span><strong>5.8× / 11.5×</strong> baseline / AC-DC traffic</span></div>
       </article>
       <article>
         <p class="v2-card-meta">MAY 2024–AUG 2025 · UNIVERSITY OF MICHIGAN</p>
         <h3>Distributed Autonomous Systems and Control Lab</h3>
         <p>Implemented the OA-CBF learning/control pipeline with graph attention and uncertainty-aware screening for online CBF-parameter selection.</p>
-        <div class="cv-impact-row"><span><strong>5</strong> nonlinear systems</span><span><strong>0%</strong> safety failures</span><span><strong>39–65%</strong> shorter reach time</span></div>
+        <div class="cv-impact-row"><span><strong>5</strong> nonlinear systems</span><span><strong>0%</strong> failures in 3 core benchmarks</span><span><strong>39–65%</strong> shorter reach time</span></div>
       </article>
       <article>
         <p class="v2-card-meta">JAN 2024–FEB 2025 · UNIVERSITY OF MICHIGAN</p>
         <h3>VODCA Lab</h3>
         <p>Developed learning-accelerated Time Shift Governor methods for spacecraft rendezvous and TSG-guided MPC-CBF for safe adaptive cruise control.</p>
-        <div class="cv-impact-row"><span><strong>84%</strong> LEO speedup</span><span><strong>70%</strong> Molniya speedup</span><span><strong>100%</strong> ACC success</span></div>
+        <div class="cv-impact-row"><span><strong>84%</strong> lower compute time</span><span><strong>70%</strong> lower compute time</span><span><strong>100%</strong> ACC success</span></div>
       </article>
       <article>
         <p class="v2-card-meta">JUL 2022–JUL 2023 · KIST</p>
         <h3>Assistive and Interactive Robotics Lab</h3>
         <p>Built the sensing and learning pipeline for a 4-DOF wearable hip robot and helped establish human-subject gait-assessment experiments.</p>
-        <div class="cv-impact-row"><span><strong>56</strong> participants</span><span><strong>51,610</strong> strides</span><span><strong>90.17%</strong> identification accuracy</span></div>
+        <div class="cv-impact-row"><span><strong>56</strong> participants</span><span><strong>51,610</strong> strides</span><span><strong>90.17%</strong> stride-wise accuracy</span></div>
       </article>
     </div>
   </section>
@@ -94,7 +94,7 @@ cv_pdf: robin-inho-kee-cv.pdf
       <span><strong>2025–Present</strong>Draper Scholars Program · Full Ph.D. Fellowship</span>
       <span><strong>2023</strong>SAS Student Paper Award · Korea Data Mining Society</span>
       <span><strong>2020</strong>1st Place · International S.M.A.R.T Startup Competition</span>
-      <span><strong>2019–2020</strong>Academic Highest Honors · Yonsei University</span>
+      <span><strong>2019, 2020</strong>Academic Highest Honors · Yonsei University</span>
     </div>
   </section>
 
