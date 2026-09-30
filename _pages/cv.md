@@ -52,13 +52,13 @@ cv_pdf: robin-inho-kee-cv.pdf
         <p class="v2-card-meta">AUG 2025–PRESENT · UNIVERSITY OF MICHIGAN</p>
         <h3>Intelligent Robotics and Autonomy Lab</h3>
         <p>Conceived and implemented AC-DC, jointly adapting communication partners, timing, and consensus-state blocks under range, rate, and interference constraints.</p>
-        <div class="cv-impact-row"><span><strong>12</strong> settings</span><span><strong>20</strong> runs each</span><span><strong>5.8× / 11.5×</strong> baseline / AC-DC traffic</span></div>
+        <div class="cv-impact-row"><span><strong>12</strong> settings</span><span><strong>20</strong> runs each</span><span><strong>5.8× / 11.5×</strong> baseline / AC-DC payload</span></div>
       </article>
       <article>
         <p class="v2-card-meta">MAY 2024–AUG 2025 · UNIVERSITY OF MICHIGAN</p>
         <h3>Distributed Autonomous Systems and Control Lab</h3>
         <p>Implemented the OA-CBF learning/control pipeline with graph attention and uncertainty-aware screening for online CBF-parameter selection.</p>
-        <div class="cv-impact-row"><span><strong>5</strong> nonlinear systems</span><span><strong>0%</strong> failures in 3 core benchmarks</span><span><strong>39–65%</strong> shorter reach time</span></div>
+        <div class="cv-impact-row"><span><strong>5</strong> nonlinear systems</span><span><strong>0%</strong> safety failures in 3 core benchmarks</span><span><strong>39–65%</strong> shorter reach time</span></div>
       </article>
       <article>
         <p class="v2-card-meta">JAN 2024–FEB 2025 · UNIVERSITY OF MICHIGAN</p>
@@ -70,7 +70,7 @@ cv_pdf: robin-inho-kee-cv.pdf
         <p class="v2-card-meta">JUL 2022–JUL 2023 · KIST</p>
         <h3>Assistive and Interactive Robotics Lab</h3>
         <p>Built the sensing and learning pipeline for a 4-DOF wearable hip robot and helped establish human-subject gait-assessment experiments.</p>
-        <div class="cv-impact-row"><span><strong>56</strong> participants</span><span><strong>51,610</strong> strides</span><span><strong>90.17%</strong> stride-wise accuracy</span></div>
+        <div class="cv-impact-row"><span><strong>56</strong> participants</span><span><strong>51,610</strong> strides</span><span><strong>90.17%</strong> stride-wise sarcopenia accuracy</span></div>
       </article>
     </div>
   </section>
