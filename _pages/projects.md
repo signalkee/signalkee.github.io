@@ -11,10 +11,6 @@ nav_order: 2
   <div class="research-principle-v2">
     <p class="v2-card-meta">CURRENT DIRECTION</p>
     <h2>How should robot teams understand what matters, share it selectively, and act using predicted consequences?</h2>
-    <p>
-      My research connects communication, reasoning, and prediction so robot teams can coordinate useful information and make better downstream
-      decisions under realistic system constraints.
-    </p>
   </div>
   <div class="research-tags-v2" aria-label="Research areas">
     <span>Multi-Robot Autonomy</span><span>Selective Communication</span><span>Mission-Aware Reasoning</span><span>Prediction-Guided Execution</span><span>Safe Autonomy</span><span>Learning & Control</span>
