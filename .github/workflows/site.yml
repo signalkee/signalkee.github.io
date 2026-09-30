@@ -7,6 +7,10 @@ on:
     branches: [master]
   workflow_dispatch:
 
+concurrency:
+  group: site-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -51,3 +55,9 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+
+      - name: Delete merged work branches
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
+          git push origin --delete recent-news-home || true
+          git push origin --delete repo-cleanup-20260930 || true
