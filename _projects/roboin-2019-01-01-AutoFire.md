@@ -51,5 +51,5 @@ I served as team leader and led the hardware/software integration, including mob
 The project received **2nd Prize** in the Robot Open Source Lab competition at Samsung Open Source Conference 2019.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin-fire/soscon.jpg" title="Samsung Open Source Conference" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin-fire/soscon.webp" title="Samsung Open Source Conference" class="img-fluid rounded z-depth-1" %}</div>
 </div>

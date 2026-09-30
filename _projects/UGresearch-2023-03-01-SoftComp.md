@@ -20,8 +20,8 @@ In-vehicle acoustic classifiers must recognize diverse noise sources while adapt
 I worked on few-shot and continual-learning approaches for in-vehicle noise classification, including prototype-based representation learning and replay strategies.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/softcomp/few-shot-overview.png" title="Few-shot learning overview" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/softcomp/continual-learning-overview.png" title="Continual learning overview" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/softcomp/few-shot-overview.webp" title="Few-shot learning overview" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/softcomp/continual-learning-overview.webp" title="Continual learning overview" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 ## Outcomes
