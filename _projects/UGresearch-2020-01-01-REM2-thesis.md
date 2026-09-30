@@ -2,7 +2,7 @@
 layout: page
 title: "Undergraduate Thesis: Manufacturing Mechatronics"
 description: "Undergraduate thesis work in manufacturing mechatronics at Yonsei University."
-img: assets/img/rem2/REM2_setup.png
+img: assets/img/rem2/setup.webp
 importance: 97
 category: Undergraduate research projects
 kicker: UNDERGRADUATE THESIS · 2020
@@ -16,7 +16,7 @@ venue: "Yonsei University"
 My undergraduate thesis was completed in the Research Laboratory of Manufacturing Mechatronics at Yonsei University and combined experimental setup, mechatronic implementation, and evaluation.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/rem2/REM2_setup.png" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/rem2/setup.webp" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 <div class="project-motion-wrap">
@@ -31,5 +31,5 @@ My undergraduate thesis was completed in the Research Laboratory of Manufacturin
 The project strengthened my experience with hands-on system integration and experimental validation during the early stage of my robotics work.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/rem2/REM2_lab.jpg" title="Lab" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/rem2/lab.webp" title="Lab" class="img-fluid rounded z-depth-1" %}</div>
 </div>

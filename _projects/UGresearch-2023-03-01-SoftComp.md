@@ -2,7 +2,7 @@
 layout: page
 title: "In-Vehicle Noise Classification"
 description: "Few-shot and continual-learning methods for classifying in-vehicle acoustic events."
-img: assets/img/softcomp/Soft_title.png
+img: assets/img/softcomp/title.webp
 importance: 94
 category: Undergraduate research projects
 kicker: MACHINE LEARNING · 2023

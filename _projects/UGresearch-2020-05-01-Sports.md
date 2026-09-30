@@ -2,7 +2,7 @@
 layout: page
 title: "Portable Real-Time Ankle Motion Analysis"
 description: "Wearable IMU sensing and real-time feedback for ankle-joint motion during gait and running."
-img: assets/img/sport/Sport_feedback.png
+img: assets/img/sport/feedback.webp
 importance: 95
 category: Undergraduate research projects
 kicker: WEARABLE SENSING · 2020–2021
@@ -16,8 +16,8 @@ venue: "Yonsei University"
 We developed a portable system for measuring ankle-joint motion with wearable IMUs and providing real-time audio-visual feedback outside a traditional motion-capture laboratory.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/sport/Sport_feedback.png" title="Real-time feedback" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/sport/Sport_setup.png" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/sport/feedback.webp" title="Real-time feedback" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/sport/setup.webp" title="Experimental setup" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 <div class="project-motion-grid">

@@ -17,8 +17,8 @@ Roboin was where I learned to build complete robotic systems from hardware upwar
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin/Rob_drone.jpg" title="Quadrotor project" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin/Rob_edpic.jpg" title="Line-tracer project" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin/Rob_selfbal.jpg" title="Self-balancing robot" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin/line-tracer.webp" title="Line-tracer project" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin/self-balancing.webp" title="Self-balancing robot" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 <div class="project-motion-grid">

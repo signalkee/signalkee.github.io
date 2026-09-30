@@ -2,7 +2,7 @@
 layout: page
 title: "Learning-Accelerated Time Shift Governor for Spacecraft Rendezvous"
 description: "Constraint-aware spacecraft rendezvous and docking using a learning-accelerated Time Shift Governor."
-img: assets/img/scitech-2025/Diagram_closed_loop.png
+img: assets/img/scitech-2025/closed-loop.webp
 importance: 99
 category: Graduate research projects
 kicker: AIAA SCITECH 2025 · SAFE CONTROL
@@ -23,7 +23,7 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/scitech-2025/Diagram_closed_loop.png" title="Closed-loop architecture" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/scitech-2025/closed-loop.webp" title="Closed-loop architecture" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Learning-assisted TSG architecture used to modify the reference while respecting mission constraints.</div>

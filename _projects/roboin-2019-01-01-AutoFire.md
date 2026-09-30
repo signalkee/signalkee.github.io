@@ -2,7 +2,7 @@
 layout: page
 title: "Autonomous Fire Tracking and Extinguishing Robot"
 description: "A thermal-camera-guided mobile robot for tracking heat sources and autonomous fire suppression."
-img: assets/img/roboin-fire/Fire_title.jpg
+img: assets/img/roboin-fire/overview.webp
 importance: 98
 category: Undergraduate projects
 kicker: ROBOTICS · 2019
@@ -17,8 +17,8 @@ role: "Team lead"
 For a senior project in Yonsei's robotics club, our team built a mobile robot that used a thermal camera to detect and track heat sources, approach them, and aim an extinguishing mechanism.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin-fire/Fire_title.jpg" title="Fire tracking robot" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin-fire/Fire_session.jpg" title="Robot development" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin-fire/overview.webp" title="Fire tracking robot" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/roboin-fire/development.webp" title="Robot development" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 <div class="project-motion-grid">
