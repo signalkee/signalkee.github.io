@@ -1,4 +1,5 @@
 name: Maintenance visual QA once
+# rerun after formatting
 
 on:
   push:
