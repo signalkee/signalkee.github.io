@@ -51,7 +51,7 @@ layout: default
     </div>
 
     <div class="v2-news-list">
-      {% for item in site.data.news limit:6 %}
+      {% for item in site.data.news limit:7 %}
         <article class="v2-news-row">
           <time class="v2-news-date" datetime="{{ item.datetime }}">{{ item.date }}</time>
           <div class="v2-news-copy">{{ item.text | markdownify }}</div>
@@ -59,14 +59,14 @@ layout: default
       {% endfor %}
     </div>
 
-    {% if site.data.news.size > 6 %}
+    {% if site.data.news.size > 7 %}
       <details class="v2-news-more">
         <summary>
           <span class="v2-news-more-closed">Show earlier news ↓</span>
           <span class="v2-news-more-open">Hide earlier news ↑</span>
         </summary>
         <div class="v2-news-list v2-news-list-older">
-          {% for item in site.data.news offset:6 %}
+          {% for item in site.data.news offset:7 %}
             <article class="v2-news-row">
               <time class="v2-news-date" datetime="{{ item.datetime }}">{{ item.date }}</time>
               <div class="v2-news-copy">{{ item.text | markdownify }}</div>
