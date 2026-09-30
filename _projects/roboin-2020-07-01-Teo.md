@@ -7,6 +7,7 @@ importance: 98
 category: Undergraduate projects
 kicker: ROBOT DESIGN · 2020
 year: "2020"
+sort_date: "2020-07-01"
 venue: "Yonsei University · Roboin"
 ---
 
