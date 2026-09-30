@@ -7,6 +7,7 @@ importance: 99
 category: Undergraduate projects
 kicker: ROBOTICS CLUB · EARLY WORK
 year: "2018–2020"
+sort_date: "2018-01-01"
 venue: "Yonsei University · Roboin"
 ---
 
