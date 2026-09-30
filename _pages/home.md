@@ -1,5 +1,5 @@
 ---
-layout: home-v2
+layout: home
 title: Home
 permalink: /
 nav: false

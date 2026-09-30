@@ -1,4 +1,4 @@
-/* Robin Homepage V2 -------------------------------------------------------- */
+/* Robin academic site ------------------------------------------------------- */
 :root {
   --v2-blue: #00274c;
   --v2-blue-2: #0b4f7a;
@@ -2154,4 +2154,19 @@ body {
     font-size: 0.9rem;
     line-height: 1.48;
   }
+}
+
+
+/* Small utilities kept local instead of loading icon/UI libraries ----------- */
+.theme-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.z-depth-1 {
+  box-shadow: 0 6px 20px rgba(16, 24, 40, 0.12);
 }
