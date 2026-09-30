@@ -1,0 +1,53 @@
+name: Import OA-CBF media once
+
+on:
+  push:
+    branches: [website-final-content-polish]
+    paths:
+      - ".github/workflows/import-oacbf-media-once.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: website-final-content-polish
+          fetch-depth: 1
+
+      - name: Download official OA-CBF VTOL GIFs
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/oacbf assets/media/oacbf
+          UA="Mozilla/5.0"
+          REF="https://www.taekyung.me/oa-cbf"
+          curl -fL --retry 3 -A "$UA" -H "Referer: $REF"             'https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36518d5c-31e3-80ae-ab38-f492548a0c11&src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Feb9ea54a-87e6-4b91-be09-8aaed8a339c0%2F9c01dcfe-4778-44ed-b4b5-7d4173ec298f%2Fscen1_optqp.gif'             -o /tmp/oacbf/vtol-fixed-low.gif
+          curl -fL --retry 3 -A "$UA" -H "Referer: $REF"             'https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36518d5c-31e3-80ce-b869-f136738659b6&src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Feb9ea54a-87e6-4b91-be09-8aaed8a339c0%2F69f99c66-d0df-46e5-b4ab-b2e6b2e5418a%2Fscen1_high.gif'             -o /tmp/oacbf/vtol-fixed-high.gif
+          curl -fL --retry 3 -A "$UA" -H "Referer: $REF"             'https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36618d5c-31e3-8059-a1eb-c2614d1d0a9d&src=attachment%3A7c28b0ac-d39b-4a8e-8c62-78a5c7eb34db%3Acdc2025-ezgif.com-optimize.gif'             -o /tmp/oacbf/vtol-oacbf.gif
+          file /tmp/oacbf/*.gif
+          test -s /tmp/oacbf/vtol-fixed-low.gif
+          test -s /tmp/oacbf/vtol-fixed-high.gif
+          test -s /tmp/oacbf/vtol-oacbf.gif
+
+      - name: Convert to lightweight local media
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          for name in vtol-fixed-low vtol-fixed-high vtol-oacbf; do
+            ffmpeg -y -loglevel error -i "/tmp/oacbf/$name.gif"               -vf "fps=18,scale='min(960,iw)':-2:flags=lanczos"               -an -c:v libx264 -crf 27 -preset medium -pix_fmt yuv420p -movflags +faststart               "assets/media/oacbf/$name.mp4"
+            ffmpeg -y -loglevel error -i "/tmp/oacbf/$name.gif" -frames:v 1               -vf "scale='min(960,iw)':-2:flags=lanczos"               -c:v libwebp -quality 82 "assets/media/oacbf/$name.webp"
+          done
+          ls -lh assets/media/oacbf
+
+      - name: Commit local OA-CBF media
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/media/oacbf
+          git commit -m "website polish: localize OA-CBF VTOL media"
+          git push origin HEAD:website-final-content-polish
