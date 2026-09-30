@@ -108,7 +108,9 @@ layout: default
 
       <a class="v2-work-card" href="{{ '/projects/research-2026-04-01-OA-CBF/' | relative_url }}">
         <div class="v2-work-image v2-work-image-contain">
-          <img src="{{ 'assets/img/OACBF/thumb.webp' | relative_url }}" alt="OA-CBF overview" loading="lazy">
+          <video autoplay muted loop playsinline poster="{{ 'assets/media/oacbf/quad3d-topdown.webp' | relative_url }}" aria-label="OA-CBF 3D quadrotor top-down preview">
+            <source src="{{ 'assets/media/oacbf/quad3d-topdown.mp4' | relative_url }}" type="video/mp4">
+          </video>
         </div>
         <div class="v2-work-copy">
           <p class="v2-card-meta">2026 Preprint · Safe Learning & Control</p>
