@@ -18,8 +18,12 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
           fetch-depth: 0
 
-      - name: Verify ImageMagick
-        run: convert -version
+      - name: Install tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+          npm ci
+          npx prettier _includes/header.liquid _sass/_site.scss --write
 
       - name: Convert large images to WebP
         shell: bash
@@ -62,7 +66,7 @@ jobs:
           optimize "assets/img/scitech-2025/Diagram_closed_loop.png" "assets/img/scitech-2025/closed-loop.webp"
           optimize "assets/img/softcomp/Soft_title.png" "assets/img/softcomp/title.webp"
 
-          git add _projects _pages _layouts _data || true
+          git add _projects _pages _layouts _data _includes _sass || true
 
       - name: Commit optimized assets
         run: |
