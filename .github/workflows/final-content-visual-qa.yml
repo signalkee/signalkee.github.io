@@ -1,5 +1,5 @@
 name: Final content visual QA
-# Final visual QA after CCTA architecture repair
+# Final visual QA after verified 14,570-byte CCTA architecture repair
 
 on:
   push:
