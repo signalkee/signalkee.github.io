@@ -1,5 +1,5 @@
 name: Final content visual QA
-# Final rerun after AC-DC and OA-CBF media finalization
+# Final visual QA after repaired AC-DC summary and local OA-CBF media
 
 on:
   push:
