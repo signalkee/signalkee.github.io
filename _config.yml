@@ -76,7 +76,6 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
 
-
 lazy_loading_images: true
 
 # Third-party library used by Bootstrap 4 ------------------------------------
