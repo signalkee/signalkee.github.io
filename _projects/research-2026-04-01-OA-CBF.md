@@ -7,6 +7,7 @@ importance: 99
 category: Graduate research projects
 kicker: PREPRINT · SAFE LEARNING & CONTROL
 year: "2026"
+sort_date: "2026-04-01"
 venue: "Preprint"
 role: "Co-author"
 arxiv: https://arxiv.org/abs/2504.03038
