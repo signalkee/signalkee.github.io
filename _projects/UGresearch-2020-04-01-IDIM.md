@@ -2,7 +2,7 @@
 layout: page
 title: "Interoperable Smart Lab"
 description: "Lab automation with connected equipment, a mobile manipulator, and modular robotic tooling."
-img: assets/img/IDIM/IDIM_smartlab.png
+img: assets/img/idim/smart-lab.webp
 importance: 96
 category: Undergraduate research projects
 kicker: ROBOTIC LAB AUTOMATION · 2020
@@ -16,7 +16,7 @@ venue: "Seoul National University"
 The project explored an interoperable smart laboratory in which robotic systems and experimental equipment could exchange information and execute parts of a laboratory workflow with less direct human intervention.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/IDIM/IDIM_smartlab.png" title="Smart lab overview" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/idim/smart-lab.webp" title="Smart lab overview" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 <div class="project-motion-wrap">

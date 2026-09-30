@@ -2,9 +2,9 @@
 layout: page
 title: "Online Adaptive Control Barrier Functions"
 description: "Runtime CBF parameter adaptation under epistemic and aleatoric uncertainty, with local finite-horizon validation and task-progress-aware selection."
-img: assets/img/OACBF/overview.webp
-thumb_video: assets/media/oacbf/quad3d-topdown.mp4
-thumb_poster: assets/media/oacbf/quad3d-topdown.webp
+img: assets/img/oa-cbf/overview.webp
+thumb_video: assets/media/oa-cbf/quad3d-topdown.mp4
+thumb_poster: assets/media/oa-cbf/quad3d-topdown.webp
 importance: 99
 category: Graduate research projects
 kicker: PREPRINT · SAFE LEARNING & CONTROL
@@ -26,7 +26,7 @@ OA-CBF asks how those parameters can be **adapted at runtime without treating on
 ## OA-CBF
 
 <div class="project-v2-body-bleed project-main-figure">
-  <img src="/assets/img/OACBF/overview.webp" alt="OA-CBF method overview">
+  <img src="/assets/img/oa-cbf/overview.webp" alt="OA-CBF method overview">
 </div>
 
 <div class="oa-cbf-visual"><div class="oa-cbf-flow">
@@ -60,20 +60,20 @@ The official OA-CBF project page includes animated comparisons that show why onl
 
 <div class="project-motion-grid oa-cbf-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-fixed-low.webp">
-    <source src="/assets/media/oacbf/vtol-fixed-low.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/vtol-fixed-low.webp">
+    <source src="/assets/media/oa-cbf/vtol-fixed-low.mp4" type="video/mp4">
   </video>
   <p class="caption">Fixed low CBF parameters remain feasible but produce a large altitude detour.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-fixed-high.webp">
-    <source src="/assets/media/oacbf/vtol-fixed-high.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/vtol-fixed-high.webp">
+    <source src="/assets/media/oa-cbf/vtol-fixed-high.mp4" type="video/mp4">
   </video>
   <p class="caption">Fixed high CBF parameters become infeasible and eventually lead to collision.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-oacbf.webp">
-    <source src="/assets/media/oacbf/vtol-oacbf.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/vtol-oacbf.webp">
+    <source src="/assets/media/oa-cbf/vtol-oacbf.mp4" type="video/mp4">
   </video>
   <p class="caption">OA-CBF adapts the CBF parameters with aircraft state to balance safety and task progress.</p>
 </div>
@@ -85,14 +85,14 @@ The Quad3D benchmark shows OA-CBF on a fully three-dimensional quadrotor model. 
 
 <div class="project-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/quad3d-unified.webp">
-    <source src="/assets/media/oacbf/quad3d-unified.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/quad3d-unified.webp">
+    <source src="/assets/media/oa-cbf/quad3d-unified.mp4" type="video/mp4">
   </video>
   <p class="caption">Quad3D: unified view with compared methods.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/quad3d-oacbf.webp">
-    <source src="/assets/media/oacbf/quad3d-oacbf.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/quad3d-oacbf.webp">
+    <source src="/assets/media/oa-cbf/quad3d-oacbf.mp4" type="video/mp4">
   </video>
   <p class="caption">Quad3D: OA-CBF with graph-attention environment encoding.</p>
 </div>
@@ -104,14 +104,14 @@ The project also evaluates OA-CBF with a **Dynamic Parabolic CBF (DPCBF)** for a
 
 <div class="project-motion-grid">
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/dpcbf-unified.webp">
-    <source src="/assets/media/oacbf/dpcbf-unified.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/dpcbf-unified.webp">
+    <source src="/assets/media/oa-cbf/dpcbf-unified.mp4" type="video/mp4">
   </video>
   <p class="caption">Kinematic bicycle with DPCBF: unified view with compared methods.</p>
 </div>
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/dpcbf-oacbf.webp">
-    <source src="/assets/media/oacbf/dpcbf-oacbf.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oa-cbf/dpcbf-oacbf.webp">
+    <source src="/assets/media/oa-cbf/dpcbf-oacbf.mp4" type="video/mp4">
   </video>
   <p class="caption">Kinematic bicycle with DPCBF: OA-CBF with graph-attention environment encoding.</p>
 </div>

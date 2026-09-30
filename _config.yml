@@ -9,7 +9,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 lang: en
-icon: Robin_emoji.png
+icon: favicon.png
 
 url: https://signalkee.github.io
 baseurl:
@@ -22,10 +22,8 @@ navbar_fixed: true
 footer_fixed: true
 max_width: 1120px
 enable_darkmode: true
-enable_math: true
-enable_medium_zoom: true
 
-# Public profiles used on the homepage ---------------------------------------
+# Public profiles -------------------------------------------------------------
 github_username: signalkee
 linkedin_username: inhokee
 scholar_userid: XHe7apIAAAAJ
@@ -46,13 +44,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    css_class: "highlight"
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
 
 include: ["_pages"]
 exclude:
@@ -68,7 +59,6 @@ keep_files:
   - .nojekyll
 
 plugins:
-  - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-sitemap
 
@@ -86,65 +76,13 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
 
-external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
-
-# Images ----------------------------------------------------------------------
-imagemagick:
-  enabled: false
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
-  output_formats:
-    webp: "-quality 85"
-
 lazy_loading_images: true
 
-# Third-party libraries actually used by the current site --------------------
+# Third-party library used by Bootstrap 4 ------------------------------------
 third_party_libraries:
-  download: false
-  google_fonts:
-    url:
-      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   jquery:
     integrity:
       js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     url:
       js: "https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
     version: "3.6.0"
-  mathjax:
-    integrity:
-      js: "sha256-rjmgmaB99riUNcdlrDtcAiwtLIojSxNyUFdl+Qh+rB4="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.min.js"
-    version: "3.2.0"
-  mdb:
-    integrity:
-      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
-      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"
-    version: "4.20.0"
-  medium_zoom:
-    integrity:
-      js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
-    url:
-      js: "https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js"
-    version: "1.1.0"
-  polyfill:
-    url:
-      js: "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"
-    version: "3"

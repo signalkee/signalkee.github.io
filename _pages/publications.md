@@ -17,7 +17,7 @@ nav_order: 3
       <h2>Under review & preprints</h2>
     </div>
     {% for pub in site.data.publications.under_review %}
-      {% include publication-row-v2.liquid pub=pub %}
+      {% include publication-row.liquid pub=pub %}
     {% endfor %}
   </section>
 
@@ -27,7 +27,7 @@ nav_order: 3
       <h2>Journal papers</h2>
     </div>
     {% for pub in site.data.publications.journals %}
-      {% include publication-row-v2.liquid pub=pub %}
+      {% include publication-row.liquid pub=pub %}
     {% endfor %}
   </section>
 
@@ -37,7 +37,7 @@ nav_order: 3
       <h2>Conference papers</h2>
     </div>
     {% for pub in site.data.publications.conferences %}
-      {% include publication-row-v2.liquid pub=pub %}
+      {% include publication-row.liquid pub=pub %}
     {% endfor %}
   </section>
 </div>

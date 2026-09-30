@@ -2,7 +2,7 @@
 layout: page
 title: "Learning-Accelerated Time Shift Governor for Spacecraft Rendezvous"
 description: "Constraint-aware spacecraft rendezvous and docking using a learning-accelerated Time Shift Governor."
-img: assets/img/VODCA_SciTech2025/Diagram_closed_loop.png
+img: assets/img/scitech-2025/closed-loop.webp
 importance: 99
 category: Graduate research projects
 kicker: AIAA SCITECH 2025 · SAFE CONTROL
@@ -10,7 +10,7 @@ year: "2025"
 sort_date: "2025-01-01"
 venue: "AIAA SCITECH 2025 Forum"
 role: "Co-first author"
-paper: /assets/pdf/SciTech25_LTSG.pdf
+paper: /assets/pdf/scitech-2025-ltsg.pdf
 ---
 
 ## Problem
@@ -23,14 +23,14 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
 
 <div class="row">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="lazy" path="assets/img/VODCA_SciTech2025/Diagram_closed_loop.png" title="Closed-loop architecture" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="lazy" path="assets/img/scitech-2025/closed-loop.webp" title="Closed-loop architecture" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
 <div class="caption">Learning-assisted TSG architecture used to modify the reference while respecting mission constraints.</div>
 
 <div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/scitech/overview.webp">
-    <source src="/assets/media/scitech/overview.mp4" type="video/mp4">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/scitech-2025/overview.webp">
+    <source src="/assets/media/scitech-2025/overview.mp4" type="video/mp4">
   </video>
   <p class="caption">Learning-assisted Time Shift Governor for constrained spacecraft rendezvous.</p>
 </div>
@@ -40,8 +40,8 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
 The learned predictor reduced the time required to obtain the time-shift parameter in most evaluated scenarios while the closed-loop system completed rendezvous missions under the imposed constraints.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/VODCA_SciTech2025/Time_const.png" title="Constraint histories" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/VODCA_SciTech2025/Time_TS.png" title="Time shift history" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/scitech-2025/constraints.png" title="Constraint histories" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/scitech-2025/time-shift.png" title="Time shift history" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 ## My contribution

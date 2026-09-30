@@ -1,0 +1,66 @@
+name: Site checks and deploy
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+concurrency:
+  group: site-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1.9.0
+        with:
+          fail: true
+          args: --user-agent 'curl/7.54' --exclude '^https://ieeexplore.ieee.org/' --exclude-path README.md --exclude-path _pages/404.md --verbose --no-progress './**/*.md' './**/*.html'
+
+      - name: Remove link-check report
+        run: rm -rf lychee
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+
+      - name: Install formatting dependencies
+        run: npm ci
+
+      - name: Prettier check
+        run: npx prettier . --check
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+
+      - name: Build
+        run: JEKYLL_ENV=production bundle exec jekyll build
+
+      - name: Purge unused CSS
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      - name: Deploy to gh-pages
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+
+      - name: Delete merged work branches
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        run: |
+          git push origin --delete recent-news-home || true
+          git push origin --delete repo-cleanup-20260930 || true
