@@ -1,0 +1,76 @@
+# Homepage news, newest first.
+# Keep preprints/manuscripts concise: "New paper [Title]."
+- date: "Oct. 2026"
+  datetime: "2026-10"
+  text: >-
+    Will present **AC-DC** at the **Draper Scholar Symposium** at Draper in Cambridge, MA.
+
+- date: "Sep. 2026"
+  datetime: "2026-09"
+  text: >-
+    New paper [**AC-DC: Adaptive Communication for Scalable Dynamic Average Consensus in Multi-Robot Ergodic Search**](https://arxiv.org/abs/2609.24702).
+
+- date: "Aug. 2026"
+  datetime: "2026-08"
+  text: >-
+    Started serving as a **Graduate Student Instructor for AEROSP 740: Online Learning for Single- and Multi-Agent Control** at the University of Michigan.
+
+- date: "Jun. 2026"
+  datetime: "2026-06"
+  text: >-
+    New paper [**Learning to Adapt Control Barrier Functions Under Epistemic and Aleatoric Uncertainty**](https://arxiv.org/abs/2504.03038).
+
+- date: "Aug. 2025"
+  datetime: "2025-08"
+  text: >-
+    Started my **Ph.D. in Robotics at the University of Michigan**.
+
+- date: "Aug. 2025"
+  datetime: "2025-08"
+  text: >-
+    Presented our work on safe adaptive cruise control at [**IEEE CCTA 2025**](https://ieeexplore.ieee.org/abstract/document/11151321/) in San Diego.
+
+- date: "Jun. 2025"
+  datetime: "2025-06"
+  text: >-
+    Served as a conference volunteer at [**L4DC 2025**](https://sites.google.com/umich.edu/l4dc2025/) at the University of Michigan.
+
+- date: "May 2025"
+  datetime: "2025-05"
+  text: >-
+    Paper [**Time Shift Governor-Guided MPC with Collision Cone CBFs for Safe Adaptive Cruise Control in Dynamic Environments**](https://ieeexplore.ieee.org/abstract/document/11151321/) accepted to **IEEE CCTA 2025**.
+
+- date: "May 2025"
+  datetime: "2025-05"
+  text: >-
+    Paper [**Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation**](https://arxiv.org/abs/2409.14616) appeared at **IEEE ICRA 2025**.
+
+- date: "Mar. 2025"
+  datetime: "2025-03"
+  text: >-
+    Selected as a **Draper Scholar** through the **Draper Scholars Program on Autonomy**.
+
+- date: "Mar. 2025"
+  datetime: "2025-03"
+  text: >-
+    Admitted to the **Ph.D. program in Robotics at the University of Michigan**.
+
+- date: "Feb. 2025"
+  datetime: "2025-02"
+  text: >-
+    New paper [**Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing**](https://arxiv.org/abs/2502.05500).
+
+- date: "Jan. 2025"
+  datetime: "2025-01"
+  text: >-
+    Paper [**Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Based Time Shift Governor**](https://arc.aiaa.org/doi/10.2514/6.2025-1700) appeared at **AIAA SciTech 2025**.
+
+- date: "Dec. 2024"
+  datetime: "2024-12"
+  text: >-
+    Completed my **M.S. in Mechanical Engineering at the University of Michigan**.
+
+- date: "May 2024"
+  datetime: "2024-05"
+  text: >-
+    Paper [**Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification**](https://ieeexplore.ieee.org/document/10521661) published in *IEEE Access*.
