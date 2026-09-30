@@ -1,0 +1,36 @@
+name: Research order QA once
+
+on:
+  push:
+    branches: [website-final-content-polish]
+    paths:
+      - ".github/workflows/research-order-qa-once.yml"
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+      - name: Build site
+        run: |
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+      - name: Setup Chrome
+        uses: browser-actions/setup-chrome@v1
+      - name: Render research page
+        run: |
+          python3 -m http.server 8080 --directory _site >/tmp/site.log 2>&1 &
+          sleep 2
+          CHROME="$(which chrome || which google-chrome || which chromium)"
+          mkdir -p preview
+          "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --virtual-time-budget=2500 --window-size=1440,5200 --screenshot="preview/research-desktop.png" "http://127.0.0.1:8080/Researches%20%26%20Projects/"
+          "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --virtual-time-budget=2500 --window-size=390,6200 --screenshot="preview/research-mobile.png" "http://127.0.0.1:8080/Researches%20%26%20Projects/"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: research-order-qa
+          path: preview
+          retention-days: 3
