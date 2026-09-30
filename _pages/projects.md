@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Research
-eyebrow: RESEARCH
 permalink: /Researches & Projects/
 description: Multi-robot autonomy across selective communication, mission-aware reasoning, prediction-guided execution, and safe learning-enabled control.
 nav: true
