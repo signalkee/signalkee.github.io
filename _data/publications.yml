@@ -19,7 +19,7 @@ under_review:
     year: "2026"
     project: "/projects/work-2022-07-01-KIST/"
 
-  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Bu"
+  - authors: "Jin-Hee Lee, Dahyun Nam, Robin Inho Kee, YoungKey Kim, Seok-Jun Buu"
     title: "Vision-Ultrasound Robotic System based on Deep Learning for Gas and Arc Hazard Detection in Manufacturing"
     status: "arXiv preprint"
     year: "2025"
@@ -56,15 +56,15 @@ conferences:
     award: "SAS Student Paper Award"
     project: "/projects/UGresearch-2023-03-01-SoftComp/"
 
-  - authors: "Woojin Jo, Sehyun Hwang, Inho Kee, Soohong Lee"
+  - authors: "Woojin Jo, Sehyun Hwang, Inho Kee, Inhak Lee, Soohong Lee"
     title: "An Intelligent Lock-Out Tag-Out System for Monitoring and Control of the Locked Device"
     conference: "IEEE IEEM"
     year: "2019"
     project: "/projects/UGresearch-2019-06-01-KBD/"
 
 journals:
-  - authors: "Robin Inho Kee, Dahyun Nam, Seok-Jun Bu, SungBae Cho"
-    title: "Disentangled Prototyping with Triplet-trained Prototypical Network for Few-shot Learning in In-vehicle Noise Classification"
+  - authors: "Robin Inho Kee, Dahyun Nam, Seok-Jun Buu, Sung-Bae Cho"
+    title: "Disentangled Prototypical Convolutional Network for Few-Shot Learning in In-Vehicle Noise Classification"
     journal: "IEEE Access"
     year: "2024"
     paper: "https://ieeexplore.ieee.org/document/10521661"
