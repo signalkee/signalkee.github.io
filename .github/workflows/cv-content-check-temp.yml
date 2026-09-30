@@ -1,0 +1,19 @@
+name: Temporary CV PDF content check
+
+on:
+  push:
+    branches: [final-content-audit-20260930]
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Extract CV text
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils
+          pdftotext -layout assets/pdf/robin-inho-kee-cv.pdf /tmp/cv.txt
+          echo "----- CV TEXT BEGIN -----"
+          cat /tmp/cv.txt
+          echo "----- CV TEXT END -----"
