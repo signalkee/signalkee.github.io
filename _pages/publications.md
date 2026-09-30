@@ -12,8 +12,7 @@ nav_order: 3
 <div class="publications-v2">
   <section class="publications-v2-section">
     <div class="publications-v2-heading">
-      <p class="v2-eyebrow">MANUSCRIPTS</p>
-      <h2>Under review & preprints</h2>
+      <h2>Under Review & Preprints</h2>
     </div>
     {% for pub in site.data.publications.under_review %}
       {% include publication-row.liquid pub=pub %}
@@ -22,8 +21,7 @@ nav_order: 3
 
   <section class="publications-v2-section">
     <div class="publications-v2-heading">
-      <p class="v2-eyebrow">JOURNALS</p>
-      <h2>Journal papers</h2>
+      <h2>Journals</h2>
     </div>
     {% for pub in site.data.publications.journals %}
       {% include publication-row.liquid pub=pub %}
@@ -32,8 +30,7 @@ nav_order: 3
 
   <section class="publications-v2-section">
     <div class="publications-v2-heading">
-      <p class="v2-eyebrow">CONFERENCES</p>
-      <h2>Conference papers</h2>
+      <h2>Conferences</h2>
     </div>
     {% for pub in site.data.publications.conferences %}
       {% include publication-row.liquid pub=pub %}
