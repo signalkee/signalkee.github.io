@@ -1,0 +1,51 @@
+name: Install final research assets once
+
+on:
+  push:
+    branches: [website-final-content-polish]
+    paths:
+      - ".github/workflows/install-final-assets-once.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: website-final-content-polish
+
+      - name: Install staged WebP assets
+        run: |
+          mkdir -p assets/img/ACDC assets/img/CCTA
+          cat .asset_stage_final/acdc-priority.part* | base64 -d > assets/img/ACDC/dynamic-priority-setup.webp
+          cat .asset_stage_final/acdc-results.part* | base64 -d > assets/img/ACDC/representative-results.webp
+          cat .asset_stage_final/ccta-arch.part* | base64 -d > assets/img/CCTA/control-architecture.webp
+          cat .asset_stage_final/ccta-table.part* | base64 -d > assets/img/CCTA/performance-table.webp
+          python3 - <<'PY'
+          from pathlib import Path
+          for path in [
+              "assets/img/ACDC/dynamic-priority-setup.webp",
+              "assets/img/ACDC/representative-results.webp",
+              "assets/img/CCTA/control-architecture.webp",
+              "assets/img/CCTA/performance-table.webp",
+          ]:
+              b = Path(path).read_bytes()
+              assert b[:4] == b"RIFF" and b[8:12] == b"WEBP", (path, b[:16])
+              print(path, len(b))
+          PY
+
+      - name: Commit installed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/ACDC/dynamic-priority-setup.webp assets/img/ACDC/representative-results.webp assets/img/CCTA/control-architecture.webp assets/img/CCTA/performance-table.webp
+          if git diff --cached --quiet; then
+            echo "No asset changes to commit."
+          else
+            git commit -m "website polish: install final research assets"
+            git push origin HEAD:website-final-content-polish
+          fi
