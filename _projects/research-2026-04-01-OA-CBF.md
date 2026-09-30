@@ -57,15 +57,21 @@ The official OA-CBF project page includes animated comparisons that show why onl
 
 <div class="project-motion-grid oa-cbf-motion-grid">
 <div class="project-motion-wrap">
-  <img class="project-motion" src="https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36518d5c-31e3-80ae-ab38-f492548a0c11&src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Feb9ea54a-87e6-4b91-be09-8aaed8a339c0%2F9c01dcfe-4778-44ed-b4b5-7d4173ec298f%2Fscen1_optqp.gif" alt="VTOL simulation with fixed low CBF parameters" loading="lazy" referrerpolicy="no-referrer">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-fixed-low.webp">
+    <source src="/assets/media/oacbf/vtol-fixed-low.mp4" type="video/mp4">
+  </video>
   <p class="caption">Fixed low CBF parameters remain feasible but produce a large altitude detour.</p>
 </div>
 <div class="project-motion-wrap">
-  <img class="project-motion" src="https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36518d5c-31e3-80ce-b869-f136738659b6&src=https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Feb9ea54a-87e6-4b91-be09-8aaed8a339c0%2F69f99c66-d0df-46e5-b4ab-b2e6b2e5418a%2Fscen1_high.gif" alt="VTOL simulation with fixed high CBF parameters" loading="lazy" referrerpolicy="no-referrer">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-fixed-high.webp">
+    <source src="/assets/media/oacbf/vtol-fixed-high.mp4" type="video/mp4">
+  </video>
   <p class="caption">Fixed high CBF parameters become infeasible and eventually lead to collision.</p>
 </div>
 <div class="project-motion-wrap">
-  <img class="project-motion" src="https://oopy.lazyrockets.com/api/v2/notion/image?blockId=36618d5c-31e3-8059-a1eb-c2614d1d0a9d&src=attachment%3A7c28b0ac-d39b-4a8e-8c62-78a5c7eb34db%3Acdc2025-ezgif.com-optimize.gif" alt="OA-CBF VTOL quadplane simulation with online parameter adaptation" loading="lazy" referrerpolicy="no-referrer">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-oacbf.webp">
+    <source src="/assets/media/oacbf/vtol-oacbf.mp4" type="video/mp4">
+  </video>
   <p class="caption">OA-CBF adapts the CBF parameters with aircraft state to balance safety and task progress.</p>
 </div>
 </div>
