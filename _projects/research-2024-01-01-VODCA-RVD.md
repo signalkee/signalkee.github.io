@@ -40,8 +40,8 @@ We developed a **learning-accelerated Time Shift Governor** for rendezvous and d
 The learned predictor reduced the time required to obtain the time-shift parameter in most evaluated scenarios while the closed-loop system completed rendezvous missions under the imposed constraints.
 
 <div class="row">
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/scitech-2025/Time_const.png" title="Constraint histories" class="img-fluid rounded z-depth-1" %}</div>
-  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/scitech-2025/Time_TS.png" title="Time shift history" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/scitech-2025/constraints.png" title="Constraint histories" class="img-fluid rounded z-depth-1" %}</div>
+  <div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/scitech-2025/time-shift.png" title="Time shift history" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 ## My contribution
