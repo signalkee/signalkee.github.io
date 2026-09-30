@@ -2,7 +2,7 @@
 layout: page
 title: "Online Adaptive Input-Constrained Control Barrier Functions"
 description: "Uncertainty-aware online adaptation of ICCBF parameters for safe, input-constrained robot navigation."
-img: assets/img/icra-2025/ICRA_overview.webp
+img: assets/img/icra-2025/overview.webp
 importance: 97
 category: Graduate research projects
 kicker: ICRA 2025 · SAFE LEARNING & CONTROL
@@ -26,7 +26,7 @@ A single fixed parameter choice therefore does not work equally well across all 
 
 We developed an online adaptation framework that evaluates candidate ICCBF parameters from the current robot state and local environment. Instead of committing to one parameter setting offline, the controller repeatedly asks which candidates are both reliable and useful **now**.
 
-<div class="row"><div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/icra-2025/ICRA_overview.webp" title="Online Adaptive ICCBF overview" class="img-fluid rounded z-depth-1" %}</div></div>
+<div class="row"><div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/icra-2025/overview.webp" title="Online Adaptive ICCBF overview" class="img-fluid rounded z-depth-1" %}</div></div>
 <div class="caption">Predict candidate performance and risk, verify uncertainty, then adapt the safety-controller parameters online.</div>
 
 <div class="project-motion-wrap">
@@ -47,8 +47,8 @@ The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict pe
 </div>
 
 <div class="row">
-<div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/icra-2025/ICRA_prediction.webp" title="Predicted risk" class="img-fluid rounded z-depth-1" %}</div>
-<div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/icra-2025/ICRA_cvar.webp" title="DR-CVaR verification" class="img-fluid rounded z-depth-1" %}</div>
+<div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/icra-2025/prediction.webp" title="Predicted risk" class="img-fluid rounded z-depth-1" %}</div>
+<div class="col-sm mt-3 mt-md-0">{% include figure.liquid loading="lazy" path="assets/img/icra-2025/cvar.webp" title="DR-CVaR verification" class="img-fluid rounded z-depth-1" %}</div>
 </div>
 
 ## Experiments
