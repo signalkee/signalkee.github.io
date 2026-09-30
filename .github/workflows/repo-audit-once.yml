@@ -1,0 +1,62 @@
+name: Repository audit once
+
+on:
+  push:
+    branches: [repo-maintenance-cleanup]
+    paths:
+      - ".github/workflows/repo-audit-once.yml"
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Audit tree and asset references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import os
+
+          root = Path(".")
+          text_ext = {".md",".markdown",".liquid",".html",".scss",".css",".js",".yml",".yaml",".json",".rb",".txt",".toml"}
+          sources = []
+          for p in root.rglob("*"):
+              if not p.is_file() or ".git" in p.parts or "_site" in p.parts:
+                  continue
+              if p.suffix.lower() in text_ext or p.name in {"Gemfile","Rakefile"}:
+                  try:
+                      sources.append((p, p.read_text(errors="ignore")))
+                  except Exception:
+                      pass
+
+          joined = "\n".join(t for _, t in sources)
+          assets = [p for p in Path("assets").rglob("*") if p.is_file()]
+          candidates = []
+          for p in assets:
+              rel = p.as_posix()
+              # Conservative: either the full path or basename counts as referenced.
+              if rel not in joined and p.name not in joined:
+                  candidates.append((p.stat().st_size, rel))
+
+          print("FILES", sum(1 for p in root.rglob("*") if p.is_file() and ".git" not in p.parts))
+          print("ASSET_BYTES", sum(p.stat().st_size for p in assets))
+          print("UNREFERENCED_ASSETS", len(candidates))
+          print("=== UNREFERENCED >= 50 KB ===")
+          for size, rel in sorted(candidates, reverse=True):
+              if size >= 50_000:
+                  print(f"{size:10d}  {rel}")
+          print("=== ALL UNREFERENCED ===")
+          for size, rel in sorted(candidates, reverse=True):
+              print(f"{size:10d}  {rel}")
+          PY
+
+      - name: List obvious legacy areas
+        run: |
+          echo "Notebook files:"
+          find . -type f \( -name '*.ipynb' -o -path './assets/jupyter/*' \) -not -path './.git/*' -print || true
+          echo "Posts/news:"
+          find _posts _news -type f 2>/dev/null || true
+          echo "Legacy root tooling:"
+          find . -maxdepth 2 -type f \( -name 'Dockerfile' -o -name 'docker-compose*.yml' -o -path './bin/*' -o -name 'requirements.txt' \) -print || true
