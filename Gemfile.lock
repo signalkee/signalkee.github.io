@@ -37,7 +37,6 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-link-attributes (1.0.1)
     jekyll-minifier (0.1.10)
       cssminify2 (~> 2.0)
       htmlcompressor (~> 0.4)
@@ -95,7 +94,6 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-link-attributes
   jekyll-minifier
   jekyll-sitemap
   mini_racer
