@@ -6,7 +6,7 @@ eyebrow: CV
 description: Academic CV covering education, research, publications, technical background, awards, teaching, and service.
 nav: true
 nav_order: 4
-cv_pdf: Robin_Inho_Kee_CV_slim.pdf
+cv_pdf: robin-inho-kee-cv.pdf
 ---
 
 <div class="cv-v2">
@@ -22,13 +22,13 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
         <span>Scalable Decision-Making</span>
       </div>
       <div class="v2-actions">
-        <a class="v2-btn v2-btn-primary" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" target="_blank" rel="noopener">Open CV PDF ↗</a>
-        <a class="v2-btn" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" download>Download PDF ↓</a>
+        <a class="v2-btn v2-btn-primary" href="/assets/pdf/robin-inho-kee-cv.pdf" target="_blank" rel="noopener">Open CV PDF ↗</a>
+        <a class="v2-btn" href="/assets/pdf/robin-inho-kee-cv.pdf" download>Download PDF ↓</a>
         <a class="v2-btn" href="/Publications/">Publications →</a>
       </div>
     </div>
 
-    <a class="cv-v2-paper" href="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" target="_blank" rel="noopener" aria-label="Open Robin Inho Kee CV PDF">
+    <a class="cv-v2-paper" href="/assets/pdf/robin-inho-kee-cv.pdf" target="_blank" rel="noopener" aria-label="Open Robin Inho Kee CV PDF">
       <div class="cv-v2-paper-head"><strong>Robin Inho Kee</strong><span>Curriculum Vitae</span></div>
       <div class="cv-v2-paper-rule"></div>
       <div class="cv-v2-paper-section"><span class="cv-v2-paper-label">EDUCATION</span><span class="cv-v2-paper-line wide"></span><span class="cv-v2-paper-line medium"></span></div>
@@ -41,7 +41,7 @@ cv_pdf: Robin_Inho_Kee_CV_slim.pdf
 
   <details class="cv-v2-embed">
     <summary><span><strong>Embedded PDF preview</strong><small>Open the complete two-page academic CV without leaving this page.</small></span><span class="archive-toggle">Show preview ↓</span></summary>
-    <div class="cv-v2-frame"><iframe src="/assets/pdf/Robin_Inho_Kee_CV_slim.pdf" title="Robin Inho Kee CV"></iframe></div>
+    <div class="cv-v2-frame"><iframe src="/assets/pdf/robin-inho-kee-cv.pdf" title="Robin Inho Kee CV"></iframe></div>
   </details>
 
   <section class="cv-web-section">
