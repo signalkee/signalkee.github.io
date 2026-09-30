@@ -1,6 +1,12 @@
 <div class="col">
   <a class="project-card-v2" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    {% if project.img %}
+    {% if project.thumb_video %}
+      <div class="project-card-v2-media">
+        <video autoplay muted loop playsinline poster="{{ project.thumb_poster | relative_url }}" aria-label="{{ project.title }} preview">
+          <source src="{{ project.thumb_video | relative_url }}" type="video/mp4">
+        </video>
+      </div>
+    {% elsif project.img %}
       <div class="project-card-v2-media">
         <img src="{{ project.img | relative_url }}" alt="{{ project.title }} preview" loading="lazy">
       </div>
