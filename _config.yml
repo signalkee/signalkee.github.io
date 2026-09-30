@@ -59,7 +59,6 @@ keep_files:
   - .nojekyll
 
 plugins:
-  - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-sitemap
 
@@ -77,11 +76,6 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
 
-external_links:
-  enabled: true
-  rel: external nofollow noopener
-  target: _blank
-  exclude:
 
 lazy_loading_images: true
 
