@@ -7,6 +7,7 @@ importance: 97
 category: Graduate research projects
 kicker: ICRA 2025 · SAFE LEARNING & CONTROL
 year: "2025"
+sort_date: "2025-05-01"
 venue: "IEEE ICRA 2025"
 role: "Co-author"
 arxiv: https://arxiv.org/abs/2409.14616
