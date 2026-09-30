@@ -1944,3 +1944,32 @@ body {
     padding-top: 34px;
   }
 }
+
+
+/* Publication density refinement ------------------------------------------- */
+.publications-v2-section {
+  padding: 18px 0 24px;
+}
+.publications-v2-heading {
+  margin-bottom: 8px;
+}
+.publication-note-v2 {
+  margin-bottom: 14px;
+}
+.publication-row-v2 {
+  padding: 10px 0;
+}
+.publication-row-v2-authors {
+  margin-top: 3px;
+}
+.publication-row-v2-links {
+  margin-top: 5px;
+}
+@media (max-width: 620px) {
+  .publications-v2-section {
+    padding: 15px 0 20px;
+  }
+  .publication-row-v2 {
+    padding: 9px 0;
+  }
+}

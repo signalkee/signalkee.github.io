@@ -66,18 +66,6 @@ The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict pe
   </video>
   <p class="caption">A second real-time adaptation example.</p>
 </div>
-<div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/experiment-1.webp">
-    <source src="/assets/media/icra/experiment-1.mp4" type="video/mp4">
-  </video>
-  <p class="caption">Representative experiment.</p>
-</div>
-<div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/experiment-3.webp">
-    <source src="/assets/media/icra/experiment-3.mp4" type="video/mp4">
-  </video>
-  <p class="caption">Representative experiment.</p>
-</div>
 </div>
 
 We evaluated the method in robot-navigation scenarios against fixed-parameter and existing adaptive approaches. The experiments test the tradeoff the method is designed around: maintaining feasibility and safety near obstacles without forcing the robot to remain unnecessarily conservative when more aggressive parameters are locally appropriate.
