@@ -2,7 +2,7 @@ name: Deploy site
 
 on:
   push:
-    branches: [master, main]
+    branches: [master]
     paths:
       - "_config.yml"
       - "_data/**"
@@ -21,7 +21,7 @@ on:
       - "package-lock.json"
       - "purgecss.config.js"
   pull_request:
-    branches: [master, main]
+    branches: [master]
     paths:
       - "_config.yml"
       - "_data/**"
@@ -67,7 +67,6 @@ jobs:
 
       - name: Build
         run: |
-          pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
 
