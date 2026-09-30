@@ -7,6 +7,7 @@ importance: 99
 category: Graduate research projects
 kicker: AIAA SCITECH 2025 · SAFE CONTROL
 year: "2025"
+sort_date: "2025-01-01"
 venue: "AIAA SCITECH 2025 Forum"
 role: "Co-first author"
 paper: /assets/pdf/SciTech25_LTSG.pdf
