@@ -7,6 +7,7 @@ importance: 98
 category: Graduate research projects
 kicker: CCTA 2025 · SAFE CONTROL
 year: "2025"
+sort_date: "2025-08-01"
 venue: "IEEE CCTA 2025"
 role: "Co-first author"
 paper: https://ieeexplore.ieee.org/abstract/document/11151321/
