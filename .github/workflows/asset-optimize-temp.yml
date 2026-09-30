@@ -65,6 +65,18 @@ jobs:
           optimize "assets/img/roboin-teo/Teo_system.jpg" "assets/img/roboin-teo/system.webp"
           optimize "assets/img/scitech-2025/Diagram_closed_loop.png" "assets/img/scitech-2025/closed-loop.webp"
           optimize "assets/img/softcomp/Soft_title.png" "assets/img/softcomp/title.webp"
+          optimize "assets/img/roboin/room.jpg" "assets/img/roboin/room.webp"
+          optimize "assets/img/roboin/drone.jpg" "assets/img/roboin/drone.webp"
+          optimize "assets/img/idim/smart-lab.png" "assets/img/idim/smart-lab.webp"
+          optimize "assets/img/softcomp/few-shot-overview.png" "assets/img/softcomp/few-shot-overview.webp"
+          optimize "assets/img/softcomp/continual-learning-overview.png" "assets/img/softcomp/continual-learning-overview.webp"
+          optimize "assets/img/nemd/fabrication.png" "assets/img/nemd/fabrication.webp"
+          optimize "assets/img/nemd/intro.png" "assets/img/nemd/intro.webp"
+          optimize "assets/img/nemd/title.png" "assets/img/nemd/title.webp"
+          optimize "assets/img/roboin-teo/prototype.jpg" "assets/img/roboin-teo/prototype.webp"
+          optimize "assets/img/kbd/overview.png" "assets/img/kbd/overview.webp"
+          optimize "assets/img/kbd/system-schematic.png" "assets/img/kbd/system-schematic.webp"
+          optimize "assets/img/roboin-fire/soscon.jpg" "assets/img/roboin-fire/soscon.webp"
 
           git add _projects _pages _layouts _data _includes _sass || true
 
