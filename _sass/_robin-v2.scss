@@ -2049,3 +2049,110 @@ body {
   padding-left: 7px;
   padding-right: 7px;
 }
+
+
+/* Homepage recent news ------------------------------------------------------ */
+.v2-news-section {
+  padding-top: 42px;
+  padding-bottom: 46px;
+}
+.v2-news-head {
+  grid-template-columns: 1fr auto;
+  align-items: end;
+  margin-bottom: 12px;
+}
+.v2-news-head h2 {
+  margin: 0;
+  font-size: clamp(1.8rem, 3.1vw, 2.75rem);
+  line-height: 1.06;
+  letter-spacing: -0.043em;
+}
+.v2-news-head > p {
+  max-width: 360px;
+  text-align: right;
+}
+.v2-news-list {
+  border-bottom: 1px solid var(--v2-line);
+}
+.v2-news-row {
+  display: grid;
+  grid-template-columns: 105px minmax(0, 1fr);
+  gap: 22px;
+  padding: 13px 0;
+  border-top: 1px solid var(--v2-line);
+}
+.v2-news-date {
+  padding-top: 1px;
+  color: var(--v2-muted);
+  font-size: 0.82rem;
+  font-weight: 680;
+  white-space: nowrap;
+}
+.v2-news-copy {
+  min-width: 0;
+  color: var(--global-text-color);
+  font-size: 0.94rem;
+  line-height: 1.55;
+}
+.v2-news-copy p {
+  margin: 0;
+}
+.v2-news-copy a {
+  font-weight: 650;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.v2-news-more {
+  margin-top: 15px;
+}
+.v2-news-more summary {
+  display: inline-flex;
+  cursor: pointer;
+  list-style: none;
+  color: var(--global-theme-color);
+  font-size: 0.86rem;
+  font-weight: 680;
+}
+.v2-news-more summary::-webkit-details-marker {
+  display: none;
+}
+.v2-news-more-open {
+  display: none;
+}
+.v2-news-more[open] .v2-news-more-closed {
+  display: none;
+}
+.v2-news-more[open] .v2-news-more-open {
+  display: inline;
+}
+.v2-news-list-older {
+  margin-top: 15px;
+}
+@media (max-width: 760px) {
+  .v2-news-head {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .v2-news-head > p {
+    max-width: none;
+    text-align: left;
+  }
+}
+@media (max-width: 620px) {
+  .v2-news-section {
+    padding-top: 32px;
+    padding-bottom: 34px;
+  }
+  .v2-news-row {
+    grid-template-columns: 82px minmax(0, 1fr);
+    gap: 13px;
+    padding: 11px 0;
+  }
+  .v2-news-date {
+    font-size: 0.76rem;
+  }
+  .v2-news-copy {
+    font-size: 0.9rem;
+    line-height: 1.48;
+  }
+}
