@@ -1,5 +1,5 @@
 name: Final content visual QA
-# Final visual QA after repaired AC-DC summary and local OA-CBF media
+# Final visual QA after CCTA architecture repair
 
 on:
   push:
