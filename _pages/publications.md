@@ -2,7 +2,6 @@
 layout: page
 permalink: /Publications/
 title: Publications
-eyebrow: PUBLICATIONS
 description: Peer-reviewed papers, preprints, and manuscripts in multi-robot autonomy, safe control, and learning-enabled robotics.
 nav: true
 nav_order: 3
