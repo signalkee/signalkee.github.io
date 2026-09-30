@@ -1,5 +1,5 @@
 name: Final content visual QA
-# Final rerun after CCTA architecture refresh
+# Final rerun after AC-DC and OA-CBF media finalization
 
 on:
   push:
