@@ -27,6 +27,9 @@ jobs:
           fail: true
           args: --user-agent 'curl/7.54' --exclude '^https://ieeexplore.ieee.org/' --exclude-path README.md --exclude-path _pages/404.md --verbose --no-progress './**/*.md' './**/*.html'
 
+      - name: Remove link-check report
+        run: rm -rf lychee
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
 
