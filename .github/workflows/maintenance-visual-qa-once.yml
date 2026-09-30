@@ -1,0 +1,77 @@
+name: Maintenance visual QA once
+
+on:
+  push:
+    branches: [repo-maintenance-cleanup]
+    paths:
+      - ".github/workflows/maintenance-visual-qa-once.yml"
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2.2"
+          bundler-cache: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Format and build
+        run: |
+          npm ci
+          npx prettier . --check
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      - name: Check local references
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import html as htmlmod, re
+          from urllib.parse import unquote
+          root=Path("_site"); missing=[]
+          for page in root.rglob("*.html"):
+              text=page.read_text(errors="ignore")
+              for ref in re.findall(r'(?:src|href)="(/[^"#?]+)', text):
+                  if ref.startswith("//"): continue
+                  ref=unquote(htmlmod.unescape(ref))
+                  target=root/ref.lstrip("/")
+                  if target.is_dir(): target=target/"index.html"
+                  if not target.exists(): missing.append((str(page),ref))
+          if missing:
+              print(*missing[:100],sep="\n")
+              raise SystemExit(f"{len(missing)} missing local refs")
+          print("0 missing local references")
+          PY
+
+      - uses: browser-actions/setup-chrome@v1
+      - name: Render representative pages
+        run: |
+          python3 -m http.server 8080 --directory _site >/tmp/site.log 2>&1 &
+          sleep 2
+          CHROME="$(which chrome || which google-chrome || which chromium)"
+          mkdir -p preview
+          render(){ "$CHROME" --headless --no-sandbox --disable-gpu --hide-scrollbars --virtual-time-budget=3500 --window-size="$2" --screenshot="preview/$1.png" "http://127.0.0.1:8080$3"; }
+          render home 1440,4200 /
+          render research 1440,6200 "/Researches%20%26%20Projects/"
+          render publications 1440,4800 /Publications/
+          render cv 1440,6500 /CV/
+          render acdc 1440,8200 /projects/research-2026-09-21-ACDC/
+          render oacbf 1440,10500 /projects/research-2026-04-01-OA-CBF/
+          render ccta 1440,7200 /projects/research-2024-05-01-VODCA-ACC/
+          render icra 1440,7600 /projects/research-2024-02-01-Panagou-ICRA/
+          render kist 1440,7600 /projects/work-2022-07-01-KIST/
+          render mobile-acdc 390,9800 /projects/research-2026-09-21-ACDC/
+          render mobile-oacbf 390,12000 /projects/research-2026-04-01-OA-CBF/
+          render mobile-ccta 390,9000 /projects/research-2024-05-01-VODCA-ACC/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-visual-qa
+          path: preview
+          retention-days: 3
