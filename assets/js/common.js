@@ -30,5 +30,4 @@ $(document).ready(function () {
       target: navSelector,
     });
   }
-
 });
