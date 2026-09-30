@@ -29,7 +29,7 @@ nav_order: 2
       <h2>Selective communication for scalable multi-robot coordination</h2>
     </div>
     <div class="row row-cols-1 row-cols-md-2">
-      {% assign sorted_projects = site.projects | sort: 'importance' | reverse %}
+      {% assign sorted_projects = site.projects | sort: 'sort_date' | reverse %}
       {% for project in sorted_projects %}
         {% if project.category == 'Current research' %}{% include projects.liquid %}{% endif %}
       {% endfor %}
@@ -42,7 +42,7 @@ nav_order: 2
       <h2>Safe control, learning, and real robotic systems</h2>
     </div>
     <div class="row row-cols-1 row-cols-md-2">
-      {% assign sorted_projects = site.projects | sort: 'importance' | reverse %}
+      {% assign sorted_projects = site.projects | sort: 'sort_date' | reverse %}
       {% for project in sorted_projects %}
         {% if project.category == 'Graduate research projects' or project.category == 'Work experience' %}
           {% include projects.liquid %}
@@ -57,7 +57,7 @@ nav_order: 2
       <span class="archive-toggle">Show archive ↓</span>
     </summary>
     <div class="row row-cols-1 row-cols-md-2 mt-4">
-      {% assign sorted_projects = site.projects | sort: 'importance' | reverse %}
+      {% assign sorted_projects = site.projects | sort: 'sort_date' | reverse %}
       {% for project in sorted_projects %}
         {% if project.category == 'Undergraduate research projects' or project.category == 'Undergraduate projects' %}
           {% include projects.liquid %}

@@ -7,6 +7,7 @@ importance: 99
 category: Graduate research projects
 kicker: PREPRINT · SAFE LEARNING & CONTROL
 year: "2026"
+sort_date: "2026-04-01"
 venue: "Preprint"
 role: "Co-author"
 arxiv: https://arxiv.org/abs/2504.03038
@@ -50,6 +51,31 @@ The learned model does not directly output a single “best” CBF parameter. It
 We apply OA-CBF to a **VTOL quadplane transition and landing scenario**, including the first CBF application reported by the project to this VTOL quadplane control task. Fixed low CBF parameters can produce a large altitude detour, while fixed high parameters can become infeasible and eventually collide.
 
 OA-CBF adapts the parameters with the aircraft state. At high speed it keeps lower parameters, encouraging the elevator to pitch up and generate additional drag; as the aircraft slows, the parameters increase to improve performance.
+
+## Representative motion results
+
+The official OA-CBF project page includes animated comparisons that show why online adaptation matters in the VTOL transition-and-landing case.
+
+<div class="project-motion-grid oa-cbf-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-fixed-low.webp">
+    <source src="/assets/media/oacbf/vtol-fixed-low.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Fixed low CBF parameters remain feasible but produce a large altitude detour.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-fixed-high.webp">
+    <source src="/assets/media/oacbf/vtol-fixed-high.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Fixed high CBF parameters become infeasible and eventually lead to collision.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/vtol-oacbf.webp">
+    <source src="/assets/media/oacbf/vtol-oacbf.mp4" type="video/mp4">
+  </video>
+  <p class="caption">OA-CBF adapts the CBF parameters with aircraft state to balance safety and task progress.</p>
+</div>
+</div>
 
 ## Beyond distance-based CBFs
 

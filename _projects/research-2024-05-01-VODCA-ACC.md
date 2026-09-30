@@ -2,11 +2,12 @@
 layout: page
 title: "Time Shift Governor-Guided MPC-CBF for Safe Adaptive Cruise Control"
 description: "Reference adaptation, MPC, and relaxed Collision Cone CBFs for adaptive cruise control with rapidly changing lead-vehicle behavior and moving obstacles."
-img: assets/media/ccta/overview-motion.webp
+img: assets/img/CCTA/control-architecture.webp
 importance: 98
 category: Graduate research projects
 kicker: CCTA 2025 · SAFE CONTROL
 year: "2025"
+sort_date: "2025-08-01"
 venue: "IEEE CCTA 2025"
 role: "Co-first author"
 paper: https://ieeexplore.ieee.org/abstract/document/11151321/
@@ -14,47 +15,45 @@ paper: https://ieeexplore.ieee.org/abstract/document/11151321/
 
 ## The problem
 
-Adaptive cruise control becomes difficult when the lead vehicle changes speed or direction abruptly while other obstacles are also moving. A nominal MPC-CBF controller can react too late, lose recursive feasibility, or become overly conservative when the safety constraints change quickly.
+Adaptive cruise control becomes difficult when the lead vehicle changes speed or direction abruptly while other obstacles are also moving. We study safe curved-road tracking with a potentially non-cooperative lead vehicle and dynamic obstacles, while jointly optimizing control inputs and a time-shifted reference.
 
 ## Control architecture
 
-<div class="project-motion-wrap">
-  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/ccta/overview-motion.webp">
-    <source src="/assets/media/ccta/overview-motion.mp4" type="video/mp4">
-  </video>
-  <p class="caption">Original animated CCTA project overview, restored as an optimized looping video.</p>
+<div class="project-v2-body-bleed project-main-figure">
+  <img src="/assets/img/CCTA/control-architecture.webp" alt="TSG-guided MPC-CBF control architecture">
 </div>
+<div class="caption">TSG-guided MPC-CBF architecture. The Time Shift Governor generates a virtual lead-vehicle target, while MPC enforces ACC and relaxed collision-cone safety constraints.</div>
 
-<div class="ccta-architecture"><div class="ccta-flow">
-<div><strong>Lead vehicle</strong><p>Predict the lead trajectory and observe rapidly changing behavior.</p></div>
-<div><strong>Time Shift Governor</strong><p>Shift the lead-vehicle reference backward in time through the scalar parameter τ<sub>shift</sub>.</p></div>
-<div><strong>MPC + CBF</strong><p>Track the adapted reference while enforcing following-distance, input, and obstacle constraints.</p></div>
-<div><strong>Relaxed C3BF</strong><p>Use a penalized slack variable to improve feasibility around moving obstacles.</p></div>
-</div></div>
+The **Time Shift Governor (TSG)** adapts the reference rather than replacing the nominal controller. It shifts the observed lead-vehicle trajectory backward in time, projects that shifted trajectory onto the road reference, and exposes the time shift as an additional optimization variable. The resulting virtual target gives the ego vehicle room to respond before a rapidly changing reference makes the short-horizon MPC-CBF problem infeasible.
 
-The key idea is to **adapt the reference rather than redesign the nominal controller**. The Time Shift Governor generates a virtual lead-vehicle target from a time-shifted trajectory. This gives the ego vehicle additional room to respond when the lead vehicle suddenly reverses or deviates from its expected path.
+For safety, the controller combines a CBF for adaptive cruise control with a **relaxed Collision Cone CBF (C3BF)** for moving obstacles. The relaxation uses a non-negative slack variable that is penalized in the MPC cost, improving feasibility when strict collision-cone enforcement would otherwise become too restrictive.
 
-For dynamic obstacle avoidance, we relax the Collision Cone Control Barrier Function with a non-negative slack variable. The MPC penalizes this slack, balancing safety-constraint enforcement with feasibility in highly dynamic interactions.
+<div class="project-highlight-grid">
+<div><strong>Reference adaptation</strong><p>TSG changes the virtual lead-vehicle target online without extending the prediction horizon.</p></div>
+<div><strong>Safe following</strong><p>An ACC CBF constrains the ego vehicle relative to the virtual target, with a separate hard geometric separation from the actual lead vehicle.</p></div>
+<div><strong>Dynamic obstacles</strong><p>A relaxed C3BF uses relative motion while allowing tightly penalized slack when strict enforcement would become infeasible.</p></div>
+</div>
 
 ## Simulation study
 
-We evaluated the controller on a circular road with a fluctuating-speed lead vehicle and multiple moving obstacles. The lead vehicle includes sudden reversals and off-track deviations for obstacle avoidance, while moving obstacles emulate pedestrians, cyclists, or other vehicles.
+We evaluate the controller on a circular road with a fluctuating-speed lead vehicle and **2–5 moving obstacles**. The lead vehicle exhibits sinusoidal speed changes, sudden reversals, and off-track deviations, while the obstacles move along randomized radial trajectories.
 
-<div class="project-highlight-grid">
-<div><strong>Baseline MPC-CBF</strong><p>Can avoid many moving obstacles, but may react too late to sudden lead-vehicle reversals or crossing obstacles.</p></div>
-<div><strong>TSG-guided MPC-CBF</strong><p>Adjusts τ<sub>shift</sub> online so the ego vehicle responds to the changing interaction before the nominal reference becomes unsafe.</p></div>
-<div><strong>Relaxed C3BF</strong><p>Softens the collision-cone constraint when strict enforcement would otherwise make the optimization infeasible.</p></div>
-</div>
+The representative cases show two failure modes of the baseline. In one case, the baseline reacts too late to a lead-vehicle reversal and produces a rear-end collision. In another, it reacts too late to a crossing obstacle. The TSG-guided controller adjusts the virtual target through the time-shift variable and maintains safety in both cases.
 
 ## Results
 
-In **50 randomized simulations**, the baseline MPC-CBF failed in **9 trials**: six collisions with the lead vehicle and three collisions with dynamic obstacles. The TSG-guided MPC-CBF completed **all 50 trials without collision**.
+<div class="project-v2-body-bleed project-main-figure">
+  <img src="/assets/img/CCTA/performance-table.webp" alt="Performance comparison over 50 randomized CCTA trials">
+</div>
+<div class="caption">Performance over 50 randomized trials reported in the paper.</div>
+
+Across **50 randomized simulations**, the baseline MPC-CBF failed in **9 trials**: six collisions with the lead vehicle and three collisions with dynamic obstacles. The TSG-guided MPC-CBF completed **all 50 trials without collision**.
 
 <div class="project-stat-grid"><div class="project-stat"><strong>50</strong><span>randomized trials</span></div><div class="project-stat"><strong>9</strong><span>baseline failures</span></div><div class="project-stat"><strong>0</strong><span>TSG-guided failures</span></div><div class="project-stat"><strong>100%</strong><span>TSG-guided success rate</span></div></div>
 
-## Why it matters
+## Takeaway
 
-The study shows how a lightweight reference-governor layer can complement MPC-CBF control when the environment changes faster than a fixed reference can safely accommodate. The TSG adds only a scalar time-shift decision while helping the controller preserve safety and feasibility through abrupt lead-vehicle behavior and moving obstacles.
+The study shows how a lightweight reference-governor layer can complement MPC-CBF control when the environment changes faster than a fixed reference can safely accommodate. TSG adds a scalar time-shift decision, while the relaxed C3BF helps preserve feasibility around moving obstacles.
 
 ## My contribution
 

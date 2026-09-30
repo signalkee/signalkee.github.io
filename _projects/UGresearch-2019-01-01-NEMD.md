@@ -7,6 +7,7 @@ importance: 99
 category: Undergraduate research projects
 kicker: EARLY RESEARCH · 2019
 year: "2019"
+sort_date: "2019-01-02"
 venue: "Yonsei University"
 ---
 

@@ -7,6 +7,7 @@ importance: 96
 category: Undergraduate research projects
 kicker: ROBOTIC LAB AUTOMATION · 2020
 year: "2020"
+sort_date: "2020-04-01"
 venue: "Seoul National University"
 ---
 

@@ -7,6 +7,7 @@ importance: 98
 category: Undergraduate research projects
 kicker: INDUSTRIAL SAFETY · 2019
 year: "2019"
+sort_date: "2019-06-01"
 venue: "Yonsei University"
 ---
 
@@ -23,7 +24,7 @@ We developed an intelligent lockout/tagout concept for monitoring the state of l
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/kbd/overview.webp">
     <source src="/assets/media/kbd/overview.mp4" type="video/mp4">
   </video>
-  <p class="caption">Original animated lockout/tagout system demonstration.</p>
+  <p class="caption">Lockout/tagout system demonstration.</p>
 </div>
 
 ## Outcome

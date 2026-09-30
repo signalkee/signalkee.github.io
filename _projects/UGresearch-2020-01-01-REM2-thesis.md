@@ -7,6 +7,7 @@ importance: 97
 category: Undergraduate research projects
 kicker: UNDERGRADUATE THESIS · 2020
 year: "2020"
+sort_date: "2020-01-01"
 venue: "Yonsei University"
 ---
 

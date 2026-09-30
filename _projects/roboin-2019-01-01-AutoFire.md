@@ -7,6 +7,7 @@ importance: 98
 category: Undergraduate projects
 kicker: ROBOTICS · 2019
 year: "2019"
+sort_date: "2019-01-01"
 venue: "Yonsei University · Roboin"
 role: "Team lead"
 ---

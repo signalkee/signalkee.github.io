@@ -7,6 +7,7 @@ importance: 95
 category: Undergraduate research projects
 kicker: WEARABLE SENSING · 2020–2021
 year: "2020–2021"
+sort_date: "2020-05-01"
 venue: "Yonsei University"
 ---
 

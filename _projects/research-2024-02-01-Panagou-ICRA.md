@@ -7,6 +7,7 @@ importance: 97
 category: Graduate research projects
 kicker: ICRA 2025 · SAFE LEARNING & CONTROL
 year: "2025"
+sort_date: "2025-05-01"
 venue: "IEEE ICRA 2025"
 role: "Co-author"
 arxiv: https://arxiv.org/abs/2409.14616
@@ -32,7 +33,7 @@ We developed an online adaptation framework that evaluates candidate ICCBF param
   <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/icra/overview.webp">
     <source src="/assets/media/icra/overview.mp4" type="video/mp4">
   </video>
-  <p class="caption">Original animated method overview.</p>
+  <p class="caption">Online parameter adaptation with uncertainty-aware prediction and verification.</p>
 </div>
 
 The method uses a **Probabilistic Ensemble Neural Network (PENN)** to predict performance and risk metrics for candidate parameters while representing both epistemic and aleatoric uncertainty.
