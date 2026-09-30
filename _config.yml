@@ -6,8 +6,8 @@ last_name: Kee
 email: inhokee@umich.edu
 description: Personal website of Robin Inho Kee
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and adapted from <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
+  Hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 lang: en
 icon: favicon.png
 
