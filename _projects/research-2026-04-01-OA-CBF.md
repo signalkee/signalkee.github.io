@@ -3,6 +3,8 @@ layout: page
 title: "Online Adaptive Control Barrier Functions"
 description: "Runtime CBF parameter adaptation under epistemic and aleatoric uncertainty, with local finite-horizon validation and task-progress-aware selection."
 img: assets/img/OACBF/overview.webp
+thumb_video: assets/media/oacbf/quad3d-topdown.mp4
+thumb_poster: assets/media/oacbf/quad3d-topdown.webp
 importance: 99
 category: Graduate research projects
 kicker: PREPRINT · SAFE LEARNING & CONTROL
@@ -77,9 +79,43 @@ The official OA-CBF project page includes animated comparisons that show why onl
 </div>
 </div>
 
-## Beyond distance-based CBFs
+## Quad3D results
+
+The Quad3D benchmark shows OA-CBF on a fully three-dimensional quadrotor model. The unified view compares methods in the same environment, while the OA-CBF view highlights the online adaptation behavior.
+
+<div class="project-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/quad3d-unified.webp">
+    <source src="/assets/media/oacbf/quad3d-unified.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Quad3D: unified view with compared methods.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/quad3d-oacbf.webp">
+    <source src="/assets/media/oacbf/quad3d-oacbf.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Quad3D: OA-CBF with graph-attention environment encoding.</p>
+</div>
+</div>
+
+## Dynamic Parabolic CBF results
 
 The project also evaluates OA-CBF with a **Dynamic Parabolic CBF (DPCBF)** for a kinematic bicycle in dynamic-obstacle environments. This benchmark uses a relative-velocity-based safety condition, showing that the adaptation framework is not restricted to distance-based barriers.
+
+<div class="project-motion-grid">
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/dpcbf-unified.webp">
+    <source src="/assets/media/oacbf/dpcbf-unified.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Kinematic bicycle with DPCBF: unified view with compared methods.</p>
+</div>
+<div class="project-motion-wrap">
+  <video class="project-motion" autoplay muted loop playsinline poster="/assets/media/oacbf/dpcbf-oacbf.webp">
+    <source src="/assets/media/oacbf/dpcbf-oacbf.mp4" type="video/mp4">
+  </video>
+  <p class="caption">Kinematic bicycle with DPCBF: OA-CBF with graph-attention environment encoding.</p>
+</div>
+</div>
 
 ## Relationship to our ICRA 2025 work
 
