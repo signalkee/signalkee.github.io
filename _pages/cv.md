@@ -84,7 +84,7 @@ cv_pdf: robin-inho-kee-cv.pdf
     <div>
       <h2>TEACHING & SERVICE</h2>
       <p><strong>Graduate Student Instructor:</strong> AEROSP 740, Online Learning for Single- and Multi-Agent Control · Fall 2026</p>
-      <p><strong>Reviewer:</strong> CCTA 2026 · <strong>Conference Volunteer:</strong> L4DC 2025</p>
+      <p><strong>Reviewer:</strong> ICRA 2027, CCTA 2026 · <strong>Conference Volunteer:</strong> L4DC 2025</p>
     </div>
   </section>
 
