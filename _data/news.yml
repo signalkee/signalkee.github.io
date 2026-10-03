@@ -23,7 +23,7 @@
 - date: "Aug. 2025"
   datetime: "2025-08"
   text: >-
-    Started my **Ph.D. in Robotics at the University of Michigan**.
+    Started my **Ph.D. in Robotics at the University of Michigan**, advised by Prof. Necmiye Ozay and Prof. Vasileios Tzoumas, and began my work as a **Draper Scholar**. Research focuses on multi-robot autonomy, especially communication, coordination, and decision-making.
 
 - date: "Aug. 2025"
   datetime: "2025-08"
@@ -48,7 +48,7 @@
 - date: "Mar. 2025"
   datetime: "2025-03"
   text: >-
-    Selected as a **Draper Scholar** through the **Draper Scholars Program on Autonomy**.
+    Selected as a **Draper Scholar** through the **Draper Scholars Program on Autonomy**, advised at Draper by Dr. Begum Cannataro.
 
 - date: "Mar. 2025"
   datetime: "2025-03"
@@ -63,6 +63,11 @@
 - date: "Jan. 2025"
   datetime: "2025-01"
   text: >-
+    Paper [**Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation**](https://arxiv.org/abs/2409.14616) accepted to **IEEE ICRA 2025**.
+
+- date: "Jan. 2025"
+  datetime: "2025-01"
+  text: >-
     Paper [**Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Based Time Shift Governor**](https://arc.aiaa.org/doi/10.2514/6.2025-1700) appeared at **AIAA SciTech 2025**.
 
 - date: "Dec. 2024"
@@ -70,7 +75,27 @@
   text: >-
     Completed my **M.S. in Mechanical Engineering at the University of Michigan**.
 
+- date: "Sep. 2024"
+  datetime: "2024-09"
+  text: >-
+    New preprint [**Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation**](https://arxiv.org/abs/2409.14616).
+
+- date: "Aug. 2024"
+  datetime: "2024-08"
+  text: >-
+    Paper [**Constrained Control for Autonomous Spacecraft Rendezvous: Learning-Based Time Shift Governor**](https://arc.aiaa.org/doi/10.2514/6.2025-1700) accepted to **AIAA SciTech 2025**.
+
 - date: "May 2024"
   datetime: "2024-05"
   text: >-
     Paper [**Disentangled Prototypical Convolutional Network for Few-Shot Learning in In-Vehicle Noise Classification**](https://ieeexplore.ieee.org/document/10521661) published in *IEEE Access*.
+
+- date: "Aug. 2023"
+  datetime: "2023-08"
+  text: >-
+    Moved to the U.S. and started my **M.S. in Mechanical Engineering at the University of Michigan**.
+
+- date: "Jul. 2022"
+  datetime: "2022-07"
+  text: >-
+    Joined the **Korea Institute of Science and Technology (KIST)** as a researcher, working on **wearable hip-assistive robotics and gait assessment**.
