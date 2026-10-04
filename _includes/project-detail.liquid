@@ -58,6 +58,34 @@
     {% endif %}
   </header>
 
+  {% if page.demo_preview %}
+    <section class="project-demo-v2" aria-labelledby="interactive-demo-title">
+      <a
+        class="project-demo-v2-preview"
+        href="{{ page.demo }}"
+        target="_blank"
+        rel="noopener"
+        aria-label="Try the AC-DC guided demo (opens in a new tab)"
+      >
+        <img
+          src="{{ page.demo_preview | relative_url }}"
+          width="1366"
+          height="768"
+          loading="lazy"
+          alt="AC-DC tutorial: a robot map alongside What, When, and Whom; R13 is chosen while R10 is being reviewed."
+        >
+      </a>
+      <div class="project-demo-v2-copy">
+        <h2 id="interactive-demo-title">Interactive Demo</h2>
+        <p>Explore how each robot chooses what to share, when to communicate, and whom to contact.</p>
+        <div class="v2-actions">
+          <a class="v2-btn v2-btn-primary" href="{{ page.demo }}" target="_blank" rel="noopener">Try the guided demo ↗</a>
+          <a class="v2-text-link" href="{{ page.demo_explore }}" target="_blank" rel="noopener">Open playground ↗</a>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
   <article class="project-v2-body">
     {{ include.content }}
   </article>

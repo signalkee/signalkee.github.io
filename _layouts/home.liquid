@@ -109,18 +109,22 @@ layout: default
       <a class="v2-text-link" href="{{ '/Researches & Projects/' | relative_url }}">View all research →</a>
     </div>
 
+    {% assign acdc = site.projects | where: 'demo_featured', true | first %}
     <div class="v2-featured-work">
-      <a class="v2-work-card v2-work-card-featured" href="{{ '/projects/research-2026-09-21-ACDC/' | relative_url }}">
-        <div class="v2-work-image v2-work-image-contain">
+      <article class="v2-work-card v2-work-card-featured v2-demo-card">
+        <a class="v2-work-image v2-work-image-contain" href="{{ acdc.url | relative_url }}" aria-label="AC-DC project page">
           <img src="{{ 'assets/img/ac-dc/summary.webp' | relative_url }}" alt="AC-DC summary figure" loading="lazy">
-        </div>
+        </a>
         <div class="v2-work-copy">
-          <p class="v2-card-meta">2026 · Multi-Robot Systems</p>
+          <p class="v2-card-meta">2026 · Multi-Robot Systems <span class="v2-demo-badge">Live Web Demo</span></p>
           <h3>Adaptive Communication for Scalable Dynamic Average Consensus</h3>
           <p>Each robot adapts <strong>who</strong> to communicate with, <strong>when</strong>, and <strong>what</strong> state block to exchange.</p>
-          <span class="v2-card-cta">Project page →</span>
+          <div class="v2-actions v2-demo-card-actions">
+            <a class="v2-btn v2-btn-primary" href="{{ acdc.demo }}" target="_blank" rel="noopener">Try Live Demo ↗</a>
+            <a class="v2-text-link" href="{{ acdc.url | relative_url }}">Project page →</a>
+          </div>
         </div>
-      </a>
+      </article>
 
       <a class="v2-work-card" href="{{ '/projects/research-2024-02-01-Panagou-ICRA/' | relative_url }}">
         <div class="v2-work-image">

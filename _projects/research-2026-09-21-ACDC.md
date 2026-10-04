@@ -11,7 +11,10 @@ venue: "ICRA 2027 submission · arXiv preprint"
 role: "Lead author"
 arxiv: https://arxiv.org/abs/2609.24702
 paper: https://arxiv.org/pdf/2609.24702
-demo: https://signalkee.github.io/acdc-playground/
+demo: https://signalkee.github.io/acdc-playground/?mode=tutorial
+demo_explore: https://signalkee.github.io/acdc-playground/?mode=explore
+demo_preview: assets/img/ac-dc/live-demo.webp
+demo_featured: true
 img: assets/img/ac-dc/summary.webp
 ---
 
