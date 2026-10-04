@@ -23,13 +23,16 @@
         </div>
       {% endif %}
 
-      {% if page.paper or page.arxiv or page.code or page.video or page.project_url %}
+      {% if page.paper or page.arxiv or page.code or page.video or page.project_url or page.demo %}
         <div class="v2-actions project-v2-actions">
           {% if page.paper -%}
             <a class="v2-btn v2-btn-primary" href="{{ page.paper }}" target="_blank" rel="noopener">Paper ↗</a>
           {%- endif %}
           {% if page.arxiv -%}
             <a class="v2-btn" href="{{ page.arxiv }}" target="_blank" rel="noopener">arXiv ↗</a>
+          {%- endif %}
+          {% if page.demo -%}
+            <a class="v2-btn" href="{{ page.demo }}" target="_blank" rel="noopener">Live Demo ↗</a>
           {%- endif %}
           {% if page.code -%}
             <a class="v2-btn" href="{{ page.code }}" target="_blank" rel="noopener">Code ↗</a>
