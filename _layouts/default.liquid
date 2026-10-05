@@ -26,12 +26,6 @@
     {% include scripts/jquery.liquid %}
     {% include scripts/bootstrap.liquid %}
     {% include scripts/back_to_top.liquid %}
-    <!-- Cloudflare Web Analytics -->
-    <script
-      type="module"
-      src="https://static.cloudflareinsights.com/beacon.min.js"
-      data-cf-beacon='{"token": "62d1d1f7ebc74469b782fd858c90d29e"}'
-    ></script>
-    <!-- End Cloudflare Web Analytics -->
+    <script defer src="{{ '/assets/js/site-analytics.js' | relative_url }}"></script>
   </body>
 </html>
