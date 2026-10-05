@@ -1,0 +1,34 @@
+<section class="project-results-overview" aria-labelledby="results-overview-title">
+  <h2 id="results-overview-title">Lower search uncertainty with less communication.</h2>
+  <p class="project-results-intro">
+    AC-DC achieves lower aggregate uncertainty and attempted modeled payload than the compared decentralized methods. Lower is better for both
+    metrics.
+  </p>
+  <figure>
+    <a
+      href="{{ page.results_overview | relative_url }}"
+      target="_blank"
+      rel="noopener"
+      aria-label="Open the full-size AC-DC results figure in a new tab"
+    >
+      <img
+        src="{{ page.results_overview | relative_url }}"
+        width="2250"
+        height="1995"
+        alt="Left: changing search priority and remaining uncertainty in an AC-DC run. Right: aggregate AUC of 0.254 for AC-DC, 0.348 for PP-ACDC, and 0.342 for ADMM-DAC; respective modeled payload ratios are 1.0, 11.5, and 5.8. Centralized is shown separately as an ideal-information reference."
+      >
+    </a>
+    <figcaption>
+      <p>
+        <strong>Representative run:</strong> 11 robots in a 450 m square. Priority changes at 100 s; the response maps show 99.95 s and 247.50 s, with
+        continued sensing between them. Darker orange means more uncertainty remaining; dots mark robots and faint tails show their previous 5 s of
+        motion. These maps pool physical sensing for evaluation, rather than showing a robot's local belief.
+      </p>
+      <p>
+        <strong>Aggregate results:</strong> 12 settings (4 densities × 3 map sizes), with 20 paired seeds per setting. AUC averages setting means;
+        payload ratios average within-setting ratios relative to AC-DC. Centralized is a separate ideal-information reference.
+      </p>
+      <a class="v2-text-link" href="{{ page.results_overview | relative_url }}" target="_blank" rel="noopener">View full-size figure ↗</a>
+    </figcaption>
+  </figure>
+</section>

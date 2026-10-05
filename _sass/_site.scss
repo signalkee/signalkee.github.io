@@ -2218,3 +2218,61 @@ body {
     padding: 17px;
   }
 }
+
+/* Full-width research evidence before the interactive walkthrough */
+.project-v2-hero.project-v2-hero-text {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 0;
+  padding-bottom: 32px;
+}
+.project-v2-hero-text .project-v2-copy {
+  max-width: 960px;
+}
+.project-v2-hero-text .project-v2-copy h1 {
+  font-size: clamp(2.2rem, 4.2vw, 3.7rem);
+  line-height: 1.08;
+}
+.project-results-overview {
+  margin: 36px 0;
+}
+.project-results-overview h2 {
+  font-size: clamp(1.5rem, 2.7vw, 2rem);
+  letter-spacing: -0.025em;
+  margin: 0 0 12px;
+}
+.project-results-intro,
+.project-results-overview figcaption {
+  color: var(--v2-muted);
+  line-height: 1.65;
+}
+.project-results-overview figure {
+  margin: 24px 0 0;
+}
+.project-results-overview figure > a {
+  display: block;
+  background: #fff;
+  border: 1px solid var(--v2-line);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.project-results-overview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.project-results-overview figcaption {
+  margin-top: 16px;
+  font-size: 0.88rem;
+}
+.project-results-overview figcaption p {
+  margin-bottom: 10px;
+}
+.project-results-overview figcaption a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+}
+.project-results-overview a:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
