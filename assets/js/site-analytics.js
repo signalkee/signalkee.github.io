@@ -7,7 +7,7 @@
   const read = () => {
     try {
       return localStorage.getItem(key);
-    } catch {
+    } catch (error) {
       return null;
     }
   };
@@ -82,7 +82,7 @@
   function choose(choice) {
     try {
       localStorage.setItem(key, choice);
-    } catch {
+    } catch (error) {
       /* Session-only choice if storage is unavailable. */
     }
     if (choice === "granted") start();
