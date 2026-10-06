@@ -30,6 +30,14 @@ The project explored an interoperable smart laboratory in which robotic systems 
 
 I worked on the communication layer between experimental equipment and the robot, designed a modular tool-changing gripper concept, and programmed collaborative-robot experimental scenarios.
 
+## Subsequent development
+
+I contributed to the early development of this project during my undergraduate research internship in 2020. The project subsequently evolved into SmartLab, described in the following publication by the research team:
+
+[SmartLab: Flexible and interoperable manufacturing laboratory system for remote education and research using a mobile manipulator](https://doi.org/10.1093/jcde/qwaf034). _Journal of Computational Design and Engineering_, 2025.
+
+My involvement was in the early development stage; I am not a co-author of this publication.
+
 ## Recognition
 
 The broader project received **1st Place** in the 2020 International S.M.A.R.T Startup Competition.
