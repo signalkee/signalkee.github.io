@@ -2219,7 +2219,7 @@ body {
   }
 }
 
-/* Full-width research evidence before the interactive walkthrough */
+/* Research evidence before the interactive walkthrough */
 .project-v2-hero.project-v2-hero-text {
   grid-template-columns: minmax(0, 1fr);
   gap: 0;
@@ -2233,7 +2233,8 @@ body {
   line-height: 1.08;
 }
 .project-results-overview {
-  margin: 36px 0;
+  max-width: 820px;
+  margin: 36px auto;
 }
 .project-results-overview h2 {
   font-size: clamp(1.5rem, 2.7vw, 2rem);
