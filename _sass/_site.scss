@@ -2303,20 +2303,20 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.965) 0%, rgba(255, 255, 255, 0.935) 43%, rgba(255, 255, 255, 0.89) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.93) 0%, rgba(255, 255, 255, 0.86) 43%, rgba(255, 255, 255, 0.79) 100%);
 }
 html[data-theme="dark"] .robin-home .v2-hero-background::after {
-  background: linear-gradient(90deg, rgba(20, 22, 28, 0.95) 0%, rgba(20, 22, 28, 0.92) 48%, rgba(20, 22, 28, 0.88) 100%);
+  background: linear-gradient(90deg, rgba(20, 22, 28, 0.93) 0%, rgba(20, 22, 28, 0.88) 48%, rgba(20, 22, 28, 0.84) 100%);
 }
 @media (max-width: 900px) {
   .robin-home .v2-hero-background {
     inset: -12px -14px;
   }
   .robin-home .v2-hero-background::after {
-    background: rgba(255, 255, 255, 0.94);
+    background: rgba(255, 255, 255, 0.91);
   }
   html[data-theme="dark"] .robin-home .v2-hero-background::after {
-    background: rgba(20, 22, 28, 0.94);
+    background: rgba(20, 22, 28, 0.92);
   }
 }
 @media (max-width: 620px) {
