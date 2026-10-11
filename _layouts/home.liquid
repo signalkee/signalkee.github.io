@@ -3,6 +3,11 @@ layout: default
 ---
 <div class="robin-home">
   <section class="v2-hero" aria-labelledby="hero-title">
+    <div class="v2-hero-background" aria-hidden="true">
+      <video autoplay muted loop playsinline preload="none" poster="{{ 'assets/img/field-hero.webp' | relative_url }}">
+        <source src="{{ 'assets/media/field-hero-loop.mp4' | relative_url }}" type="video/mp4">
+      </video>
+    </div>
     <div class="v2-hero-copy">
       <p class="v2-eyebrow">ROBIN INHO KEE · UNIVERSITY OF MICHIGAN ROBOTICS</p>
       <h1 id="hero-title">Robot teams that reason, communicate, and predict.</h1>
