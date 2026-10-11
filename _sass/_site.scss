@@ -2291,7 +2291,7 @@ body {
   pointer-events: none;
   overflow: hidden;
   border-radius: 18px;
-  background: url("{{ 'assets/img/field-hero.webp' | relative_url }}") center 51% / cover no-repeat;
+  background: url("/assets/img/field-hero.webp") center 51% / cover no-repeat;
 }
 .robin-home .v2-hero-background::after {
   content: "";
