@@ -468,6 +468,19 @@ html[data-theme="dark"] .v2-btn-primary {
   text-underline-offset: 3px;
 }
 
+.v2-about-more-copy {
+  margin-top: 12px;
+  color: var(--v2-muted);
+  font-size: 0.91rem;
+  line-height: 1.7;
+}
+.v2-about-more-copy p {
+  margin: 0 0 10px;
+}
+.v2-about-more-copy p:last-child {
+  margin-bottom: 0;
+}
+
 /* Standard page */
 .v2-standard-page {
   padding-top: 76px;
