@@ -2297,10 +2297,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg,
-    rgba(255,255,255,.93) 0%,
-    rgba(255,255,255,.86) 43%,
-    rgba(255,255,255,.79) 100%);
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.93) 0%, rgba(255, 255, 255, 0.86) 43%, rgba(255, 255, 255, 0.79) 100%);
 }
 .robin-home .v2-hero-background video {
   display: block;
@@ -2310,19 +2307,18 @@ body {
   object-position: center 51%;
 }
 html[data-theme="dark"] .robin-home .v2-hero-background::after {
-  background: linear-gradient(90deg,
-    rgba(20,22,28,.93) 0%,
-    rgba(20,22,28,.88) 48%,
-    rgba(20,22,28,.84) 100%);
+  background: linear-gradient(90deg, rgba(20, 22, 28, 0.93) 0%, rgba(20, 22, 28, 0.88) 48%, rgba(20, 22, 28, 0.84) 100%);
 }
 @media (max-width: 900px) {
   .robin-home .v2-hero-background::after {
-    background: rgba(255,255,255,.91);
+    background: rgba(255, 255, 255, 0.91);
   }
   html[data-theme="dark"] .robin-home .v2-hero-background::after {
-    background: rgba(20,22,28,.92);
+    background: rgba(20, 22, 28, 0.92);
   }
 }
 @media (prefers-reduced-motion: reduce), (max-width: 620px) {
-  .robin-home .v2-hero-background video { display: none; }
+  .robin-home .v2-hero-background video {
+    display: none;
+  }
 }
