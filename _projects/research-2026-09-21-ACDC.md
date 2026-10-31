@@ -11,13 +11,14 @@ venue: "ICRA 2027 submission · arXiv preprint"
 role: "Lead author"
 arxiv: https://arxiv.org/abs/2609.24702
 paper: https://arxiv.org/pdf/2609.24702
+demo: https://signalkee.github.io/acdc-playground/?mode=tutorial
+demo_explore: https://signalkee.github.io/acdc-playground/?mode=explore
+demo_preview: assets/img/ac-dc/live-demo-3d.webp
+demo_featured: true
+hide_hero_image: true
+results_overview: assets/img/ac-dc/qualitative-overview.png
 img: assets/img/ac-dc/summary.webp
 ---
-
-<div class="project-v2-body-bleed project-main-figure">
-  <img src="/assets/img/ac-dc/summary.webp" alt="AC-DC summary: search objective, communication layer, and results">
-</div>
-<div class="caption">AC-DC connects a dynamic search objective to local What / When / Who communication decisions and evaluates the resulting uncertainty–traffic tradeoff.</div>
 
 ## Why communication is part of the search problem
 
