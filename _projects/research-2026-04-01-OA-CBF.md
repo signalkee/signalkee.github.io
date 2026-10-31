@@ -7,10 +7,10 @@ thumb_video: assets/media/oa-cbf/quad3d-topdown.mp4
 thumb_poster: assets/media/oa-cbf/quad3d-topdown.webp
 importance: 99
 category: Graduate research projects
-kicker: PREPRINT · SAFE LEARNING & CONTROL
+kicker: SAFE LEARNING & CONTROL · 2026
 year: "2026"
 sort_date: "2026-06-02"
-venue: "Preprint"
+venue: "arXiv preprint"
 role: "Co-author"
 arxiv: https://arxiv.org/abs/2504.03038
 paper: https://arxiv.org/pdf/2504.03038

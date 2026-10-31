@@ -7,7 +7,7 @@ category: Current research
 kicker: MULTI-ROBOT SYSTEMS · 2026
 year: "2026"
 sort_date: "2026-09-21"
-venue: "ICRA 2027 submission · arXiv preprint"
+venue: "arXiv preprint"
 role: "Lead author"
 arxiv: https://arxiv.org/abs/2609.24702
 paper: https://arxiv.org/pdf/2609.24702
